@@ -1,0 +1,5 @@
+[0m[ INFO] [1598949056.203169307]: Loading nodelet /camera/depth_points of type depth_image_proc/point_cloud_xyz to manager camera_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1598949056.220505996]: /camera/image_rect -> /camera/depth/image_rect_raw[0m
+[0m[ INFO] [1598949056.220686160]: /camera/points -> /camera/depth/points[0m
+[0m[ INFO] [1598949481.300924487]: Unloading nodelet /camera/depth_points from manager camera_nodelet_manager[0m
+[0m[ INFO] [1598949481.301463572]: waitForService: Service [/camera/camera_nodelet_manager/unload_nodelet] has not been advertised, waiting...[0m

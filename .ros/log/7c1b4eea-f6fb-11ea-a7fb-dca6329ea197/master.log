@@ -1,0 +1,39 @@
+[rosmaster.main][INFO] 2020-09-15 02:30:59,388: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2020-09-15 02:30:59,388: Starting ROS Master Node
+[xmlrpc][INFO] 2020-09-15 02:30:59,390: XML-RPC server binding to 0.0.0.0:11311
+[rosmaster.master][INFO] 2020-09-15 02:30:59,391: Master initialized: port[11311], uri[http://192.168.1.12:11311/]
+[xmlrpc][INFO] 2020-09-15 02:30:59,391: Started XML-RPC server [http://192.168.1.12:11311/]
+[xmlrpc][INFO] 2020-09-15 02:30:59,392: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2020-09-15 02:30:59,487: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 02:30:59,490: +PARAM [/roslaunch/uris/host_192_168_1_12__35417] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 02:30:59,566: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 02:30:59,567: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 02:30:59,828: +SERVICE [/rosout/get_loggers] /rosout http://192.168.1.12:43969/
+[rosmaster.master][INFO] 2020-09-15 02:30:59,829: +SERVICE [/rosout/set_logger_level] /rosout http://192.168.1.12:43969/
+[rosmaster.master][INFO] 2020-09-15 02:30:59,833: +PUB [/rosout_agg] /rosout http://192.168.1.12:43969/
+[rosmaster.master][INFO] 2020-09-15 02:30:59,839: +SUB [/rosout] /rosout http://192.168.1.12:43969/
+[rosmaster.master][INFO] 2020-09-15 02:37:52,895: +PUB [/rosout] /car_driver_node http://192.168.1.12:43095/
+[rosmaster.master][INFO] 2020-09-15 02:37:52,905: +SERVICE [/car_driver_node/get_loggers] /car_driver_node http://192.168.1.12:43095/
+[rosmaster.master][INFO] 2020-09-15 02:37:52,909: +SERVICE [/car_driver_node/set_logger_level] /car_driver_node http://192.168.1.12:43095/
+[rosmaster.master][INFO] 2020-09-15 02:37:52,914: +SUB [/cmd_vel] /car_driver_node http://192.168.1.12:43095/
+[rosmaster.master][INFO] 2020-09-15 02:37:52,917: +PUB [/zxcar/get_vel] /car_driver_node http://192.168.1.12:43095/
+[rosmaster.master][INFO] 2020-09-15 02:37:52,920: +PUB [/zxcar/imu] /car_driver_node http://192.168.1.12:43095/
+[rosmaster.master][INFO] 2020-09-15 02:37:52,923: +PUB [/zxcar/magnetic] /car_driver_node http://192.168.1.12:43095/
+[rosmaster.master][INFO] 2020-09-15 02:37:52,938: -SUB [/cmd_vel] /car_driver_node http://192.168.1.12:43095/
+[rosmaster.master][INFO] 2020-09-15 02:37:52,938: -PUB [/zxcar/get_vel] /car_driver_node http://192.168.1.12:43095/
+[rosmaster.master][INFO] 2020-09-15 02:37:52,939: -PUB [/rosout] /car_driver_node http://192.168.1.12:43095/
+[rosmaster.master][INFO] 2020-09-15 02:37:52,939: -PUB [/zxcar/imu] /car_driver_node http://192.168.1.12:43095/
+[rosmaster.master][INFO] 2020-09-15 02:37:52,939: -PUB [/zxcar/magnetic] /car_driver_node http://192.168.1.12:43095/
+[rosmaster.master][INFO] 2020-09-15 02:37:52,940: -SERVICE [/car_driver_node/set_logger_level] /car_driver_node rosrpc://192.168.1.12:40985
+[rosmaster.master][INFO] 2020-09-15 02:37:52,940: -SERVICE [/car_driver_node/get_loggers] /car_driver_node rosrpc://192.168.1.12:40985
+[rosmaster.master][INFO] 2020-09-15 02:37:52,979: publisherUpdate[/rosout] -> http://192.168.1.12:43969/ ['http://192.168.1.12:43095/']
+[rosmaster.master][INFO] 2020-09-15 02:37:52,986: publisherUpdate[/rosout] -> http://192.168.1.12:43969/ ['http://192.168.1.12:43095/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 02:37:52,987: publisherUpdate[/rosout] -> http://192.168.1.12:43969/ []
+[rosmaster.master][INFO] 2020-09-15 02:37:52,988: publisherUpdate[/rosout] -> http://192.168.1.12:43969/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 02:42:17,353: -PUB [/rosout_agg] /rosout http://192.168.1.12:43969/
+[rosmaster.master][INFO] 2020-09-15 02:42:17,355: -SUB [/rosout] /rosout http://192.168.1.12:43969/
+[rosmaster.master][INFO] 2020-09-15 02:42:17,356: -SERVICE [/rosout/get_loggers] /rosout rosrpc://192.168.1.12:40063
+[rosmaster.master][INFO] 2020-09-15 02:42:17,357: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://192.168.1.12:40063
+[rosmaster.main][INFO] 2020-09-15 02:42:17,397: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2020-09-15 02:42:17,398: stopping master...
+[rospy.core][INFO] 2020-09-15 02:42:17,399: signal_shutdown [atexit]

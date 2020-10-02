@@ -1,0 +1,5 @@
+<launch>
+
+    <node pkg="zxcar_driver" type="zxcar_driver_node.py" name="zxcar_driver_node" output="screen"></node>
+    <node pkg="zxcar_driver" type="zxcar_gui_node.py" name="zxcar_gui_node" output="screen"></node>
+</launch>

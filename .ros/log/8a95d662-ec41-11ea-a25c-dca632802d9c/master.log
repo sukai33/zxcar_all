@@ -1,0 +1,720 @@
+[rosmaster.main][INFO] 2020-09-01 10:54:44,965: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2020-09-01 10:54:44,966: Starting ROS Master Node
+[xmlrpc][INFO] 2020-09-01 10:54:44,968: XML-RPC server binding to 0.0.0.0:11311
+[rosmaster.master][INFO] 2020-09-01 10:54:44,969: Master initialized: port[11311], uri[http://192.168.1.10:11311/]
+[xmlrpc][INFO] 2020-09-01 10:54:44,969: Started XML-RPC server [http://192.168.1.10:11311/]
+[xmlrpc][INFO] 2020-09-01 10:54:44,969: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2020-09-01 10:54:45,055: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:54:45,058: +PARAM [/roslaunch/uris/host_192_168_1_10__42211] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:54:45,135: +PARAM [/camera/driver/auto_exposure] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:54:45,136: +PARAM [/camera/camera_rgb/serial] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:54:45,136: +PARAM [/camera/depth_rectify_depth/interpolation] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:54:45,137: +PARAM [/camera/driver/depth_registration] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:54:45,137: +PARAM [/camera/driver/devnums] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:54:45,137: +PARAM [/camera/driver/rgb_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:54:45,138: +PARAM [/camera/camera_rgb/product] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:54:45,138: +PARAM [/camera/camera_nodelet_manager/num_worker_threads] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:54:45,138: +PARAM [/camera/camera_rgb/height] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:54:45,138: +PARAM [/camera/driver/auto_white_balance] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:54:45,139: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:54:45,139: +PARAM [/camera/driver/rgb_camera_info_url] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:54:45,139: +PARAM [/camera/camera_rgb/vendor] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:54:45,139: +PARAM [/camera/driver/device_id] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:54:45,140: +PARAM [/camera/camera_rgb/width] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:54:45,140: +PARAM [/camera/driver/depth_camera_info_url] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:54:45,140: +PARAM [/camera/depth_registered_rectify_depth/interpolation] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:54:45,140: +PARAM [/camera/camera_rgb/index] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:54:45,141: +PARAM [/camera/driver/bootorder] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:54:45,141: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:54:45,141: +PARAM [/camera/camera_rgb/timestamp_method] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:54:45,141: +PARAM [/camera/driver/depth_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:54:45,142: +PARAM [/camera/camera_rgb/camera_info_url] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:54:45,142: +PARAM [/camera/camera_rgb/frame_rate] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:54:45,142: +PARAM [/camera/camera_rgb/video_mode] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:54:45,142: +PARAM [/camera/driver/color_depth_synchronization] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:54:45,166: +SERVICE [/rosout/get_loggers] /rosout http://192.168.1.10:39573/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,167: +SERVICE [/rosout/set_logger_level] /rosout http://192.168.1.10:39573/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,170: +PUB [/rosout_agg] /rosout http://192.168.1.10:39573/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,177: +SUB [/rosout] /rosout http://192.168.1.10:39573/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,252: +PUB [/rosout] /camera/camera_rgb http://192.168.1.10:33209/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,255: +SERVICE [/camera/camera_rgb/get_loggers] /camera/camera_rgb http://192.168.1.10:33209/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,258: +SERVICE [/camera/camera_rgb/set_logger_level] /camera/camera_rgb http://192.168.1.10:33209/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,267: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/']
+[rosmaster.master][INFO] 2020-09-01 10:54:45,274: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:54:45,301: +SERVICE [/camera/camera_rgb/set_parameters] /camera/camera_rgb http://192.168.1.10:33209/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,310: +PUB [/camera/camera_rgb/parameter_descriptions] /camera/camera_rgb http://192.168.1.10:33209/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,315: +PUB [/rosout] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,316: +PUB [/camera/camera_rgb/parameter_updates] /camera/camera_rgb http://192.168.1.10:33209/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,318: +SERVICE [/camera/camera_nodelet_manager/get_loggers] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,321: +SERVICE [/camera/camera_nodelet_manager/set_logger_level] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,327: +PUB [/rosout] /camera/driver http://192.168.1.10:33641/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,332: +SERVICE [/camera/driver/get_loggers] /camera/driver http://192.168.1.10:33641/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,342: +SERVICE [/camera/driver/set_logger_level] /camera/driver http://192.168.1.10:33641/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,348: +SERVICE [/camera/camera_nodelet_manager/load_nodelet] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,358: +SERVICE [/camera/camera_nodelet_manager/unload_nodelet] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,365: +SERVICE [/camera/camera_nodelet_manager/list] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,369: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/']
+[rosmaster.master][INFO] 2020-09-01 10:54:45,372: +PARAM [/camera/driver] by /camera/driver
+[rosmaster.master][INFO] 2020-09-01 10:54:45,387: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:54:45,392: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:33641/']
+[rosmaster.master][INFO] 2020-09-01 10:54:45,395: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:33641/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:54:45,406: +PUB [/rosout] /camera/rgb_rectify_color http://192.168.1.10:46215/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,415: +SERVICE [/camera/rgb_rectify_color/get_loggers] /camera/rgb_rectify_color http://192.168.1.10:46215/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,424: +SERVICE [/camera/rgb_rectify_color/set_logger_level] /camera/rgb_rectify_color http://192.168.1.10:46215/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,449: +PARAM [/camera/camera_rgb/vendor] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,457: +PARAM [/camera/camera_rgb/product] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,462: +PARAM [/camera/camera_rgb/serial] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,467: +PARAM [/camera/camera_rgb/index] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,476: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:33641/', 'http://192.168.1.10:46215/']
+[rosmaster.master][INFO] 2020-09-01 10:54:45,484: +PARAM [/camera/camera_rgb/width] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,486: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:33641/', 'http://192.168.1.10:46215/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:54:45,503: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:33641/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/']
+[rosmaster.master][INFO] 2020-09-01 10:54:45,506: +PARAM [/camera/camera_rgb/height] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,491: +PUB [/rosout] /camera/depth_rectify_depth http://192.168.1.10:41747/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,508: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:33641/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:54:45,512: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:33641/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/']
+[rosmaster.master][INFO] 2020-09-01 10:54:45,511: +PUB [/rosout] /camera/depth_metric_rect http://192.168.1.10:37017/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,509: +PARAM [/camera/camera_rgb/video_mode] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,516: +SERVICE [/camera/depth_rectify_depth/get_loggers] /camera/depth_rectify_depth http://192.168.1.10:41747/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,515: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:33641/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:54:45,520: +PARAM [/camera/camera_rgb/frame_rate] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,526: +SERVICE [/camera/depth_metric_rect/get_loggers] /camera/depth_metric_rect http://192.168.1.10:37017/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,530: +PARAM [/camera/camera_rgb/timestamp_method] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,531: +SERVICE [/camera/depth_rectify_depth/set_logger_level] /camera/depth_rectify_depth http://192.168.1.10:41747/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,534: +SERVICE [/camera/depth_metric_rect/set_logger_level] /camera/depth_metric_rect http://192.168.1.10:37017/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,542: +PARAM [/camera/camera_rgb/frame_id] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,550: +PARAM [/camera/camera_rgb/camera_info_url] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,569: +PARAM [/camera/depth_rectify_depth] by /camera/depth_rectify_depth
+[rosmaster.master][INFO] 2020-09-01 10:54:45,568: +PARAM [/camera/camera_rgb/scanning_mode] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,582: +PARAM [/camera/camera_rgb/auto_exposure] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,584: +PARAM [/camera/camera_rgb/auto_exposure_priority] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,585: +PUB [/rosout] /camera/depth_metric http://192.168.1.10:45583/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,589: +PARAM [/camera/camera_rgb/exposure_absolute] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,593: +SERVICE [/camera/depth_metric/get_loggers] /camera/depth_metric http://192.168.1.10:45583/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,597: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:33641/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/']
+[rosmaster.master][INFO] 2020-09-01 10:54:45,600: +PARAM [/camera/camera_rgb/iris_absolute] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,601: +PUB [/rosout] /camera/depth_points http://192.168.1.10:39301/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,603: +SERVICE [/camera/depth_metric/set_logger_level] /camera/depth_metric http://192.168.1.10:45583/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,605: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:33641/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:54:45,608: +PARAM [/camera/camera_rgb/auto_focus] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,609: +SERVICE [/camera/depth_points/get_loggers] /camera/depth_points http://192.168.1.10:39301/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,612: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:33641/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:39301/']
+[rosmaster.master][INFO] 2020-09-01 10:54:45,622: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:33641/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:39301/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:54:45,624: +SERVICE [/camera/depth_points/set_logger_level] /camera/depth_points http://192.168.1.10:39301/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,622: +PARAM [/camera/camera_rgb/focus_absolute] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,646: +PARAM [/camera/camera_rgb/pan_absolute] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,654: +PARAM [/camera/camera_rgb/tilt_absolute] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,658: +PARAM [/camera/camera_rgb/roll_absolute] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,662: +PARAM [/camera/camera_rgb/privacy] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,664: +SERVICE [/camera/driver/set_parameters] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,667: +PUB [/camera/driver/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,669: +PARAM [/camera/camera_rgb/backlight_compensation] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,672: +PUB [/camera/driver/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,676: +PARAM [/camera/camera_rgb/brightness] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,679: +PARAM [/camera/camera_rgb/contrast] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,683: +PARAM [/camera/camera_rgb/gain] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,687: +PARAM [/camera/camera_rgb/power_line_frequency] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,694: +PARAM [/camera/camera_rgb/auto_hue] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,696: +PUB [/rosout] /camera/depth_registered_rectify_depth http://192.168.1.10:41243/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,701: +PARAM [/camera/camera_rgb/hue] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,707: +SERVICE [/camera/depth_registered_rectify_depth/get_loggers] /camera/depth_registered_rectify_depth http://192.168.1.10:41243/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,715: +PARAM [/camera/camera_rgb/saturation] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,718: +SERVICE [/camera/depth_registered_rectify_depth/set_logger_level] /camera/depth_registered_rectify_depth http://192.168.1.10:41243/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,721: +PARAM [/camera/camera_rgb/sharpness] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,728: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:33641/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:39301/', 'http://192.168.1.10:41243/']
+[rosmaster.master][INFO] 2020-09-01 10:54:45,735: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:33641/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:39301/', 'http://192.168.1.10:41243/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:54:45,745: +PARAM [/camera/camera_rgb/gamma] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,752: +PARAM [/camera/camera_rgb/auto_white_balance] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,749: +PARAM [/camera/depth_registered_rectify_depth] by /camera/depth_registered_rectify_depth
+[rosmaster.master][INFO] 2020-09-01 10:54:45,754: +PUB [/rosout] /camera/points_xyzrgb_hw_registered http://192.168.1.10:37295/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,764: +SERVICE [/camera/points_xyzrgb_hw_registered/get_loggers] /camera/points_xyzrgb_hw_registered http://192.168.1.10:37295/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,773: +PARAM [/camera/camera_rgb/white_balance_temperature] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,776: +PARAM [/camera/driver/rgb_preferred] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:45,778: +SERVICE [/camera/points_xyzrgb_hw_registered/set_logger_level] /camera/points_xyzrgb_hw_registered http://192.168.1.10:37295/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,779: +PARAM [/camera/camera_rgb/white_balance_BU] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,783: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:33641/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:39301/', 'http://192.168.1.10:41243/', 'http://192.168.1.10:37295/']
+[rosmaster.master][INFO] 2020-09-01 10:54:45,781: +PARAM [/camera/driver/ir_mode] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:45,786: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:33641/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:39301/', 'http://192.168.1.10:41243/', 'http://192.168.1.10:37295/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:54:45,788: +PARAM [/camera/camera_rgb/white_balance_RV] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:45,800: +PARAM [/camera/driver/color_mode] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:45,804: +PUB [/rosout] /camera/depth_registered_hw_metric_rect http://192.168.1.10:35061/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,819: +SERVICE [/camera/depth_registered_hw_metric_rect/get_loggers] /camera/depth_registered_hw_metric_rect http://192.168.1.10:35061/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,813: +PARAM [/camera/driver/depth_mode] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:45,821: +PUB [/rosout] /camera/depth_registered_metric http://192.168.1.10:39025/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,824: +PARAM [/camera/driver/depth_registration] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:45,826: +SERVICE [/camera/set_camera_info] /camera/camera_rgb http://192.168.1.10:33209/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,829: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:33641/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:39301/', 'http://192.168.1.10:41243/', 'http://192.168.1.10:37295/', 'http://192.168.1.10:35061/']
+[rosmaster.master][INFO] 2020-09-01 10:54:45,831: +PARAM [/camera/driver/color_depth_synchronization] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:45,832: +SERVICE [/camera/depth_registered_hw_metric_rect/set_logger_level] /camera/depth_registered_hw_metric_rect http://192.168.1.10:35061/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,840: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:33641/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:39301/', 'http://192.168.1.10:41243/', 'http://192.168.1.10:37295/', 'http://192.168.1.10:35061/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:54:45,842: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:33641/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:39301/', 'http://192.168.1.10:41243/', 'http://192.168.1.10:37295/', 'http://192.168.1.10:35061/', 'http://192.168.1.10:39025/']
+[rosmaster.master][INFO] 2020-09-01 10:54:45,855: +SERVICE [/camera/depth_registered_metric/get_loggers] /camera/depth_registered_metric http://192.168.1.10:39025/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,856: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:33641/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:39301/', 'http://192.168.1.10:41243/', 'http://192.168.1.10:37295/', 'http://192.168.1.10:35061/', 'http://192.168.1.10:39025/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:54:45,859: +PUB [/rosout] /camera_base_link http://192.168.1.10:37915/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,862: +PARAM [/camera/driver/auto_exposure] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:45,864: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:33641/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:39301/', 'http://192.168.1.10:41243/', 'http://192.168.1.10:37295/', 'http://192.168.1.10:35061/', 'http://192.168.1.10:39025/', 'http://192.168.1.10:37915/']
+[rosmaster.master][INFO] 2020-09-01 10:54:45,867: +PUB [/camera/rgb/image_raw] /camera/camera_rgb http://192.168.1.10:33209/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,868: +PARAM [/camera/driver/auto_white_balance] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:45,871: +SERVICE [/camera/depth_registered_metric/set_logger_level] /camera/depth_registered_metric http://192.168.1.10:39025/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,877: +PUB [/rosout] /camera_base_link1 http://192.168.1.10:40739/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,883: +SERVICE [/camera_base_link/get_loggers] /camera_base_link http://192.168.1.10:37915/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,885: +SERVICE [/camera_base_link1/get_loggers] /camera_base_link1 http://192.168.1.10:40739/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,887: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:33641/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:39301/', 'http://192.168.1.10:41243/', 'http://192.168.1.10:37295/', 'http://192.168.1.10:35061/', 'http://192.168.1.10:39025/', 'http://192.168.1.10:37915/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:54:45,888: +PARAM [/camera/driver/data_skip] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:45,889: +PUB [/camera/rgb/camera_info] /camera/camera_rgb http://192.168.1.10:33209/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,890: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:33641/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:39301/', 'http://192.168.1.10:41243/', 'http://192.168.1.10:37295/', 'http://192.168.1.10:35061/', 'http://192.168.1.10:39025/', 'http://192.168.1.10:37915/', 'http://192.168.1.10:40739/']
+[rosmaster.master][INFO] 2020-09-01 10:54:45,897: +PARAM [/camera/driver/ir_time_offset] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:45,898: +SERVICE [/camera_base_link/set_logger_level] /camera_base_link http://192.168.1.10:37915/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,903: +PARAM [/camera/driver/color_time_offset] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:45,902: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:33641/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:39301/', 'http://192.168.1.10:41243/', 'http://192.168.1.10:37295/', 'http://192.168.1.10:35061/', 'http://192.168.1.10:39025/', 'http://192.168.1.10:37915/', 'http://192.168.1.10:40739/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:54:45,904: +SERVICE [/camera_base_link1/set_logger_level] /camera_base_link1 http://192.168.1.10:40739/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,909: +SERVICE [/camera/get_uvc_exposure] /camera/camera_rgb http://192.168.1.10:33209/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,912: +PARAM [/camera/driver/depth_time_offset] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:45,913: +PUB [/rosout] /camera_base_link2 http://192.168.1.10:42065/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,918: +PUB [/tf_static] /camera_base_link http://192.168.1.10:37915/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,919: +PARAM [/camera/driver/depth_ir_offset_x] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:45,920: +PUB [/tf_static] /camera_base_link1 http://192.168.1.10:40739/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,922: +PARAM [/camera/driver/depth_ir_offset_y] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:45,923: +SERVICE [/camera/set_uvc_exposure] /camera/camera_rgb http://192.168.1.10:33209/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,924: +PARAM [/camera/driver/z_offset_mm] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:45,927: +SERVICE [/camera/get_uvc_gain] /camera/camera_rgb http://192.168.1.10:33209/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,928: +PARAM [/camera/driver/z_scaling] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:45,929: +SERVICE [/camera_base_link2/get_loggers] /camera_base_link2 http://192.168.1.10:42065/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,931: +PARAM [/camera/driver/use_device_time] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:45,935: +SERVICE [/camera/set_uvc_gain] /camera/camera_rgb http://192.168.1.10:33209/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,938: +SERVICE [/camera_base_link2/set_logger_level] /camera_base_link2 http://192.168.1.10:42065/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,942: +SERVICE [/camera/get_uvc_white_balance] /camera/camera_rgb http://192.168.1.10:33209/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,945: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:33641/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:39301/', 'http://192.168.1.10:41243/', 'http://192.168.1.10:37295/', 'http://192.168.1.10:35061/', 'http://192.168.1.10:39025/', 'http://192.168.1.10:37915/', 'http://192.168.1.10:40739/', 'http://192.168.1.10:42065/']
+[rosmaster.master][INFO] 2020-09-01 10:54:45,957: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:33641/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:39301/', 'http://192.168.1.10:41243/', 'http://192.168.1.10:37295/', 'http://192.168.1.10:35061/', 'http://192.168.1.10:39025/', 'http://192.168.1.10:37915/', 'http://192.168.1.10:40739/', 'http://192.168.1.10:42065/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:54:45,959: +SERVICE [/camera/set_uvc_white_balance] /camera/camera_rgb http://192.168.1.10:33209/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,960: +PUB [/tf_static] /camera_base_link2 http://192.168.1.10:42065/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,971: +PUB [/rosout] /camera_base_link3 http://192.168.1.10:39753/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,973: +SERVICE [/camera_base_link3/get_loggers] /camera_base_link3 http://192.168.1.10:39753/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,976: +SERVICE [/camera_base_link3/set_logger_level] /camera_base_link3 http://192.168.1.10:39753/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,980: +PUB [/tf_static] /camera_base_link3 http://192.168.1.10:39753/
+[rosmaster.master][INFO] 2020-09-01 10:54:45,998: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:33641/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:39301/', 'http://192.168.1.10:41243/', 'http://192.168.1.10:37295/', 'http://192.168.1.10:35061/', 'http://192.168.1.10:39025/', 'http://192.168.1.10:37915/', 'http://192.168.1.10:40739/', 'http://192.168.1.10:42065/', 'http://192.168.1.10:39753/']
+[rosmaster.master][INFO] 2020-09-01 10:54:46,001: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:33641/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:39301/', 'http://192.168.1.10:41243/', 'http://192.168.1.10:37295/', 'http://192.168.1.10:35061/', 'http://192.168.1.10:39025/', 'http://192.168.1.10:37915/', 'http://192.168.1.10:40739/', 'http://192.168.1.10:42065/', 'http://192.168.1.10:39753/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:54:46,039: +PARAM [/camera/driver/rgb_preferred] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:46,040: +PARAM [/camera/driver/ir_mode] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:46,041: +PARAM [/camera/driver/color_mode] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:46,042: +PARAM [/camera/driver/depth_mode] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:46,044: +PARAM [/camera/driver/depth_registration] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:46,045: +PARAM [/camera/driver/color_depth_synchronization] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:46,046: +PARAM [/camera/driver/auto_exposure] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:46,048: +PARAM [/camera/driver/auto_white_balance] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:46,049: +PARAM [/camera/driver/data_skip] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:46,050: +PARAM [/camera/driver/ir_time_offset] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:46,052: +PARAM [/camera/driver/color_time_offset] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:46,053: +PARAM [/camera/driver/depth_time_offset] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:46,055: +PARAM [/camera/driver/depth_ir_offset_x] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:46,057: +PARAM [/camera/driver/depth_ir_offset_y] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:46,058: +PARAM [/camera/driver/z_offset_mm] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:46,060: +PARAM [/camera/driver/z_scaling] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:46,062: +PARAM [/camera/driver/use_device_time] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:46,071: +PUB [/camera/ir/image] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,073: +PUB [/camera/ir/camera_info] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,076: +PUB [/camera/depth/image_raw] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,079: +PUB [/camera/depth/camera_info] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,084: +PUB [/camera/depth_registered/image_raw] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,086: +PUB [/camera/depth_registered/camera_info] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,088: +PUB [/camera/projector/camera_info] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,090: +SERVICE [/camera/rgb/set_camera_info] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,092: +SERVICE [/camera/ir/set_camera_info] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,095: +SERVICE [/camera/get_serial] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,098: +SERVICE [/camera/get_device_type] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,100: +SERVICE [/camera/get_ir_gain] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,105: +SERVICE [/camera/set_ir_gain] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,107: +SERVICE [/camera/get_ir_exposure] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,109: +SERVICE [/camera/set_ir_exposure] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,112: +SERVICE [/camera/set_ir_flood] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,114: +SERVICE [/camera/set_laser] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,117: +SERVICE [/camera/set_ldp] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,120: +SERVICE [/camera/reset_ir_gain] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,122: +SERVICE [/camera/reset_ir_exposure] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,124: +SERVICE [/camera/get_camera_info] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,126: +PUB [/camera/camera_nodelet_manager/bond] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,131: +SUB [/camera/camera_nodelet_manager/bond] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,205: +PUB [/camera/camera_nodelet_manager/bond] /camera/driver http://192.168.1.10:33641/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,206: publisherUpdate[/camera/camera_nodelet_manager/bond] -> http://192.168.1.10:43079/ ['http://192.168.1.10:43079/', 'http://192.168.1.10:33641/']
+[rosmaster.master][INFO] 2020-09-01 10:54:46,213: publisherUpdate[/camera/camera_nodelet_manager/bond] -> http://192.168.1.10:43079/ ['http://192.168.1.10:43079/', 'http://192.168.1.10:33641/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:54:46,215: +SUB [/camera/camera_nodelet_manager/bond] /camera/driver http://192.168.1.10:33641/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,373: +SERVICE [/camera/rgb_rectify_color/set_parameters] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,375: +PUB [/camera/rgb_rectify_color/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,376: +PUB [/camera/rgb_rectify_color/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,378: +PARAM [/camera/rgb_rectify_color/interpolation] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:46,380: +PARAM [/camera/rgb_rectify_color/interpolation] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:46,383: +PUB [/camera/rgb/image_rect_color] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,426: +PUB [/camera/depth/image_rect] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,430: +SERVICE [/camera/depth_rectify_depth/set_parameters] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,431: +PUB [/camera/depth_rectify_depth/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,434: +PUB [/camera/depth_rectify_depth/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,437: +PARAM [/camera/depth_rectify_depth/interpolation] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:46,439: +PARAM [/camera/depth_rectify_depth/interpolation] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:46,442: +PUB [/camera/depth/image_rect_raw] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,447: +PUB [/camera/depth/image] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,451: +PUB [/camera/depth/points] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,455: +SERVICE [/camera/depth_registered_rectify_depth/set_parameters] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,457: +PUB [/camera/depth_registered_rectify_depth/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,459: +PUB [/camera/depth_registered_rectify_depth/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,462: +PARAM [/camera/depth_registered_rectify_depth/interpolation] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:46,464: +PARAM [/camera/depth_registered_rectify_depth/interpolation] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 10:54:46,467: +PUB [/camera/depth_registered/hw_registered/image_rect_raw] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,473: +PUB [/camera/depth_registered/points] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,479: +PUB [/camera/depth_registered/hw_registered/image_rect] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,484: +PUB [/camera/depth_registered/image] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:46,579: +PARAM [/camera/camera_rgb/vendor] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,581: +PARAM [/camera/camera_rgb/product] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,584: +PARAM [/camera/camera_rgb/serial] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,586: +PARAM [/camera/camera_rgb/index] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,587: +PARAM [/camera/camera_rgb/width] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,590: +PARAM [/camera/camera_rgb/height] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,591: +PARAM [/camera/camera_rgb/video_mode] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,592: +PARAM [/camera/camera_rgb/frame_rate] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,593: +PARAM [/camera/camera_rgb/timestamp_method] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,595: +PARAM [/camera/camera_rgb/frame_id] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,596: +PARAM [/camera/camera_rgb/camera_info_url] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,598: +PARAM [/camera/camera_rgb/scanning_mode] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,599: +PARAM [/camera/camera_rgb/auto_exposure] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,600: +PARAM [/camera/camera_rgb/auto_exposure_priority] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,602: +PARAM [/camera/camera_rgb/exposure_absolute] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,603: +PARAM [/camera/camera_rgb/iris_absolute] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,604: +PARAM [/camera/camera_rgb/auto_focus] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,606: +PARAM [/camera/camera_rgb/focus_absolute] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,607: +PARAM [/camera/camera_rgb/pan_absolute] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,609: +PARAM [/camera/camera_rgb/tilt_absolute] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,610: +PARAM [/camera/camera_rgb/roll_absolute] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,611: +PARAM [/camera/camera_rgb/privacy] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,613: +PARAM [/camera/camera_rgb/backlight_compensation] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,614: +PARAM [/camera/camera_rgb/brightness] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,615: +PARAM [/camera/camera_rgb/contrast] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,617: +PARAM [/camera/camera_rgb/gain] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,618: +PARAM [/camera/camera_rgb/power_line_frequency] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,619: +PARAM [/camera/camera_rgb/auto_hue] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,621: +PARAM [/camera/camera_rgb/hue] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,622: +PARAM [/camera/camera_rgb/saturation] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,623: +PARAM [/camera/camera_rgb/sharpness] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,624: +PARAM [/camera/camera_rgb/gamma] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,626: +PARAM [/camera/camera_rgb/auto_white_balance] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,627: +PARAM [/camera/camera_rgb/white_balance_temperature] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,628: +PARAM [/camera/camera_rgb/white_balance_BU] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:46,630: +PARAM [/camera/camera_rgb/white_balance_RV] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 10:54:51,619: -PUB [/rosout] /camera_base_link1 http://192.168.1.12:33293/
+[rosmaster.master][INFO] 2020-09-01 10:54:51,627: -PUB [/rosout] /camera_base_link2 http://192.168.1.12:36395/
+[rosmaster.master][INFO] 2020-09-01 10:54:51,639: -PUB [/tf_static] /camera_base_link1 http://192.168.1.12:33293/
+[rosmaster.master][INFO] 2020-09-01 10:54:51,673: -PUB [/tf_static] /camera_base_link2 http://192.168.1.12:36395/
+[rosmaster.master][INFO] 2020-09-01 10:54:51,701: -SERVICE [/camera_base_link1/get_loggers] /camera_base_link1 rosrpc://192.168.1.12:60303
+[rosmaster.master][INFO] 2020-09-01 10:54:51,707: -SERVICE [/camera_base_link2/get_loggers] /camera_base_link2 rosrpc://192.168.1.12:55573
+[rosmaster.master][INFO] 2020-09-01 10:54:51,711: -PUB [/rosout] /camera_base_link http://192.168.1.12:38119/
+[rosmaster.master][INFO] 2020-09-01 10:54:51,715: -PUB [/rosout] /camera_base_link3 http://192.168.1.12:46335/
+[rosmaster.master][INFO] 2020-09-01 10:54:51,716: -SERVICE [/camera_base_link1/set_logger_level] /camera_base_link1 rosrpc://192.168.1.12:60303
+[rosmaster.master][INFO] 2020-09-01 10:54:51,716: -PUB [/camera/depth_registered/points] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:51,717: -SERVICE [/camera_base_link2/set_logger_level] /camera_base_link2 rosrpc://192.168.1.12:55573
+[rosmaster.master][INFO] 2020-09-01 10:54:51,719: -PUB [/camera/depth_registered/hw_registered/image_rect] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:51,817: -PUB [/tf_static] /camera_base_link3 http://192.168.1.12:46335/
+[rosmaster.master][INFO] 2020-09-01 10:54:51,820: -PUB [/camera/depth_registered/image] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:51,825: -PUB [/tf_static] /camera_base_link http://192.168.1.12:38119/
+[rosmaster.master][INFO] 2020-09-01 10:54:51,827: -PUB [/camera/depth/image] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:51,829: -SERVICE [/camera_base_link3/get_loggers] /camera_base_link3 rosrpc://192.168.1.12:51327
+[rosmaster.master][INFO] 2020-09-01 10:54:51,831: -PUB [/camera/depth_registered_rectify_depth/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:51,834: -PUB [/camera/depth_registered_rectify_depth/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:51,835: -SERVICE [/camera/depth_registered_rectify_depth/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.10:35571
+[rosmaster.master][INFO] 2020-09-01 10:54:51,838: -PUB [/camera/depth_registered/hw_registered/image_rect_raw] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:51,839: -SERVICE [/camera_base_link/get_loggers] /camera_base_link rosrpc://192.168.1.12:46631
+[rosmaster.master][INFO] 2020-09-01 10:54:51,842: -PUB [/camera/depth/points] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:51,843: -SERVICE [/camera_base_link3/set_logger_level] /camera_base_link3 rosrpc://192.168.1.12:51327
+[rosmaster.master][INFO] 2020-09-01 10:54:51,852: -SERVICE [/camera_base_link/set_logger_level] /camera_base_link rosrpc://192.168.1.12:46631
+[rosmaster.master][INFO] 2020-09-01 10:54:51,918: -PUB [/rosout] /camera/points_xyzrgb_hw_registered http://192.168.1.12:36341/
+[rosmaster.master][INFO] 2020-09-01 10:54:51,928: -SERVICE [/camera/points_xyzrgb_hw_registered/get_loggers] /camera/points_xyzrgb_hw_registered rosrpc://192.168.1.12:33225
+[rosmaster.master][INFO] 2020-09-01 10:54:51,936: -PUB [/rosout] /camera/depth_registered_hw_metric_rect http://192.168.1.12:33633/
+[rosmaster.master][INFO] 2020-09-01 10:54:51,940: -PUB [/rosout] /camera/depth_registered_metric http://192.168.1.12:36313/
+[rosmaster.master][INFO] 2020-09-01 10:54:51,944: -SERVICE [/camera/points_xyzrgb_hw_registered/set_logger_level] /camera/points_xyzrgb_hw_registered rosrpc://192.168.1.12:33225
+[rosmaster.master][INFO] 2020-09-01 10:54:51,947: -PUB [/camera/depth/image_rect] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:51,949: -PUB [/rosout] /camera/depth_metric http://192.168.1.12:36821/
+[rosmaster.master][INFO] 2020-09-01 10:54:51,953: -SERVICE [/camera/depth_registered_hw_metric_rect/get_loggers] /camera/depth_registered_hw_metric_rect rosrpc://192.168.1.12:41019
+[rosmaster.master][INFO] 2020-09-01 10:54:51,955: -SERVICE [/camera/depth_registered_metric/get_loggers] /camera/depth_registered_metric rosrpc://192.168.1.12:45483
+[rosmaster.master][INFO] 2020-09-01 10:54:51,957: -PUB [/rosout] /camera/depth_registered_rectify_depth http://192.168.1.12:36739/
+[rosmaster.master][INFO] 2020-09-01 10:54:51,958: -SERVICE [/camera/depth_metric/get_loggers] /camera/depth_metric rosrpc://192.168.1.12:42871
+[rosmaster.master][INFO] 2020-09-01 10:54:51,965: -SERVICE [/camera/depth_registered_hw_metric_rect/set_logger_level] /camera/depth_registered_hw_metric_rect rosrpc://192.168.1.12:41019
+[rosmaster.master][INFO] 2020-09-01 10:54:51,967: -PUB [/camera/depth_rectify_depth/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:51,969: -PUB [/camera/depth_rectify_depth/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:51,971: -SERVICE [/camera/depth_rectify_depth/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.10:35571
+[rosmaster.master][INFO] 2020-09-01 10:54:51,974: -PUB [/camera/depth/image_rect_raw] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:51,975: -PUB [/rosout] /camera/depth_points http://192.168.1.12:37789/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,009: -SERVICE [/camera/depth_registered_rectify_depth/get_loggers] /camera/depth_registered_rectify_depth rosrpc://192.168.1.12:34797
+[rosmaster.master][INFO] 2020-09-01 10:54:52,013: -SERVICE [/camera/depth_registered_metric/set_logger_level] /camera/depth_registered_metric rosrpc://192.168.1.12:45483
+[rosmaster.master][INFO] 2020-09-01 10:54:52,014: -PUB [/camera/rgb_rectify_color/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,015: -SERVICE [/camera/depth_metric/set_logger_level] /camera/depth_metric rosrpc://192.168.1.12:42871
+[rosmaster.master][INFO] 2020-09-01 10:54:52,017: -PUB [/camera/rgb_rectify_color/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,020: -SERVICE [/camera/rgb_rectify_color/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.10:35571
+[rosmaster.master][INFO] 2020-09-01 10:54:52,021: -SERVICE [/camera/depth_points/get_loggers] /camera/depth_points rosrpc://192.168.1.12:33045
+[rosmaster.master][INFO] 2020-09-01 10:54:52,024: -PUB [/camera/rgb/image_rect_color] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,027: -SERVICE [/camera/ir/set_camera_info] /camera/camera_nodelet_manager rosrpc://192.168.1.10:35571
+[rosmaster.master][INFO] 2020-09-01 10:54:52,028: -SERVICE [/camera/rgb/set_camera_info] /camera/camera_nodelet_manager rosrpc://192.168.1.10:35571
+[rosmaster.master][INFO] 2020-09-01 10:54:52,030: -PUB [/camera/projector/camera_info] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,031: -PUB [/camera/ir/image] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,033: -PUB [/camera/ir/camera_info] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,034: -PUB [/camera/depth/image_raw] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,036: -PUB [/camera/depth/camera_info] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,037: -SERVICE [/camera/depth_registered_rectify_depth/set_logger_level] /camera/depth_registered_rectify_depth rosrpc://192.168.1.12:34797
+[rosmaster.master][INFO] 2020-09-01 10:54:52,039: -PUB [/camera/depth_registered/image_raw] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,040: -PUB [/camera/depth_registered/camera_info] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,042: -PUB [/camera/driver/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,044: -PUB [/camera/driver/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,045: -SERVICE [/camera/driver/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.10:35571
+[rosmaster.master][INFO] 2020-09-01 10:54:52,047: -SERVICE [/camera/reset_ir_exposure] /camera/camera_nodelet_manager rosrpc://192.168.1.10:35571
+[rosmaster.master][INFO] 2020-09-01 10:54:52,048: -SERVICE [/camera/reset_ir_gain] /camera/camera_nodelet_manager rosrpc://192.168.1.10:35571
+[rosmaster.master][INFO] 2020-09-01 10:54:52,050: -SERVICE [/camera/set_ldp] /camera/camera_nodelet_manager rosrpc://192.168.1.10:35571
+[rosmaster.master][INFO] 2020-09-01 10:54:52,051: -SERVICE [/camera/set_laser] /camera/camera_nodelet_manager rosrpc://192.168.1.10:35571
+[rosmaster.master][INFO] 2020-09-01 10:54:52,053: -SERVICE [/camera/set_ir_flood] /camera/camera_nodelet_manager rosrpc://192.168.1.10:35571
+[rosmaster.master][INFO] 2020-09-01 10:54:52,054: -SERVICE [/camera/set_ir_exposure] /camera/camera_nodelet_manager rosrpc://192.168.1.10:35571
+[rosmaster.master][INFO] 2020-09-01 10:54:52,056: -SERVICE [/camera/get_ir_exposure] /camera/camera_nodelet_manager rosrpc://192.168.1.10:35571
+[rosmaster.master][INFO] 2020-09-01 10:54:52,058: -SERVICE [/camera/set_ir_gain] /camera/camera_nodelet_manager rosrpc://192.168.1.10:35571
+[rosmaster.master][INFO] 2020-09-01 10:54:52,060: -SERVICE [/camera/depth_points/set_logger_level] /camera/depth_points rosrpc://192.168.1.12:33045
+[rosmaster.master][INFO] 2020-09-01 10:54:52,061: -SERVICE [/camera/get_ir_gain] /camera/camera_nodelet_manager rosrpc://192.168.1.10:35571
+[rosmaster.master][INFO] 2020-09-01 10:54:52,064: -SERVICE [/camera/get_device_type] /camera/camera_nodelet_manager rosrpc://192.168.1.10:35571
+[rosmaster.master][INFO] 2020-09-01 10:54:52,065: -SERVICE [/camera/get_serial] /camera/camera_nodelet_manager rosrpc://192.168.1.10:35571
+[rosmaster.master][INFO] 2020-09-01 10:54:52,067: -SERVICE [/camera/get_camera_info] /camera/camera_nodelet_manager rosrpc://192.168.1.10:35571
+[rosmaster.master][INFO] 2020-09-01 10:54:52,084: -SUB [/camera/camera_nodelet_manager/bond] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,087: -PUB [/camera/camera_nodelet_manager/bond] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,117: publisherUpdate[/camera/camera_nodelet_manager/bond] -> http://192.168.1.10:33641/ ['http://192.168.1.10:33641/']
+[rosmaster.master][INFO] 2020-09-01 10:54:52,121: publisherUpdate[/camera/camera_nodelet_manager/bond] -> http://192.168.1.10:33641/ ['http://192.168.1.10:33641/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:54:52,136: -SERVICE [/camera/ir/set_camera_info] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:52,150: -SERVICE [/camera/rgb/set_camera_info] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:52,152: -PUB [/rosout] /camera/depth_rectify_depth http://192.168.1.12:41345/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,152: -PUB [/rosout] /camera/depth_metric_rect http://192.168.1.12:41409/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,163: -PUB [/camera/projector/camera_info] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,165: -SERVICE [/camera/depth_metric_rect/get_loggers] /camera/depth_metric_rect rosrpc://192.168.1.12:60373
+[rosmaster.master][INFO] 2020-09-01 10:54:52,166: -SERVICE [/camera/depth_rectify_depth/get_loggers] /camera/depth_rectify_depth rosrpc://192.168.1.12:47725
+[rosmaster.master][INFO] 2020-09-01 10:54:52,167: -PUB [/rosout] /camera/rgb_rectify_color http://192.168.1.12:37929/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,184: -PUB [/camera/ir/image/compressedDepth] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,185: -SERVICE [/camera/depth_metric_rect/set_logger_level] /camera/depth_metric_rect rosrpc://192.168.1.12:60373
+[rosmaster.master][INFO] 2020-09-01 10:54:52,194: -SERVICE [/camera/depth_rectify_depth/set_logger_level] /camera/depth_rectify_depth rosrpc://192.168.1.12:47725
+[rosmaster.master][INFO] 2020-09-01 10:54:52,195: -SERVICE [/camera/rgb_rectify_color/get_loggers] /camera/rgb_rectify_color rosrpc://192.168.1.12:57279
+[rosmaster.master][INFO] 2020-09-01 10:54:52,199: -PUB [/camera/ir/image/compressed] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,206: -SERVICE [/camera/rgb_rectify_color/set_logger_level] /camera/rgb_rectify_color rosrpc://192.168.1.12:57279
+[rosmaster.master][INFO] 2020-09-01 10:54:52,207: -PUB [/camera/ir/image] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,210: -PUB [/rosout] /camera/driver http://192.168.1.12:43819/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,214: -PUB [/camera/ir/image/theora] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,215: -PUB [/camera/camera_nodelet_manager/bond] /camera/driver http://192.168.1.12:43819/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,218: -PUB [/camera/ir/image/compressedDepth/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,222: -PUB [/camera/ir/image/compressedDepth/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,224: -SUB [/camera/camera_nodelet_manager/bond] /camera/driver http://192.168.1.12:43819/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,227: -SERVICE [/camera/driver/get_loggers] /camera/driver rosrpc://192.168.1.12:40115
+[rosmaster.master][INFO] 2020-09-01 10:54:52,228: -SERVICE [/camera/ir/image/compressedDepth/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:52,233: -SERVICE [/camera/driver/set_logger_level] /camera/driver rosrpc://192.168.1.12:40115
+[rosmaster.master][INFO] 2020-09-01 10:54:52,234: -PUB [/camera/ir/image/compressed/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,240: -PUB [/camera/ir/image/compressed/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,242: -PUB [/rosout] /camera/camera_rgb http://192.168.1.12:35847/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,253: -SERVICE [/camera/ir/image/compressed/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:52,254: -PUB [/camera/camera_rgb/parameter_descriptions] /camera/camera_rgb http://192.168.1.12:35847/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,264: -SERVICE [/camera/ir/image/theora/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:52,265: -PUB [/camera/camera_rgb/parameter_updates] /camera/camera_rgb http://192.168.1.12:35847/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,277: -SERVICE [/camera/depth/image_raw/compressedDepth/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:52,279: -PUB [/camera/rgb/image_raw/compressedDepth] /camera/camera_rgb http://192.168.1.12:35847/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,287: -SERVICE [/camera/depth/image_raw/compressed/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:52,289: -PUB [/camera/rgb/image_raw/compressedDepth/parameter_descriptions] /camera/camera_rgb http://192.168.1.12:35847/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,292: -SERVICE [/camera/depth/image_raw/theora/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:52,300: -PUB [/camera/rgb/image_raw/compressedDepth/parameter_updates] /camera/camera_rgb http://192.168.1.12:35847/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,302: -SERVICE [/camera/depth_registered/image_raw/compressedDepth/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:52,312: -PUB [/camera/rgb/image_raw/compressed] /camera/camera_rgb http://192.168.1.12:35847/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,313: -SERVICE [/camera/depth_registered/image_raw/compressed/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:52,321: -PUB [/rosout] /camera/driver http://192.168.1.10:33641/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,322: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:39301/', 'http://192.168.1.10:41243/', 'http://192.168.1.10:37295/', 'http://192.168.1.10:35061/', 'http://192.168.1.10:39025/', 'http://192.168.1.10:37915/', 'http://192.168.1.10:40739/', 'http://192.168.1.10:42065/', 'http://192.168.1.10:39753/']
+[rosmaster.master][INFO] 2020-09-01 10:54:52,323: -SERVICE [/camera/depth_registered/image_raw/theora/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:52,325: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:39301/', 'http://192.168.1.10:41243/', 'http://192.168.1.10:37295/', 'http://192.168.1.10:35061/', 'http://192.168.1.10:39025/', 'http://192.168.1.10:37915/', 'http://192.168.1.10:40739/', 'http://192.168.1.10:42065/', 'http://192.168.1.10:39753/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:54:52,326: -PUB [/camera/camera_nodelet_manager/bond] /camera/driver http://192.168.1.10:33641/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,328: -SUB [/camera/camera_nodelet_manager/bond] /camera/driver http://192.168.1.10:33641/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,329: publisherUpdate[/camera/camera_nodelet_manager/bond] -> http://192.168.1.10:33641/ []
+[rosmaster.master][INFO] 2020-09-01 10:54:52,330: -SERVICE [/camera/driver/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:52,331: publisherUpdate[/camera/camera_nodelet_manager/bond] -> http://192.168.1.10:33641/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2020-09-01 10:54:52,334: -SERVICE [/camera/reset_ir_exposure] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:52,336: -SERVICE [/camera/driver/get_loggers] /camera/driver rosrpc://192.168.1.10:45461
+[rosmaster.threadpool][ERROR] 2020-09-01 10:54:52,336: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2020-09-01 10:54:52,338: -PUB [/camera/rgb/image_raw/compressed/parameter_descriptions] /camera/camera_rgb http://192.168.1.12:35847/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,339: -SERVICE [/camera/driver/set_logger_level] /camera/driver rosrpc://192.168.1.10:45461
+[rosmaster.master][INFO] 2020-09-01 10:54:52,340: -SERVICE [/camera/reset_ir_gain] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:52,344: -PUB [/camera/rgb/image_raw/compressed/parameter_updates] /camera/camera_rgb http://192.168.1.12:35847/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,347: -SERVICE [/camera/set_ldp] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:52,353: -PUB [/camera/rgb/image_raw] /camera/camera_rgb http://192.168.1.12:35847/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,356: -PUB [/rosout] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,357: -SERVICE [/camera/set_laser] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:52,360: -PUB [/camera/rgb/image_raw/theora] /camera/camera_rgb http://192.168.1.12:35847/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,363: -PUB [/camera/driver/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,365: -SERVICE [/camera/set_ir_flood] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:52,366: -PUB [/camera/rgb/image_raw/theora/parameter_descriptions] /camera/camera_rgb http://192.168.1.12:35847/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,368: -PUB [/camera/driver/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,379: -SERVICE [/camera/set_ir_exposure] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:52,381: -PUB [/camera/rgb/image_raw/theora/parameter_updates] /camera/camera_rgb http://192.168.1.12:35847/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,382: -PUB [/camera/ir/image/theora/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,384: -SERVICE [/camera/get_ir_exposure] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:52,385: -PUB [/camera/rgb/camera_info] /camera/camera_rgb http://192.168.1.12:35847/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,388: -PUB [/camera/ir/image/theora/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,390: -SERVICE [/camera/set_ir_gain] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:52,392: -SERVICE [/camera/camera_rgb/get_loggers] /camera/camera_rgb rosrpc://192.168.1.12:48915
+[rosmaster.master][INFO] 2020-09-01 10:54:52,395: -PUB [/camera/ir/camera_info] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,398: -SERVICE [/camera/camera_rgb/set_logger_level] /camera/camera_rgb rosrpc://192.168.1.12:48915
+[rosmaster.master][INFO] 2020-09-01 10:54:52,399: -SERVICE [/camera/get_ir_gain] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:52,400: -PUB [/camera/depth/image_raw/compressedDepth] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,404: -PUB [/camera/depth/image_raw/compressedDepth/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,406: -SERVICE [/camera/camera_rgb/set_parameters] /camera/camera_rgb rosrpc://192.168.1.12:48915
+[rosmaster.master][INFO] 2020-09-01 10:54:52,407: -SERVICE [/camera/get_device_type] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:52,411: -PUB [/camera/depth/image_raw/compressedDepth/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,413: -SERVICE [/camera/set_camera_info] /camera/camera_rgb rosrpc://192.168.1.12:48915
+[rosmaster.master][INFO] 2020-09-01 10:54:52,415: -SERVICE [/camera/get_serial] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:52,417: -PUB [/camera/depth/image_raw/compressed] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,420: -SERVICE [/camera/rgb/image_raw/compressedDepth/set_parameters] /camera/camera_rgb rosrpc://192.168.1.12:48915
+[rosmaster.master][INFO] 2020-09-01 10:54:52,421: -SERVICE [/camera/get_camera_info] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:52,425: -PUB [/camera/depth/image_raw/compressed/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,427: -SERVICE [/camera/rgb/image_raw/compressed/set_parameters] /camera/camera_rgb rosrpc://192.168.1.12:48915
+[rosmaster.master][INFO] 2020-09-01 10:54:52,429: -PUB [/camera/depth/image_raw/compressed/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,432: -SERVICE [/camera/rgb/image_raw/theora/set_parameters] /camera/camera_rgb rosrpc://192.168.1.12:48915
+[rosmaster.master][INFO] 2020-09-01 10:54:52,434: -PUB [/camera/depth/image_raw] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,439: -SERVICE [/camera/get_uvc_exposure] /camera/camera_rgb rosrpc://192.168.1.12:48915
+[rosmaster.master][INFO] 2020-09-01 10:54:52,440: -PUB [/camera/depth/image_raw/theora] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,446: -PUB [/camera/depth/image_raw/theora/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,448: -SERVICE [/camera/set_uvc_exposure] /camera/camera_rgb rosrpc://192.168.1.12:48915
+[rosmaster.master][INFO] 2020-09-01 10:54:52,457: -PUB [/camera/depth/image_raw/theora/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,461: -SERVICE [/camera/get_uvc_gain] /camera/camera_rgb rosrpc://192.168.1.12:48915
+[rosmaster.master][INFO] 2020-09-01 10:54:52,463: -PUB [/camera/depth/camera_info] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,468: -SERVICE [/camera/set_uvc_gain] /camera/camera_rgb rosrpc://192.168.1.12:48915
+[rosmaster.master][INFO] 2020-09-01 10:54:52,470: -PUB [/camera/depth_registered/image_raw/compressedDepth] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,483: -PUB [/camera/depth_registered/image_raw/compressedDepth/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,484: -SERVICE [/camera/get_uvc_white_balance] /camera/camera_rgb rosrpc://192.168.1.12:48915
+[rosmaster.master][INFO] 2020-09-01 10:54:52,493: -PUB [/camera/depth_registered/image_raw/compressedDepth/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,494: -SERVICE [/camera/set_uvc_white_balance] /camera/camera_rgb rosrpc://192.168.1.12:48915
+[rosmaster.master][INFO] 2020-09-01 10:54:52,500: -PUB [/camera/depth_registered/image_raw/compressed] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,507: -PUB [/camera/depth_registered/image_raw/compressed/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,515: -PUB [/camera/depth_registered/image_raw/compressed/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,519: -PUB [/camera/depth_registered/image_raw] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,525: -PUB [/camera/depth_registered/image_raw/theora] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,530: -PUB [/camera/depth_registered/image_raw/theora/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,538: -PUB [/camera/depth_registered/image_raw/theora/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,545: -PUB [/camera/depth_registered/camera_info] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,553: -PUB [/camera/camera_nodelet_manager/bond] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,560: -PUB [/camera/depth/image/compressedDepth] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,570: -PUB [/camera/depth/image/compressedDepth/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,588: -PUB [/camera/depth/image/compressedDepth/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,610: -PUB [/camera/depth/image/compressed] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,618: -PUB [/camera/depth/image/compressed/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,625: -PUB [/camera/depth/image/compressed/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,629: -PUB [/camera/depth/image] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,636: -PUB [/camera/depth/image/theora] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,641: -PUB [/camera/depth/image/theora/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,646: -PUB [/camera/depth/image/theora/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,651: -PUB [/camera/depth_rectify_depth/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,662: -PUB [/camera/depth_rectify_depth/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,669: -PUB [/camera/depth/image_rect_raw/compressedDepth] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,673: -PUB [/camera/depth/image_rect_raw/compressedDepth/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,684: -PUB [/camera/depth/image_rect_raw/compressedDepth/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,688: -PUB [/camera/depth/image_rect_raw/compressed] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,697: -PUB [/camera/depth/image_rect_raw/compressed/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,711: -PUB [/camera/depth/image_rect_raw/compressed/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,730: -PUB [/camera/depth/image_rect_raw] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,738: -PUB [/camera/depth/image_rect_raw/theora] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,743: -PUB [/camera/depth/image_rect_raw/theora/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,763: -PUB [/camera/depth/image_rect_raw/theora/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,769: -PUB [/camera/rgb_rectify_color/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,779: -PUB [/camera/rgb_rectify_color/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,789: -PUB [/camera/rgb/image_rect_color/compressedDepth] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,809: -PUB [/camera/rgb/image_rect_color/compressedDepth/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,816: -PUB [/camera/rgb/image_rect_color/compressedDepth/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,823: -PUB [/camera/rgb/image_rect_color/compressed] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,873: -PUB [/camera/rgb/image_rect_color/compressed/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,878: -PUB [/camera/rgb/image_rect_color/compressed/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,916: -PUB [/camera/rgb/image_rect_color] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,926: -PUB [/camera/rgb/image_rect_color/theora] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,989: -PUB [/camera/rgb/image_rect_color/theora/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:52,997: -PUB [/camera/rgb/image_rect_color/theora/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,006: -PUB [/camera/depth/image_rect/compressedDepth] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,012: -PUB [/camera/depth/image_rect/compressedDepth/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,020: -PUB [/camera/depth/image_rect/compressedDepth/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,027: -PUB [/camera/depth/image_rect/compressed] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,034: -PUB [/camera/depth/image_rect/compressed/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,041: -PUB [/camera/depth/image_rect/compressed/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,045: -PUB [/camera/depth/image_rect] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,053: -PUB [/camera/depth/image_rect/theora] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,060: -PUB [/camera/depth/image_rect/theora/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,070: -PUB [/camera/depth/image_rect/theora/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,082: -PUB [/camera/depth_registered/points] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,092: -PUB [/camera/depth/points] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,108: -PUB [/camera/depth_registered_rectify_depth/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,116: -PUB [/camera/depth_registered_rectify_depth/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,123: -PUB [/camera/depth_registered/hw_registered/image_rect_raw/compressedDepth] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,145: -PUB [/camera/depth_registered/hw_registered/image_rect_raw/compressedDepth/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,152: -PUB [/camera/depth_registered/hw_registered/image_rect_raw/compressedDepth/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,160: -PUB [/camera/depth_registered/hw_registered/image_rect_raw/compressed] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,166: -PUB [/camera/depth_registered/hw_registered/image_rect_raw/compressed/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,177: -PUB [/camera/depth_registered/hw_registered/image_rect_raw/compressed/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,220: -PUB [/camera/depth_registered/hw_registered/image_rect_raw] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,226: -PUB [/camera/depth_registered/hw_registered/image_rect_raw/theora] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,234: -PUB [/camera/depth_registered/hw_registered/image_rect_raw/theora/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,241: -PUB [/camera/depth_registered/hw_registered/image_rect_raw/theora/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,251: -PUB [/camera/depth_registered/image/compressedDepth] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,256: -PUB [/camera/depth_registered/image/compressedDepth/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,267: -PUB [/camera/depth_registered/image/compressedDepth/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,282: -PUB [/camera/depth_registered/image/compressed] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,289: -PUB [/camera/depth_registered/image/compressed/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,299: -PUB [/camera/depth_registered/image/compressed/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,304: -PUB [/camera/depth_registered/image] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,312: -PUB [/camera/depth_registered/image/theora] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,320: -PUB [/camera/depth_registered/image/theora/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,325: -PUB [/camera/depth_registered/image/theora/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,334: -PUB [/camera/depth_registered/hw_registered/image_rect/compressedDepth] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,340: -PUB [/camera/depth_registered/hw_registered/image_rect/compressedDepth/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,346: -PUB [/camera/depth_registered/hw_registered/image_rect/compressedDepth/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,351: -PUB [/camera/depth_registered/hw_registered/image_rect/compressed] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,355: -PUB [/camera/depth_registered/hw_registered/image_rect/compressed/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,361: -PUB [/camera/depth_registered/hw_registered/image_rect/compressed/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,367: -PUB [/camera/depth_registered/hw_registered/image_rect] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,374: -PUB [/camera/depth_registered/hw_registered/image_rect/theora] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,380: -PUB [/camera/depth_registered/hw_registered/image_rect/theora/parameter_descriptions] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,384: -PUB [/camera/depth_registered/hw_registered/image_rect/theora/parameter_updates] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,389: -SUB [/camera/camera_nodelet_manager/bond] /camera/camera_nodelet_manager http://192.168.1.12:35041/
+[rosmaster.master][INFO] 2020-09-01 10:54:53,429: -SERVICE [/camera/camera_nodelet_manager/get_loggers] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:53,437: -SERVICE [/camera/camera_nodelet_manager/set_logger_level] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:53,442: -SERVICE [/camera/camera_nodelet_manager/load_nodelet] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:53,450: -SERVICE [/camera/camera_nodelet_manager/unload_nodelet] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:53,454: -SERVICE [/camera/camera_nodelet_manager/list] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:53,459: -SERVICE [/camera/depth/image/compressedDepth/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:53,471: -SERVICE [/camera/depth/image/compressed/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:53,484: -SERVICE [/camera/depth/image/theora/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:53,490: -SERVICE [/camera/depth_rectify_depth/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:53,500: -SERVICE [/camera/depth/image_rect_raw/compressedDepth/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:53,508: -SERVICE [/camera/depth/image_rect_raw/compressed/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:53,517: -SERVICE [/camera/depth/image_rect_raw/theora/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:53,528: -SERVICE [/camera/rgb_rectify_color/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:53,536: -SERVICE [/camera/rgb/image_rect_color/compressedDepth/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:53,542: -SERVICE [/camera/rgb/image_rect_color/compressed/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:53,552: -SERVICE [/camera/rgb/image_rect_color/theora/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:53,559: -SERVICE [/camera/depth/image_rect/compressedDepth/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:53,564: -SERVICE [/camera/depth/image_rect/compressed/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:53,569: -SERVICE [/camera/depth/image_rect/theora/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:53,573: -SERVICE [/camera/depth_registered_rectify_depth/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:53,579: -SERVICE [/camera/depth_registered/hw_registered/image_rect_raw/compressedDepth/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:53,599: -SERVICE [/camera/depth_registered/hw_registered/image_rect_raw/compressed/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:53,612: -SERVICE [/camera/depth_registered/hw_registered/image_rect_raw/theora/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:53,626: -SERVICE [/camera/depth_registered/image/compressedDepth/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:53,640: -SERVICE [/camera/depth_registered/image/compressed/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:53,647: -SERVICE [/camera/depth_registered/image/theora/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:53,654: -SERVICE [/camera/depth_registered/hw_registered/image_rect/compressedDepth/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:53,660: -SERVICE [/camera/depth_registered/hw_registered/image_rect/compressed/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:54:53,665: -SERVICE [/camera/depth_registered/hw_registered/image_rect/theora/set_parameters] /camera/camera_nodelet_manager rosrpc://192.168.1.12:39231
+[rosmaster.master][INFO] 2020-09-01 10:55:05,034: -PUB [/rosout] /camera_base_link1 http://192.168.1.10:40739/
+[rosmaster.master][INFO] 2020-09-01 10:55:05,036: -PUB [/rosout] /camera_base_link http://192.168.1.10:37915/
+[rosmaster.master][INFO] 2020-09-01 10:55:05,037: -PUB [/rosout] /camera_base_link2 http://192.168.1.10:42065/
+[rosmaster.master][INFO] 2020-09-01 10:55:05,039: -PUB [/tf_static] /camera_base_link http://192.168.1.10:37915/
+[rosmaster.master][INFO] 2020-09-01 10:55:05,042: -PUB [/tf_static] /camera_base_link1 http://192.168.1.10:40739/
+[rosmaster.master][INFO] 2020-09-01 10:55:05,042: -PUB [/tf_static] /camera_base_link2 http://192.168.1.10:42065/
+[rosmaster.master][INFO] 2020-09-01 10:55:05,043: -SERVICE [/camera_base_link/get_loggers] /camera_base_link rosrpc://192.168.1.10:35445
+[rosmaster.master][INFO] 2020-09-01 10:55:05,044: -PUB [/rosout] /camera_base_link3 http://192.168.1.10:39753/
+[rosmaster.master][INFO] 2020-09-01 10:55:05,047: -PUB [/tf_static] /camera_base_link3 http://192.168.1.10:39753/
+[rosmaster.master][INFO] 2020-09-01 10:55:05,048: -SERVICE [/camera_base_link/set_logger_level] /camera_base_link rosrpc://192.168.1.10:35445
+[rosmaster.master][INFO] 2020-09-01 10:55:05,049: -SERVICE [/camera_base_link1/get_loggers] /camera_base_link1 rosrpc://192.168.1.10:57343
+[rosmaster.master][INFO] 2020-09-01 10:55:05,050: -SERVICE [/camera_base_link3/get_loggers] /camera_base_link3 rosrpc://192.168.1.10:57327
+[rosmaster.master][INFO] 2020-09-01 10:55:05,051: -SERVICE [/camera_base_link2/get_loggers] /camera_base_link2 rosrpc://192.168.1.10:45479
+[rosmaster.master][INFO] 2020-09-01 10:55:05,053: -SERVICE [/camera_base_link1/set_logger_level] /camera_base_link1 rosrpc://192.168.1.10:57343
+[rosmaster.master][INFO] 2020-09-01 10:55:05,053: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:39301/', 'http://192.168.1.10:41243/', 'http://192.168.1.10:37295/', 'http://192.168.1.10:35061/', 'http://192.168.1.10:39025/', 'http://192.168.1.10:37915/', 'http://192.168.1.10:42065/', 'http://192.168.1.10:39753/']
+[rosmaster.master][INFO] 2020-09-01 10:55:05,054: -SERVICE [/camera_base_link2/set_logger_level] /camera_base_link2 rosrpc://192.168.1.10:45479
+[rosmaster.master][INFO] 2020-09-01 10:55:05,056: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:39301/', 'http://192.168.1.10:41243/', 'http://192.168.1.10:37295/', 'http://192.168.1.10:35061/', 'http://192.168.1.10:39025/', 'http://192.168.1.10:37915/', 'http://192.168.1.10:42065/', 'http://192.168.1.10:39753/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:55:05,057: -SERVICE [/camera_base_link3/set_logger_level] /camera_base_link3 rosrpc://192.168.1.10:57327
+[rosmaster.master][INFO] 2020-09-01 10:55:05,058: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:39301/', 'http://192.168.1.10:41243/', 'http://192.168.1.10:37295/', 'http://192.168.1.10:35061/', 'http://192.168.1.10:39025/', 'http://192.168.1.10:42065/', 'http://192.168.1.10:39753/']
+[rosmaster.master][INFO] 2020-09-01 10:55:05,060: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:39301/', 'http://192.168.1.10:41243/', 'http://192.168.1.10:37295/', 'http://192.168.1.10:35061/', 'http://192.168.1.10:39025/', 'http://192.168.1.10:42065/', 'http://192.168.1.10:39753/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:55:05,061: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:39301/', 'http://192.168.1.10:41243/', 'http://192.168.1.10:37295/', 'http://192.168.1.10:35061/', 'http://192.168.1.10:39025/', 'http://192.168.1.10:39753/']
+[rosmaster.master][INFO] 2020-09-01 10:55:05,062: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:39301/', 'http://192.168.1.10:41243/', 'http://192.168.1.10:37295/', 'http://192.168.1.10:35061/', 'http://192.168.1.10:39025/', 'http://192.168.1.10:39753/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:55:05,063: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:39301/', 'http://192.168.1.10:41243/', 'http://192.168.1.10:37295/', 'http://192.168.1.10:35061/', 'http://192.168.1.10:39025/']
+[rosmaster.master][INFO] 2020-09-01 10:55:05,065: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:39301/', 'http://192.168.1.10:41243/', 'http://192.168.1.10:37295/', 'http://192.168.1.10:35061/', 'http://192.168.1.10:39025/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:55:05,077: -PUB [/rosout] /camera/depth_points http://192.168.1.10:39301/
+[rosmaster.master][INFO] 2020-09-01 10:55:05,078: -SERVICE [/camera/depth_points/get_loggers] /camera/depth_points rosrpc://192.168.1.10:36815
+[rosmaster.master][INFO] 2020-09-01 10:55:05,080: -SERVICE [/camera/depth_points/set_logger_level] /camera/depth_points rosrpc://192.168.1.10:36815
+[rosmaster.master][INFO] 2020-09-01 10:55:05,095: -PUB [/rosout] /camera/depth_registered_rectify_depth http://192.168.1.10:41243/
+[rosmaster.master][INFO] 2020-09-01 10:55:05,097: -SERVICE [/camera/depth_registered_rectify_depth/get_loggers] /camera/depth_registered_rectify_depth rosrpc://192.168.1.10:51609
+[rosmaster.master][INFO] 2020-09-01 10:55:05,098: -PUB [/rosout] /camera/points_xyzrgb_hw_registered http://192.168.1.10:37295/
+[rosmaster.master][INFO] 2020-09-01 10:55:05,099: -SERVICE [/camera/depth_registered_rectify_depth/set_logger_level] /camera/depth_registered_rectify_depth rosrpc://192.168.1.10:51609
+[rosmaster.master][INFO] 2020-09-01 10:55:05,102: -SERVICE [/camera/points_xyzrgb_hw_registered/get_loggers] /camera/points_xyzrgb_hw_registered rosrpc://192.168.1.10:54499
+[rosmaster.master][INFO] 2020-09-01 10:55:05,103: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:41243/', 'http://192.168.1.10:37295/', 'http://192.168.1.10:35061/', 'http://192.168.1.10:39025/']
+[rosmaster.master][INFO] 2020-09-01 10:55:05,105: -SERVICE [/camera/points_xyzrgb_hw_registered/set_logger_level] /camera/points_xyzrgb_hw_registered rosrpc://192.168.1.10:54499
+[rosmaster.master][INFO] 2020-09-01 10:55:05,106: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:41243/', 'http://192.168.1.10:37295/', 'http://192.168.1.10:35061/', 'http://192.168.1.10:39025/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:55:05,107: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:37295/', 'http://192.168.1.10:35061/', 'http://192.168.1.10:39025/']
+[rosmaster.master][INFO] 2020-09-01 10:55:05,109: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:37295/', 'http://192.168.1.10:35061/', 'http://192.168.1.10:39025/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:55:05,110: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:35061/', 'http://192.168.1.10:39025/']
+[rosmaster.master][INFO] 2020-09-01 10:55:05,111: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:35061/', 'http://192.168.1.10:39025/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:55:05,146: -PUB [/rosout] /camera/depth_registered_metric http://192.168.1.10:39025/
+[rosmaster.master][INFO] 2020-09-01 10:55:05,148: -SERVICE [/camera/depth_registered_metric/get_loggers] /camera/depth_registered_metric rosrpc://192.168.1.10:59539
+[rosmaster.master][INFO] 2020-09-01 10:55:05,162: -SERVICE [/camera/depth_registered_metric/set_logger_level] /camera/depth_registered_metric rosrpc://192.168.1.10:59539
+[rosmaster.master][INFO] 2020-09-01 10:55:05,165: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:35061/']
+[rosmaster.master][INFO] 2020-09-01 10:55:05,169: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:45583/', 'http://192.168.1.10:35061/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:55:05,172: -PUB [/rosout] /camera/depth_metric http://192.168.1.10:45583/
+[rosmaster.master][INFO] 2020-09-01 10:55:05,172: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:35061/']
+[rosmaster.master][INFO] 2020-09-01 10:55:05,175: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/', 'http://192.168.1.10:35061/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:55:05,178: -SERVICE [/camera/depth_metric/get_loggers] /camera/depth_metric rosrpc://192.168.1.10:59535
+[rosmaster.master][INFO] 2020-09-01 10:55:05,180: -SERVICE [/camera/depth_metric/set_logger_level] /camera/depth_metric rosrpc://192.168.1.10:59535
+[rosmaster.master][INFO] 2020-09-01 10:55:05,195: -PUB [/rosout] /camera/depth_registered_hw_metric_rect http://192.168.1.10:35061/
+[rosmaster.master][INFO] 2020-09-01 10:55:05,196: -SERVICE [/camera/depth_registered_hw_metric_rect/get_loggers] /camera/depth_registered_hw_metric_rect rosrpc://192.168.1.10:36177
+[rosmaster.master][INFO] 2020-09-01 10:55:05,198: -SERVICE [/camera/depth_registered_hw_metric_rect/set_logger_level] /camera/depth_registered_hw_metric_rect rosrpc://192.168.1.10:36177
+[rosmaster.master][INFO] 2020-09-01 10:55:05,212: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/']
+[rosmaster.master][INFO] 2020-09-01 10:55:05,214: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/', 'http://192.168.1.10:37017/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:55:05,270: -PUB [/rosout] /camera/depth_metric_rect http://192.168.1.10:37017/
+[rosmaster.master][INFO] 2020-09-01 10:55:05,271: -SERVICE [/camera/depth_metric_rect/get_loggers] /camera/depth_metric_rect rosrpc://192.168.1.10:47273
+[rosmaster.master][INFO] 2020-09-01 10:55:05,273: -SERVICE [/camera/depth_metric_rect/set_logger_level] /camera/depth_metric_rect rosrpc://192.168.1.10:47273
+[rosmaster.master][INFO] 2020-09-01 10:55:05,276: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/']
+[rosmaster.master][INFO] 2020-09-01 10:55:05,277: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:46215/', 'http://192.168.1.10:41747/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:55:05,368: -PUB [/rosout] /camera/depth_rectify_depth http://192.168.1.10:41747/
+[rosmaster.master][INFO] 2020-09-01 10:55:05,368: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:46215/']
+[rosmaster.master][INFO] 2020-09-01 10:55:05,370: -PUB [/rosout] /camera/rgb_rectify_color http://192.168.1.10:46215/
+[rosmaster.master][INFO] 2020-09-01 10:55:05,372: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/', 'http://192.168.1.10:46215/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:55:05,372: -SERVICE [/camera/depth_rectify_depth/get_loggers] /camera/depth_rectify_depth rosrpc://192.168.1.10:38149
+[rosmaster.master][INFO] 2020-09-01 10:55:05,373: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/']
+[rosmaster.master][INFO] 2020-09-01 10:55:05,374: -SERVICE [/camera/rgb_rectify_color/get_loggers] /camera/rgb_rectify_color rosrpc://192.168.1.10:47015
+[rosmaster.master][INFO] 2020-09-01 10:55:05,377: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:33209/', 'http://192.168.1.10:43079/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:55:05,377: -SERVICE [/camera/depth_rectify_depth/set_logger_level] /camera/depth_rectify_depth rosrpc://192.168.1.10:38149
+[rosmaster.master][INFO] 2020-09-01 10:55:05,379: -SERVICE [/camera/rgb_rectify_color/set_logger_level] /camera/rgb_rectify_color rosrpc://192.168.1.10:47015
+[rosmaster.master][INFO] 2020-09-01 10:55:05,421: -PUB [/rosout] /camera/camera_rgb http://192.168.1.10:33209/
+[rosmaster.master][INFO] 2020-09-01 10:55:05,422: -PUB [/camera/camera_rgb/parameter_descriptions] /camera/camera_rgb http://192.168.1.10:33209/
+[rosmaster.master][INFO] 2020-09-01 10:55:05,424: -PUB [/camera/camera_rgb/parameter_updates] /camera/camera_rgb http://192.168.1.10:33209/
+[rosmaster.master][INFO] 2020-09-01 10:55:05,425: -PUB [/camera/rgb/image_raw] /camera/camera_rgb http://192.168.1.10:33209/
+[rosmaster.master][INFO] 2020-09-01 10:55:05,426: -PUB [/camera/rgb/camera_info] /camera/camera_rgb http://192.168.1.10:33209/
+[rosmaster.master][INFO] 2020-09-01 10:55:05,428: -SERVICE [/camera/camera_rgb/get_loggers] /camera/camera_rgb rosrpc://192.168.1.10:52967
+[rosmaster.master][INFO] 2020-09-01 10:55:05,429: -SERVICE [/camera/camera_rgb/set_logger_level] /camera/camera_rgb rosrpc://192.168.1.10:52967
+[rosmaster.master][INFO] 2020-09-01 10:55:05,430: -SERVICE [/camera/camera_rgb/set_parameters] /camera/camera_rgb rosrpc://192.168.1.10:52967
+[rosmaster.master][INFO] 2020-09-01 10:55:05,445: -SERVICE [/camera/set_camera_info] /camera/camera_rgb rosrpc://192.168.1.10:52967
+[rosmaster.master][INFO] 2020-09-01 10:55:05,446: -SERVICE [/camera/get_uvc_exposure] /camera/camera_rgb rosrpc://192.168.1.10:52967
+[rosmaster.master][INFO] 2020-09-01 10:55:05,448: -SERVICE [/camera/set_uvc_exposure] /camera/camera_rgb rosrpc://192.168.1.10:52967
+[rosmaster.master][INFO] 2020-09-01 10:55:05,449: -PUB [/rosout] /camera/camera_nodelet_manager http://192.168.1.10:43079/
+[rosmaster.master][INFO] 2020-09-01 10:55:05,450: -SERVICE [/camera/get_uvc_gain] /camera/camera_rgb rosrpc://192.168.1.10:52967
+[rosmaster.master][INFO] 2020-09-01 10:55:05,451: -SERVICE [/camera/camera_nodelet_manager/get_loggers] /camera/camera_nodelet_manager rosrpc://192.168.1.10:35571
+[rosmaster.master][INFO] 2020-09-01 10:55:05,453: -SERVICE [/camera/set_uvc_gain] /camera/camera_rgb rosrpc://192.168.1.10:52967
+[rosmaster.master][INFO] 2020-09-01 10:55:05,454: -SERVICE [/camera/camera_nodelet_manager/set_logger_level] /camera/camera_nodelet_manager rosrpc://192.168.1.10:35571
+[rosmaster.master][INFO] 2020-09-01 10:55:05,455: -SERVICE [/camera/get_uvc_white_balance] /camera/camera_rgb rosrpc://192.168.1.10:52967
+[rosmaster.master][INFO] 2020-09-01 10:55:05,456: -SERVICE [/camera/camera_nodelet_manager/load_nodelet] /camera/camera_nodelet_manager rosrpc://192.168.1.10:35571
+[rosmaster.master][INFO] 2020-09-01 10:55:05,457: -SERVICE [/camera/set_uvc_white_balance] /camera/camera_rgb rosrpc://192.168.1.10:52967
+[rosmaster.master][INFO] 2020-09-01 10:55:05,458: -SERVICE [/camera/camera_nodelet_manager/unload_nodelet] /camera/camera_nodelet_manager rosrpc://192.168.1.10:35571
+[rosmaster.master][INFO] 2020-09-01 10:55:05,460: -SERVICE [/camera/camera_nodelet_manager/list] /camera/camera_nodelet_manager rosrpc://192.168.1.10:35571
+[rosmaster.master][INFO] 2020-09-01 10:55:05,477: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:43079/']
+[rosmaster.master][INFO] 2020-09-01 10:55:05,479: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ ['http://192.168.1.10:43079/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:55:05,480: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ []
+[rosmaster.master][INFO] 2020-09-01 10:55:05,482: publisherUpdate[/rosout] -> http://192.168.1.10:39573/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:55:05,883: -PUB [/rosout_agg] /rosout http://192.168.1.10:39573/
+[rosmaster.master][INFO] 2020-09-01 10:55:05,884: -SUB [/rosout] /rosout http://192.168.1.10:39573/
+[rosmaster.master][INFO] 2020-09-01 10:55:05,886: -SERVICE [/rosout/get_loggers] /rosout rosrpc://192.168.1.10:35237
+[rosmaster.master][INFO] 2020-09-01 10:55:05,887: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://192.168.1.10:35237
+[rosmaster.main][INFO] 2020-09-01 10:55:05,953: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2020-09-01 10:55:05,954: stopping master...
+[rospy.core][INFO] 2020-09-01 10:55:05,955: signal_shutdown [atexit]

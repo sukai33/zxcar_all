@@ -1,0 +1,2 @@
+depth_camera/astrapro_launch:depth_camera/depthimage_to_laserscan:depth_camera/ros_astra_camera:imu_calib:imu_filter_madgwick:lidar/rplidar_ros:robot_localization:zxcar:zxcar_3d_slam:zxcar_description:zxcar_driver:zxcar_example:zxcar_linefollow:zxcar_nav
+-DCATKIN_DEVEL_PREFIX=/home/zxcar/zxcar_ws/devel -DCMAKE_INSTALL_PREFIX=/home/zxcar/zxcar_ws/install -G Unix Makefiles

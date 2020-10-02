@@ -1,0 +1,50 @@
+[rospy.client][INFO] 2020-09-15 02:37:52,785: init_node, name[/car_driver_node], pid[1784]
+[xmlrpc][INFO] 2020-09-15 02:37:52,786: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-09-15 02:37:52,787: Started XML-RPC server [http://192.168.1.12:43095/]
+[rospy.init][INFO] 2020-09-15 02:37:52,787: ROS Slave URI: [http://192.168.1.12:43095/]
+[rospy.impl.masterslave][INFO] 2020-09-15 02:37:52,787: _ready: http://192.168.1.12:43095/
+[xmlrpc][INFO] 2020-09-15 02:37:52,789: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-09-15 02:37:52,790: Registering with master node http://192.168.1.12:11311
+[rospy.init][INFO] 2020-09-15 02:37:52,888: registered with master
+[rospy.rosout][INFO] 2020-09-15 02:37:52,889: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-09-15 02:37:52,898: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-09-15 02:37:52,901: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.core][INFO] 2020-09-15 02:37:52,933: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2020-09-15 02:37:52,944: atexit
+[rospy.client][INFO] 2020-09-15 02:42:34,817: init_node, name[/car_driver_node], pid[1831]
+[xmlrpc][INFO] 2020-09-15 02:42:34,818: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-09-15 02:42:34,819: Started XML-RPC server [http://192.168.1.12:33269/]
+[rospy.init][INFO] 2020-09-15 02:42:34,820: ROS Slave URI: [http://192.168.1.12:33269/]
+[rospy.impl.masterslave][INFO] 2020-09-15 02:42:34,820: _ready: http://192.168.1.12:33269/
+[rospy.registration][INFO] 2020-09-15 02:42:34,822: Registering with master node http://192.168.1.12:11311
+[xmlrpc][INFO] 2020-09-15 02:42:34,823: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-09-15 02:42:34,921: registered with master
+[rospy.rosout][INFO] 2020-09-15 02:42:34,921: initializing /rosout core topic
+[rospy.registration][ERROR] 2020-09-15 02:42:34,925: [Errno 111] Connection refused
+Unable to register with master node [http://192.168.1.12:11311]: master may not be running yet. Will keep trying.
+[rospy.client][INFO] 2020-09-15 01:56:41,171: init_node, name[/car_driver_node], pid[2184]
+[xmlrpc][INFO] 2020-09-15 01:56:41,175: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-09-15 01:56:41,176: Started XML-RPC server [http://192.168.1.12:41415/]
+[rospy.init][INFO] 2020-09-15 01:56:41,176: ROS Slave URI: [http://192.168.1.12:41415/]
+[rospy.impl.masterslave][INFO] 2020-09-15 01:56:41,177: _ready: http://192.168.1.12:41415/
+[rospy.registration][INFO] 2020-09-15 01:56:41,179: Registering with master node http://192.168.1.12:11311
+[xmlrpc][INFO] 2020-09-15 01:56:41,179: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-09-15 01:56:41,277: registered with master
+[rospy.rosout][INFO] 2020-09-15 01:56:41,278: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-09-15 01:56:41,288: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-09-15 01:56:41,292: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.core][INFO] 2020-09-15 01:56:41,328: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2020-09-15 01:56:41,339: atexit
+[rospy.client][INFO] 2020-09-15 02:04:41,285: init_node, name[/car_driver_node], pid[2281]
+[xmlrpc][INFO] 2020-09-15 02:04:41,286: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-09-15 02:04:41,287: Started XML-RPC server [http://192.168.1.12:36909/]
+[rospy.init][INFO] 2020-09-15 02:04:41,288: ROS Slave URI: [http://192.168.1.12:36909/]
+[rospy.impl.masterslave][INFO] 2020-09-15 02:04:41,288: _ready: http://192.168.1.12:36909/
+[xmlrpc][INFO] 2020-09-15 02:04:41,289: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-09-15 02:04:41,290: Registering with master node http://192.168.1.12:11311
+[rospy.init][INFO] 2020-09-15 02:04:41,389: registered with master
+[rospy.rosout][INFO] 2020-09-15 02:04:41,390: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-09-15 02:04:41,399: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-09-15 02:04:41,404: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.core][INFO] 2020-09-15 02:04:41,431: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2020-09-15 02:04:41,444: atexit

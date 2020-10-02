@@ -1,0 +1,1268 @@
+[rospy.client][INFO] 2020-09-01 07:37:55,245: init_node, name[/listener_11529_1598945875193], pid[11529]
+[xmlrpc][INFO] 2020-09-01 07:37:55,247: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-09-01 07:37:55,248: Started XML-RPC server [http://ubuntu:37111/]
+[rospy.init][INFO] 2020-09-01 07:37:55,249: ROS Slave URI: [http://ubuntu:37111/]
+[rospy.impl.masterslave][INFO] 2020-09-01 07:37:55,249: _ready: http://ubuntu:37111/
+[xmlrpc][INFO] 2020-09-01 07:37:55,253: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-09-01 07:37:55,254: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2020-09-01 07:37:55,350: registered with master
+[rospy.rosout][INFO] 2020-09-01 07:37:55,351: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-09-01 07:37:55,360: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-09-01 07:37:55,364: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-09-01 07:37:55,423: topic[/camera/rgb/image_raw] adding connection to [http://ubuntu:45863/], count 0
+[rosout][ERROR] 2020-09-01 07:37:55,458: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 104] Connection reset by peer
+
+[rosout][ERROR] 2020-09-01 07:37:55,492: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:55,532: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:55,574: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rospy.internal][INFO] 2020-09-01 07:37:55,585: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2020-09-01 07:37:55,613: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:55,652: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:55,694: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:55,732: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:55,773: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:55,813: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:55,852: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:55,891: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:55,931: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:55,973: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:56,013: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:56,052: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:56,091: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:56,133: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:56,171: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:56,213: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:56,251: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:56,291: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:56,332: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:56,373: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:56,412: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:56,453: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:56,492: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:56,534: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:56,573: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:56,613: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:56,654: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:56,693: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:56,733: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:56,773: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:56,811: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:56,851: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:56,891: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:56,932: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:56,972: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:57,013: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:57,052: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:57,091: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:57,131: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:57,171: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:57,211: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:57,251: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:57,292: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:57,332: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:57,372: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:57,411: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:57,452: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:57,493: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:57,531: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:57,571: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:57,612: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:57,651: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:57,691: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:57,734: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:57,773: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:57,814: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:57,853: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:57,892: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:57,935: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:57,973: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:58,014: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:58,052: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:58,095: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:58,133: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:58,173: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:58,211: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:58,253: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:58,294: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:58,334: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:58,374: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:58,412: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:58,452: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:58,493: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:58,532: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:58,572: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:58,611: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:58,652: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:58,693: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:58,733: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:58,773: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:58,811: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:58,852: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:58,892: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:58,934: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:58,971: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:59,012: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:59,053: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:59,092: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:59,132: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:59,172: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:59,211: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:59,252: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:59,292: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:59,334: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:59,372: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:59,412: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:59,452: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:59,493: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:59,532: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:59,575: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:59,612: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:59,653: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:59,692: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:59,732: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:59,774: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:59,812: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:59,852: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:59,895: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:59,933: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:37:59,972: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:38:00,016: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:38:00,055: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:38:00,094: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:38:00,131: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:38:00,171: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:38:00,212: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:38:00,252: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:38:00,294: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:38:00,333: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rosout][ERROR] 2020-09-01 07:38:00,373: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rospy.core][INFO] 2020-09-01 07:38:00,397: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-09-01 07:38:00,408: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-09-01 07:38:00,411: topic[/camera/rgb/image_raw] removing connection to http://ubuntu:45863/
+[rospy.impl.masterslave][INFO] 2020-09-01 07:38:00,413: signal-2
+[rosout][ERROR] 2020-09-01 07:38:00,413: bad callback: <function callback at 0x7fadf68ad0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 44, in callback
+    client.send2server(img)
+  File "/home/zxcar/ws_ros/src/cv_tools/scripts/sub.py", line 32, in send2server
+    self.client.send(all_data)
+error: [Errno 32] Broken pipe
+
+[rospy.core][INFO] 2020-09-01 07:38:00,529: signal_shutdown [atexit]

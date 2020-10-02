@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/itcast/rosws/zxcar_ros/src/zxcar_description/cmake-build-debug/devel/setup.sh

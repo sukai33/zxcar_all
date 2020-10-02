@@ -1,0 +1,68 @@
+[rosmaster.main][INFO] 2020-09-15 01:55:15,849: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2020-09-15 01:55:15,850: Starting ROS Master Node
+[xmlrpc][INFO] 2020-09-15 01:55:15,851: XML-RPC server binding to 0.0.0.0:11311
+[rosmaster.master][INFO] 2020-09-15 01:55:15,853: Master initialized: port[11311], uri[http://192.168.1.12:11311/]
+[xmlrpc][INFO] 2020-09-15 01:55:15,852: Started XML-RPC server [http://192.168.1.12:11311/]
+[xmlrpc][INFO] 2020-09-15 01:55:15,853: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2020-09-15 01:55:15,941: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 01:55:15,944: +PARAM [/roslaunch/uris/host_192_168_1_12__46455] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 01:55:16,025: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 01:55:16,026: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 01:55:16,288: +SERVICE [/rosout/get_loggers] /rosout http://192.168.1.12:45365/
+[rosmaster.master][INFO] 2020-09-15 01:55:16,290: +SERVICE [/rosout/set_logger_level] /rosout http://192.168.1.12:45365/
+[rosmaster.master][INFO] 2020-09-15 01:55:16,292: +PUB [/rosout_agg] /rosout http://192.168.1.12:45365/
+[rosmaster.master][INFO] 2020-09-15 01:55:16,298: +SUB [/rosout] /rosout http://192.168.1.12:45365/
+[rosmaster.master][INFO] 2020-09-15 01:56:41,285: +PUB [/rosout] /car_driver_node http://192.168.1.12:41415/
+[rosmaster.master][INFO] 2020-09-15 01:56:41,295: +SERVICE [/car_driver_node/get_loggers] /car_driver_node http://192.168.1.12:41415/
+[rosmaster.master][INFO] 2020-09-15 01:56:41,298: +SERVICE [/car_driver_node/set_logger_level] /car_driver_node http://192.168.1.12:41415/
+[rosmaster.master][INFO] 2020-09-15 01:56:41,304: +SUB [/cmd_vel] /car_driver_node http://192.168.1.12:41415/
+[rosmaster.master][INFO] 2020-09-15 01:56:41,307: publisherUpdate[/rosout] -> http://192.168.1.12:45365/ ['http://192.168.1.12:41415/']
+[rosmaster.master][INFO] 2020-09-15 01:56:41,308: +PUB [/zxcar/get_vel] /car_driver_node http://192.168.1.12:41415/
+[rosmaster.master][INFO] 2020-09-15 01:56:41,313: publisherUpdate[/rosout] -> http://192.168.1.12:45365/ ['http://192.168.1.12:41415/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 01:56:41,315: +PUB [/zxcar/imu] /car_driver_node http://192.168.1.12:41415/
+[rosmaster.master][INFO] 2020-09-15 01:56:41,318: +PUB [/zxcar/magnetic] /car_driver_node http://192.168.1.12:41415/
+[rosmaster.master][INFO] 2020-09-15 01:56:41,333: -SUB [/cmd_vel] /car_driver_node http://192.168.1.12:41415/
+[rosmaster.master][INFO] 2020-09-15 01:56:41,333: -PUB [/zxcar/get_vel] /car_driver_node http://192.168.1.12:41415/
+[rosmaster.master][INFO] 2020-09-15 01:56:41,334: -PUB [/rosout] /car_driver_node http://192.168.1.12:41415/
+[rosmaster.master][INFO] 2020-09-15 01:56:41,334: -PUB [/zxcar/imu] /car_driver_node http://192.168.1.12:41415/
+[rosmaster.master][INFO] 2020-09-15 01:56:41,334: -PUB [/zxcar/magnetic] /car_driver_node http://192.168.1.12:41415/
+[rosmaster.master][INFO] 2020-09-15 01:56:41,335: -SERVICE [/car_driver_node/set_logger_level] /car_driver_node rosrpc://192.168.1.12:36581
+[rosmaster.master][INFO] 2020-09-15 01:56:41,335: -SERVICE [/car_driver_node/get_loggers] /car_driver_node rosrpc://192.168.1.12:36581
+[rosmaster.master][INFO] 2020-09-15 01:56:41,408: publisherUpdate[/rosout] -> http://192.168.1.12:45365/ []
+[rosmaster.master][INFO] 2020-09-15 01:56:41,411: publisherUpdate[/rosout] -> http://192.168.1.12:45365/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 02:03:43,754: +PUB [/rosout] /car_driver_node http://192.168.1.11:44409/
+[rosmaster.master][INFO] 2020-09-15 02:03:43,808: publisherUpdate[/rosout] -> http://192.168.1.12:45365/ ['http://192.168.1.11:44409/']
+[rosmaster.master][INFO] 2020-09-15 02:03:43,812: publisherUpdate[/rosout] -> http://192.168.1.12:45365/ ['http://192.168.1.11:44409/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 02:03:43,916: +SERVICE [/car_driver_node/get_loggers] /car_driver_node http://192.168.1.11:44409/
+[rosmaster.master][INFO] 2020-09-15 02:03:44,240: +SERVICE [/car_driver_node/set_logger_level] /car_driver_node http://192.168.1.11:44409/
+[rosmaster.master][INFO] 2020-09-15 02:03:44,685: +SUB [/cmd_vel] /car_driver_node http://192.168.1.11:44409/
+[rosmaster.master][INFO] 2020-09-15 02:03:44,773: +PUB [/zxcar/get_vel] /car_driver_node http://192.168.1.11:44409/
+[rosmaster.master][INFO] 2020-09-15 02:03:44,810: +PUB [/zxcar/imu] /car_driver_node http://192.168.1.11:44409/
+[rosmaster.master][INFO] 2020-09-15 02:03:44,827: +PUB [/zxcar/magnetic] /car_driver_node http://192.168.1.11:44409/
+[rosmaster.master][INFO] 2020-09-15 02:03:45,041: -SUB [/cmd_vel] /car_driver_node http://192.168.1.11:44409/
+[rosmaster.master][INFO] 2020-09-15 02:03:45,041: -PUB [/zxcar/get_vel] /car_driver_node http://192.168.1.11:44409/
+[rosmaster.master][INFO] 2020-09-15 02:03:45,042: -PUB [/rosout] /car_driver_node http://192.168.1.11:44409/
+[rosmaster.master][INFO] 2020-09-15 02:03:45,043: -PUB [/zxcar/imu] /car_driver_node http://192.168.1.11:44409/
+[rosmaster.master][INFO] 2020-09-15 02:03:45,043: -PUB [/zxcar/magnetic] /car_driver_node http://192.168.1.11:44409/
+[rosmaster.master][INFO] 2020-09-15 02:03:45,044: -SERVICE [/car_driver_node/set_logger_level] /car_driver_node rosrpc://192.168.1.11:35795
+[rosmaster.master][INFO] 2020-09-15 02:03:45,044: -SERVICE [/car_driver_node/get_loggers] /car_driver_node rosrpc://192.168.1.11:35795
+[rosmaster.master][INFO] 2020-09-15 02:03:45,115: publisherUpdate[/rosout] -> http://192.168.1.12:45365/ []
+[rosmaster.master][INFO] 2020-09-15 02:03:45,118: publisherUpdate[/rosout] -> http://192.168.1.12:45365/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 02:04:41,396: +PUB [/rosout] /car_driver_node http://192.168.1.12:36909/
+[rosmaster.master][INFO] 2020-09-15 02:04:41,406: +SERVICE [/car_driver_node/get_loggers] /car_driver_node http://192.168.1.12:36909/
+[rosmaster.master][INFO] 2020-09-15 02:04:41,409: +SERVICE [/car_driver_node/set_logger_level] /car_driver_node http://192.168.1.12:36909/
+[rosmaster.master][INFO] 2020-09-15 02:04:41,413: +SUB [/cmd_vel] /car_driver_node http://192.168.1.12:36909/
+[rosmaster.master][INFO] 2020-09-15 02:04:41,416: +PUB [/zxcar/get_vel] /car_driver_node http://192.168.1.12:36909/
+[rosmaster.master][INFO] 2020-09-15 02:04:41,419: +PUB [/zxcar/imu] /car_driver_node http://192.168.1.12:36909/
+[rosmaster.master][INFO] 2020-09-15 02:04:41,420: publisherUpdate[/rosout] -> http://192.168.1.12:45365/ ['http://192.168.1.12:36909/']
+[rosmaster.master][INFO] 2020-09-15 02:04:41,422: publisherUpdate[/rosout] -> http://192.168.1.12:45365/ ['http://192.168.1.12:36909/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 02:04:41,425: +PUB [/zxcar/magnetic] /car_driver_node http://192.168.1.12:36909/
+[rosmaster.master][INFO] 2020-09-15 02:04:41,437: -SUB [/cmd_vel] /car_driver_node http://192.168.1.12:36909/
+[rosmaster.master][INFO] 2020-09-15 02:04:41,438: -PUB [/zxcar/get_vel] /car_driver_node http://192.168.1.12:36909/
+[rosmaster.master][INFO] 2020-09-15 02:04:41,438: -PUB [/rosout] /car_driver_node http://192.168.1.12:36909/
+[rosmaster.master][INFO] 2020-09-15 02:04:41,439: -PUB [/zxcar/imu] /car_driver_node http://192.168.1.12:36909/
+[rosmaster.master][INFO] 2020-09-15 02:04:41,439: -PUB [/zxcar/magnetic] /car_driver_node http://192.168.1.12:36909/
+[rosmaster.master][INFO] 2020-09-15 02:04:41,439: -SERVICE [/car_driver_node/set_logger_level] /car_driver_node rosrpc://192.168.1.12:35069
+[rosmaster.master][INFO] 2020-09-15 02:04:41,440: -SERVICE [/car_driver_node/get_loggers] /car_driver_node rosrpc://192.168.1.12:35069
+[rosmaster.master][INFO] 2020-09-15 02:04:41,523: publisherUpdate[/rosout] -> http://192.168.1.12:45365/ []
+[rosmaster.master][INFO] 2020-09-15 02:04:41,526: publisherUpdate[/rosout] -> http://192.168.1.12:45365/ []: sec=0.00, result=[1, '', 0]

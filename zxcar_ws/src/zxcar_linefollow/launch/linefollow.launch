@@ -1,0 +1,12 @@
+<launch>
+
+    <include file="$(find ros_astra_camera)/launch/astrapro.launch" />
+
+    <node pkg="zxcar_linefollow" type="LineFollower.py" name="zxcar_linefollow_node" output="screen"></node>
+
+    <node pkg="zxcar_driver" type="zxcar_driver_node.py" name="zxcar_driver_node" output="screen">
+        <param name="port" value="/dev/ttyUSB0" />
+        <param name="baudrate" value="115200" />
+        <remap from="/zxcar/cmd_vel" to="/cmd_vel"/>
+    </node>
+</launch>

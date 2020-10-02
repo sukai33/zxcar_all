@@ -1,0 +1,10 @@
+[0m[ INFO] [1598954152.904117173]: Loading nodelet /camera/driver of type astra_camera/AstraDriverNodelet to manager camera_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1598954152.908645590]: /camera/depth -> /camera/depth[0m
+[0m[ INFO] [1598954152.908784367]: /camera/depth/image -> /camera/depth_registered/image_raw[0m
+[0m[ INFO] [1598954152.909530510]: /camera/depth_registered -> /camera/depth_registered[0m
+[0m[ INFO] [1598954152.909655010]: /camera/ir -> /camera/ir[0m
+[0m[ INFO] [1598954152.909690361]: /camera/rgb -> /camera/rgb[0m
+[0m[ INFO] [1598954152.909720435]: /camera/rgb/image -> /camera/rgb/image_raw[0m
+[0m[ INFO] [1598954152.925991449]: waitForService: Service [/camera/camera_nodelet_manager/load_nodelet] has not been advertised, waiting...[0m
+[0m[ INFO] [1598954152.954469389]: waitForService: Service [/camera/camera_nodelet_manager/load_nodelet] is now available.[0m
+[0m[ INFO] [1598954233.492323067]: Unloading nodelet /camera/driver from manager camera_nodelet_manager[0m

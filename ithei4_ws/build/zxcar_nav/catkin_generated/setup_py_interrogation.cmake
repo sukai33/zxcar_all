@@ -1,0 +1,7 @@
+set(zxcar_nav_SETUP_PY_SETUP_MODULE "distutils.core")
+set(zxcar_nav_SETUP_PY_VERSION "0.0.0")
+set(zxcar_nav_SETUP_PY_SCRIPTS "")
+set(zxcar_nav_SETUP_PY_PACKAGES "zxcar_nav")
+set(zxcar_nav_SETUP_PY_PACKAGE_DIRS "src/zxcar_nav")
+set(zxcar_nav_SETUP_PY_MODULES "")
+set(zxcar_nav_SETUP_PY_MODULE_DIRS "")

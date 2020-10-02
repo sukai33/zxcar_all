@@ -1,0 +1,8 @@
+prefix=/home/itcast/Desktop/heima_ws/src/heima_linefollow/cmake-build-debug/devel
+
+Name: heima_linefollow
+Description: Description of heima_linefollow
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

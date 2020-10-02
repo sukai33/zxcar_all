@@ -1,0 +1,4 @@
+
+
+1598957114.921849862  Node Startup
+1598957115.185257619 WARN /camera/mycam [/tmp/binarydeb/ros-melodic-camera-info-manager-1.11.13/src/camera_info_manager.cpp:293(CameraInfoManager::loadCalibrationFile)] [topics: /rosout, /camera/mycam/parameter_descriptions, /camera/mycam/parameter_updates, /camera/image_raw, /camera/camera_info] Camera calibration file /tmp/cam.yaml not found.

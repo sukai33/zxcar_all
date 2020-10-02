@@ -1,0 +1,8 @@
+prefix=/home/zxcar/ws_ros/install
+
+Name: cv_tools
+Description: Description of cv_tools
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

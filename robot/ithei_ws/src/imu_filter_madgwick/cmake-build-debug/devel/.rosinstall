@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/itcast/Documents/itheima_ws/src/imu_filter_madgwick/cmake-build-debug/devel/setup.sh

@@ -1,0 +1,25 @@
+[rospy.client][INFO] 2020-09-14 07:55:09,165: init_node, name[/car_driver_node], pid[17832]
+[xmlrpc][INFO] 2020-09-14 07:55:09,166: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-09-14 07:55:09,167: Started XML-RPC server [http://192.168.43.172:45227/]
+[rospy.init][INFO] 2020-09-14 07:55:09,167: ROS Slave URI: [http://192.168.43.172:45227/]
+[rospy.impl.masterslave][INFO] 2020-09-14 07:55:09,168: _ready: http://192.168.43.172:45227/
+[rospy.registration][INFO] 2020-09-14 07:55:09,170: Registering with master node http://192.168.43.172:11311
+[xmlrpc][INFO] 2020-09-14 07:55:09,170: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-09-14 07:55:09,268: registered with master
+[rospy.rosout][INFO] 2020-09-14 07:55:09,270: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-09-14 07:55:09,279: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-09-14 07:55:09,282: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-09-14 07:55:09,412: topic[/zxcar/get_vel] adding connection to [/heima_base_node], count 0
+[rospy.internal][INFO] 2020-09-14 07:55:09,505: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-09-14 07:55:09,550: topic[/zxcar/imu] adding connection to [/apply_calib], count 0
+[rospy.internal][INFO] 2020-09-14 07:55:09,552: topic[/zxcar/magnetic] adding connection to [/apply_calib], count 0
+[rospy.internal][INFO] 2020-09-14 07:55:16,826: topic[/zxcar/imu] adding connection to [/do_calib], count 1
+[rospy.internal][INFO] 2020-09-14 07:55:58,321: topic[/zxcar/imu] removing connection to /do_calib
+[rospy.internal][INFO] 2020-09-14 07:56:34,206: topic[/zxcar/imu] adding connection to [/do_calib], count 1
+[rospy.internal][INFO] 2020-09-14 07:58:01,614: topic[/zxcar/imu] removing connection to /do_calib
+[rospy.core][INFO] 2020-09-14 07:58:06,553: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-09-14 07:58:06,563: topic[/zxcar/get_vel] removing connection to /heima_base_node
+[rospy.internal][INFO] 2020-09-14 07:58:06,564: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-09-14 07:58:06,565: topic[/zxcar/imu] removing connection to /apply_calib
+[rospy.internal][INFO] 2020-09-14 07:58:06,566: topic[/zxcar/magnetic] removing connection to /apply_calib
+[rospy.impl.masterslave][INFO] 2020-09-14 07:58:06,567: signal-2

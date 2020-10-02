@@ -1,0 +1,8 @@
+prefix=/home/itcast/Desktop/heima_ws/src/zxcar_linefollow/cmake-build-debug/devel
+
+Name: zxcar_linefollow
+Description: Description of zxcar_linefollow
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,2 @@
+car_driver:imu_calib:imu_filter_madgwick:lidar/rplidar_ros:robot_localization:zxcar:zxcar_nav
+-DCATKIN_DEVEL_PREFIX=/home/zxcar/robot/itheima_ws/devel -DCMAKE_INSTALL_PREFIX=/home/zxcar/robot/itheima_ws/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: heima_linefollow
+Description: Description of heima_linefollow
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,4 @@
+[0m[ INFO] [1598950802.000237928]: Loading nodelet /camera/depth_points of type depth_image_proc/point_cloud_xyz to manager camera_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1598950802.010380820]: /camera/image_rect -> /camera/depth/image_rect_raw[0m
+[0m[ INFO] [1598950802.010430801]: /camera/points -> /camera/depth/points[0m
+[0m[ INFO] [1598950912.946060956]: Unloading nodelet /camera/depth_points from manager camera_nodelet_manager[0m

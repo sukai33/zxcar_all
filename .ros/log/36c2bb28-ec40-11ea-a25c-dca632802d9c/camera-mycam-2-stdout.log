@@ -1,0 +1,3 @@
+[0m[ INFO] [1598957115.107689874]: Opening camera with vendor=0x2bc5, product=0x608, serial="", index=0[0m
+[0m[ INFO] [1598957115.183829603]: camera calibration URL: file:///tmp/cam.yaml[0m
+[0m[ INFO] [1598957115.184216542]: Unable to open camera calibration file [/tmp/cam.yaml][0m

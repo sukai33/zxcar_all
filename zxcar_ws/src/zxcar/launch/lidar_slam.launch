@@ -1,0 +1,6 @@
+<launch>
+  <include file="$(find zxcar)/launch/bringup.launch" />
+  <include file="$(find zxcar)/launch/lidar/rplidar.launch" />
+  <include file="$(find zxcar)/param/navigation/slam_gmapping.xml" />
+  <include file="$(find zxcar)/param/navigation/move_base.xml" />
+</launch>

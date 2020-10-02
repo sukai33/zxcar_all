@@ -1,0 +1,5 @@
+[0m[ INFO] [1598949056.139379063]: Loading nodelet /camera/depth_metric_rect of type depth_image_proc/convert_metric to manager camera_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1598949056.150945393]: /camera/image -> /camera/depth/image_rect[0m
+[0m[ INFO] [1598949056.151023076]: /camera/image_raw -> /camera/depth/image_rect_raw[0m
+[0m[ INFO] [1598949481.383354065]: Unloading nodelet /camera/depth_metric_rect from manager camera_nodelet_manager[0m
+[0m[ INFO] [1598949481.383912780]: waitForService: Service [/camera/camera_nodelet_manager/unload_nodelet] has not been advertised, waiting...[0m

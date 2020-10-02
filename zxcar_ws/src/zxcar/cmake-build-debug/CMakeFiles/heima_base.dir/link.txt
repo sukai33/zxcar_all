@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libheima_base.so -o devel/lib/libheima_base.so CMakeFiles/heima_base.dir/src/heima_base.cpp.o 

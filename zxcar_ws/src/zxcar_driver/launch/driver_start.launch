@@ -1,0 +1,6 @@
+<launch>
+
+    <node pkg="zxcar_driver" type="zxcar_driver_node.py" name="zxcar_driver_node" output="screen">
+        <remap from="/zxcar/cmd_vel" to="/cmd_vel"/>
+    </node>
+</launch>

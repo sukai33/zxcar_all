@@ -1,0 +1,4 @@
+[0m[ INFO] [1598945451.861980106]: Opening camera with vendor=0x2bc5, product=0x502, serial="", index=0[0m
+[0m[ INFO] [1598945452.651121730]: using default calibration URL[0m
+[0m[ INFO] [1598945452.651369523]: camera calibration URL: file:///home/zxcar/.ros/camera_info/camera.yaml[0m
+[0m[ INFO] [1598945452.651919164]: Unable to open camera calibration file [/home/zxcar/.ros/camera_info/camera.yaml][0m

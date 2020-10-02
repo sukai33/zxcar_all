@@ -1,0 +1,4 @@
+[0m[ INFO] [1598952057.381807079]: Loading nodelet /camera/depth_registered_rectify_depth of type image_proc/rectify to manager camera_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1598952057.385942007]: /camera/image_mono -> /camera/depth_registered/image_raw[0m
+[0m[ INFO] [1598952057.386000728]: /camera/image_rect -> /camera/depth_registered/hw_registered/image_rect_raw[0m
+[0m[ INFO] [1598952164.508352947]: Unloading nodelet /camera/depth_registered_rectify_depth from manager camera_nodelet_manager[0m

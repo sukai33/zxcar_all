@@ -1,0 +1,8 @@
+[0m[ INFO] [1598953432.000542001]: Loading nodelet /camera/driver of type astra_camera/AstraDriverNodelet to manager camera_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1598953432.010868061]: /camera/depth -> /camera/depth[0m
+[0m[ INFO] [1598953432.010932745]: /camera/depth/image -> /camera/depth_registered/image_raw[0m
+[0m[ INFO] [1598953432.010977485]: /camera/depth_registered -> /camera/depth_registered[0m
+[0m[ INFO] [1598953432.011010429]: /camera/ir -> /camera/ir[0m
+[0m[ INFO] [1598953432.011035577]: /camera/rgb -> /camera/rgb[0m
+[0m[ INFO] [1598953432.011064558]: /camera/rgb/image -> /camera/rgb/image_raw[0m
+[0m[ INFO] [1598953459.949227423]: Unloading nodelet /camera/driver from manager camera_nodelet_manager[0m

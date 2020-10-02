@@ -1,0 +1,35 @@
+[rosmaster.main][INFO] 2020-09-14 07:37:19,440: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2020-09-14 07:37:19,440: Starting ROS Master Node
+[xmlrpc][INFO] 2020-09-14 07:37:19,442: XML-RPC server binding to 0.0.0.0:11311
+[rosmaster.master][INFO] 2020-09-14 07:37:19,443: Master initialized: port[11311], uri[http://192.168.43.172:11311/]
+[xmlrpc][INFO] 2020-09-14 07:37:19,443: Started XML-RPC server [http://192.168.43.172:11311/]
+[xmlrpc][INFO] 2020-09-14 07:37:19,444: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2020-09-14 07:37:19,537: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:37:19,539: +PARAM [/roslaunch/uris/host_192_168_43_172__37593] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:37:19,658: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:37:19,659: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:37:19,693: +SERVICE [/rosout/get_loggers] /rosout http://192.168.43.172:46527/
+[rosmaster.master][INFO] 2020-09-14 07:37:19,694: +SERVICE [/rosout/set_logger_level] /rosout http://192.168.43.172:46527/
+[rosmaster.master][INFO] 2020-09-14 07:37:19,697: +PUB [/rosout_agg] /rosout http://192.168.43.172:46527/
+[rosmaster.master][INFO] 2020-09-14 07:37:19,702: +SUB [/rosout] /rosout http://192.168.43.172:46527/
+[rosmaster.master][INFO] 2020-09-14 07:37:25,985: -SUB [/map] /rviz http://192.168.43.192:38019/
+[rosmaster.master][INFO] 2020-09-14 07:37:25,994: -SUB [/map_updates] /rviz http://192.168.43.192:38019/
+[rosmaster.master][INFO] 2020-09-14 07:37:26,011: -SUB [/scan] /rviz http://192.168.43.192:38019/
+[rosmaster.master][INFO] 2020-09-14 07:37:26,023: -PUB [/clicked_point] /rviz http://192.168.43.192:38019/
+[rosmaster.master][INFO] 2020-09-14 07:37:26,043: -PUB [/move_base_simple/goal] /rviz http://192.168.43.192:38019/
+[rosmaster.master][INFO] 2020-09-14 07:37:26,055: -PUB [/initialpose] /rviz http://192.168.43.192:38019/
+[rosmaster.master][INFO] 2020-09-14 07:37:26,079: -SUB [/tf_static] /rviz http://192.168.43.192:38019/
+[rosmaster.master][INFO] 2020-09-14 07:37:26,091: -SUB [/tf] /rviz http://192.168.43.192:38019/
+[rosmaster.master][INFO] 2020-09-14 07:37:26,109: -SERVICE [/rviz/save_config] /rviz rosrpc://192.168.43.192:49461
+[rosmaster.master][INFO] 2020-09-14 07:37:26,118: -SERVICE [/rviz/load_config] /rviz rosrpc://192.168.43.192:49461
+[rosmaster.master][INFO] 2020-09-14 07:37:26,127: -SERVICE [/rviz/reload_shaders] /rviz rosrpc://192.168.43.192:49461
+[rosmaster.master][INFO] 2020-09-14 07:37:26,347: -PUB [/rosout] /rviz http://192.168.43.192:38019/
+[rosmaster.master][INFO] 2020-09-14 07:37:26,359: -SERVICE [/rviz/get_loggers] /rviz rosrpc://192.168.43.192:49461
+[rosmaster.master][INFO] 2020-09-14 07:37:26,370: -SERVICE [/rviz/set_logger_level] /rviz rosrpc://192.168.43.192:49461
+[rosmaster.master][INFO] 2020-09-14 07:37:30,410: -PUB [/rosout_agg] /rosout http://192.168.43.172:46527/
+[rosmaster.master][INFO] 2020-09-14 07:37:30,411: -SUB [/rosout] /rosout http://192.168.43.172:46527/
+[rosmaster.master][INFO] 2020-09-14 07:37:30,412: -SERVICE [/rosout/get_loggers] /rosout rosrpc://192.168.43.172:46763
+[rosmaster.master][INFO] 2020-09-14 07:37:30,413: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://192.168.43.172:46763
+[rosmaster.main][INFO] 2020-09-14 07:37:30,507: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2020-09-14 07:37:30,508: stopping master...
+[rospy.core][INFO] 2020-09-14 07:37:30,509: signal_shutdown [atexit]

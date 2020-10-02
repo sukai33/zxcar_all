@@ -1,0 +1,62 @@
+[roslaunch][INFO] 2020-09-15 01:55:13,632: Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2020-09-15 01:55:13,773: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2020-09-15 01:55:13,774: roslaunch starting with args ['roscore', '--core']
+[roslaunch][INFO] 2020-09-15 01:55:13,775: roslaunch env is {'LC_NUMERIC': 'C.UTF-8', 'ROS_DISTRO': 'melodic', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'ROS_HOSTNAME': '192.168.1.12', 'SSH_CLIENT': '192.168.1.11 57892 22', 'LOGNAME': 'zxcar', 'USER': 'zxcar', 'PATH': '/home/zxcar/.local/bin:/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_PAPER': 'C.UTF-8', 'HOME': '/home/zxcar', 'CMAKE_PREFIX_PATH': '/opt/ros/melodic', 'LD_LIBRARY_PATH': '/opt/ros/melodic/lib:/opt/ros/melodic/lib/aarch64-linux-gnu', 'LANG': 'C.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'LC_MEASUREMENT': 'C.UTF-8', 'ROS_LOG_FILENAME': '/home/zxcar/.ros/log/7e737604-f6f6-11ea-bc95-dca6329ea197/roslaunch-ubuntu-1152.log', 'ROS_MASTER_URI': 'http://192.168.1.12:11311', 'ROS_PYTHON_VERSION': '2', 'XDG_RUNTIME_DIR': '/run/user/1001', 'LC_ADDRESS': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/melodic/lib/python2.7/dist-packages', 'SHLVL': '1', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PKG_CONFIG_PATH': '/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/opt/ros/melodic/share', 'XDG_SESSION_ID': '1', '_': '/opt/ros/melodic/bin/roscore', 'LC_IDENTIFICATION': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SSH_TTY': '/dev/pts/0', 'ROS_IP': '192.168.1.12', 'LC_TELEPHONE': 'C.UTF-8', 'LC_MONETARY': 'C.UTF-8', 'PWD': '/home/zxcar', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1', 'LC_NAME': 'C.UTF-8', 'MAIL': '/var/mail/zxcar', 'LC_TIME': 'C.UTF-8', 'SSH_CONNECTION': '192.168.1.11 57892 192.168.1.12 22', 'ROSLISP_PACKAGE_DIRECTORIES': ''}
+[roslaunch][INFO] 2020-09-15 01:55:13,775: starting in server mode
+[roslaunch.parent][INFO] 2020-09-15 01:55:13,776: starting roslaunch parent run
+[roslaunch][INFO] 2020-09-15 01:55:13,777: loading roscore config file /opt/ros/melodic/etc/ros/roscore.xml
+[roslaunch][INFO] 2020-09-15 01:55:15,162: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.pmon][INFO] 2020-09-15 01:55:15,163: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2020-09-15 01:55:15,163: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2020-09-15 01:55:15,164: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2020-09-15 01:55:15,164: starting parent XML-RPC server
+[roslaunch.server][INFO] 2020-09-15 01:55:15,164: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2020-09-15 01:55:15,165: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2020-09-15 01:55:15,165: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-09-15 01:55:15,166: Started XML-RPC server [http://192.168.1.12:46455/]
+[xmlrpc][INFO] 2020-09-15 01:55:15,166: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2020-09-15 01:55:15,180: started roslaunch server http://192.168.1.12:46455/
+[roslaunch.parent][INFO] 2020-09-15 01:55:15,181: ... parent XML-RPC server started
+[roslaunch][INFO] 2020-09-15 01:55:15,182: master.is_running[http://192.168.1.12:11311/]
+[roslaunch][INFO] 2020-09-15 01:55:15,191: auto-starting new master
+[roslaunch][INFO] 2020-09-15 01:55:15,192: create_master_process: rosmaster, /opt/ros/melodic/share/ros, 11311, 3, None, False
+[roslaunch][INFO] 2020-09-15 01:55:15,192: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2020-09-15 01:55:15,193: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2020-09-15 01:55:15,193: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2020-09-15 01:55:15,193: process[master]: starting os process
+[roslaunch][INFO] 2020-09-15 01:55:15,194: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=/home/zxcar/.ros/log/7e737604-f6f6-11ea-bc95-dca6329ea197/master.log']]
+[roslaunch][INFO] 2020-09-15 01:55:15,194: process[master]: cwd will be [/home/zxcar/.ros]
+[roslaunch][INFO] 2020-09-15 01:55:15,209: process[master]: started with pid [1163]
+[roslaunch][INFO] 2020-09-15 01:55:15,209: master.is_running[http://192.168.1.12:11311/]
+[roslaunch][INFO] 2020-09-15 01:55:15,311: master.is_running[http://192.168.1.12:11311/]
+[roslaunch][INFO] 2020-09-15 01:55:15,413: master.is_running[http://192.168.1.12:11311/]
+[roslaunch][INFO] 2020-09-15 01:55:15,515: master.is_running[http://192.168.1.12:11311/]
+[roslaunch][INFO] 2020-09-15 01:55:15,619: master.is_running[http://192.168.1.12:11311/]
+[roslaunch][INFO] 2020-09-15 01:55:15,721: master.is_running[http://192.168.1.12:11311/]
+[roslaunch][INFO] 2020-09-15 01:55:15,822: master.is_running[http://192.168.1.12:11311/]
+[roslaunch][INFO] 2020-09-15 01:55:15,923: master.is_running[http://192.168.1.12:11311/]
+[roslaunch][INFO] 2020-09-15 01:55:15,930: master.is_running[http://192.168.1.12:11311/]
+[roslaunch][INFO] 2020-09-15 01:55:15,935: ROS_MASTER_URI=http://192.168.1.12:11311/
+[roslaunch][INFO] 2020-09-15 01:55:15,939: setting /run_id to 7e737604-f6f6-11ea-bc95-dca6329ea197
+[roslaunch][INFO] 2020-09-15 01:55:15,942: setting /roslaunch/uris/host_192_168_1_12__46455' to http://192.168.1.12:46455/
+[roslaunch][INFO] 2020-09-15 01:55:15,949: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2020-09-15 01:55:15,950: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://192.168.1.12:11311/]
+[roslaunch][INFO] 2020-09-15 01:55:15,950: process[rosout-1]: env[{'LC_NUMERIC': 'C.UTF-8', 'ROS_DISTRO': 'melodic', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'ROS_HOSTNAME': '192.168.1.12', 'SSH_CLIENT': '192.168.1.11 57892 22', 'LOGNAME': 'zxcar', 'USER': 'zxcar', 'PATH': '/home/zxcar/.local/bin:/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_PAPER': 'C.UTF-8', 'HOME': '/home/zxcar', 'CMAKE_PREFIX_PATH': '/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/zxcar/.ros/log/7e737604-f6f6-11ea-bc95-dca6329ea197/roslaunch-ubuntu-1152.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'LC_MEASUREMENT': 'C.UTF-8', 'LD_LIBRARY_PATH': '/opt/ros/melodic/lib:/opt/ros/melodic/lib/aarch64-linux-gnu', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_PYTHON_VERSION': '2', 'LC_MONETARY': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1001', 'LC_ADDRESS': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PKG_CONFIG_PATH': '/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/opt/ros/melodic/share', 'XDG_SESSION_ID': '1', '_': '/opt/ros/melodic/bin/roscore', 'LC_IDENTIFICATION': 'C.UTF-8', 'SSH_CONNECTION': '192.168.1.11 57892 192.168.1.12 22', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SSH_TTY': '/dev/pts/0', 'ROS_IP': '192.168.1.12', 'LC_TELEPHONE': 'C.UTF-8', 'SHLVL': '1', 'PWD': '/home/zxcar', 'ROS_MASTER_URI': 'http://192.168.1.12:11311/', 'ROS_VERSION': '1', 'LC_NAME': 'C.UTF-8', 'MAIL': '/var/mail/zxcar', 'LC_TIME': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROSLISP_PACKAGE_DIRECTORIES': ''}]
+[roslaunch][INFO] 2020-09-15 01:55:16,000: process[rosout-1]: args[[u'/opt/ros/melodic/lib/rosout/rosout', u'__name:=rosout']]
+[roslaunch][INFO] 2020-09-15 01:55:16,000: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2020-09-15 01:55:16,001: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2020-09-15 01:55:16,001: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2020-09-15 01:55:16,001: ... registered process [rosout-1]
+[roslaunch][INFO] 2020-09-15 01:55:16,001: process[rosout-1]: starting os process
+[roslaunch][INFO] 2020-09-15 01:55:16,002: process[rosout-1]: start w/ args [[u'/opt/ros/melodic/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/zxcar/.ros/log/7e737604-f6f6-11ea-bc95-dca6329ea197/rosout-1.log']]
+[roslaunch][INFO] 2020-09-15 01:55:16,002: process[rosout-1]: cwd will be [/home/zxcar/.ros]
+[roslaunch][INFO] 2020-09-15 01:55:16,019: process[rosout-1]: started with pid [1174]
+[roslaunch][INFO] 2020-09-15 01:55:16,019: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2020-09-15 01:55:16,020: load_parameters starting ...
+[roslaunch][INFO] 2020-09-15 01:55:16,027: ... load_parameters complete
+[roslaunch][INFO] 2020-09-15 01:55:16,028: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2020-09-15 01:55:16,028: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2020-09-15 01:55:16,029: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 548076921328)>
+[roslaunch.parent][INFO] 2020-09-15 01:55:16,029: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2020-09-15 01:55:16,029: spin

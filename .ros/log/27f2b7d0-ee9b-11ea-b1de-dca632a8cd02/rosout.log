@@ -1,0 +1,6 @@
+
+
+1599216076.709308858  Node Startup
+1599216077.049772376 INFO /imu_filter_madgwick [/home/zxcar/itheima4_ws/src/imu_filter_madgwick/src/imu_filter_ros.cpp:395(reconfigCallback)] [topics: /rosout, /tf, /imu_filter_madgwick/parameter_descriptions, /imu_filter_madgwick/parameter_updates] Magnetometer bias values: 0.000000 0.000000 0.000000
+1599216077.247251024 INFO /ekf_localization [/home/zxcar/itheima4_ws/src/robot_localization/src/ros_filter.cpp:1747(RosFilter<T>::run)] [topics: /rosout, /diagnostics] Valid clock time received. Starting node.
+1599216087.196007259 WARN /imu_filter_madgwick [/home/zxcar/itheima4_ws/src/imu_filter_madgwick/src/imu_filter_ros.cpp:411(checkTopicsTimerCallback)] [topics: /rosout, /tf, /imu_filter_madgwick/parameter_descriptions, /imu_filter_madgwick/parameter_updates, /imu/data] Still waiting for data on topics /imu/data_raw and /imu/mag...

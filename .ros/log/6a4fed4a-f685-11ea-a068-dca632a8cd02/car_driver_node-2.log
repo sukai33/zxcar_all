@@ -1,0 +1,123 @@
+[rospy.client][INFO] 2020-09-14 12:25:49,865: init_node, name[/car_driver_node], pid[2466]
+[xmlrpc][INFO] 2020-09-14 12:25:49,867: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-09-14 12:25:49,867: Started XML-RPC server [http://192.168.43.172:38695/]
+[rospy.init][INFO] 2020-09-14 12:25:49,868: ROS Slave URI: [http://192.168.43.172:38695/]
+[rospy.impl.masterslave][INFO] 2020-09-14 12:25:49,868: _ready: http://192.168.43.172:38695/
+[rospy.registration][INFO] 2020-09-14 12:25:49,870: Registering with master node http://192.168.43.172:11311
+[xmlrpc][INFO] 2020-09-14 12:25:49,871: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-09-14 12:25:49,969: registered with master
+[rospy.rosout][INFO] 2020-09-14 12:25:49,970: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-09-14 12:25:49,981: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-09-14 12:25:49,984: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-09-14 12:25:50,043: topic[/cmd_vel] adding connection to [http://192.168.43.172:37923/], count 0
+[rospy.internal][INFO] 2020-09-14 12:25:50,257: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-09-14 12:25:50,263: topic[/zxcar/get_vel] adding connection to [/heima_base_node], count 0
+[rospy.internal][INFO] 2020-09-14 12:25:50,269: topic[/zxcar/imu] adding connection to [/apply_calib], count 0
+[rospy.internal][INFO] 2020-09-14 12:25:50,271: topic[/zxcar/magnetic] adding connection to [/apply_calib], count 0
+[rospy.internal][INFO] 2020-09-14 12:27:24,214: topic[/cmd_vel] adding connection to [http://192.168.43.192:39187/], count 1
+[rosout][INFO] 2020-09-14 12:27:24,597: cmd_vel:0.0,0.0
+[rosout][INFO] 2020-09-14 12:27:25,147: cmd_vel:0.0,0.0
+[rosout][INFO] 2020-09-14 12:27:25,356: cmd_vel:0.0,0.0
+[rosout][INFO] 2020-09-14 12:27:25,541: cmd_vel:0.0,0.0
+[rosout][INFO] 2020-09-14 12:27:25,736: cmd_vel:0.0,0.0
+[rosout][INFO] 2020-09-14 12:27:26,051: cmd_vel:0.0,0.0
+[rosout][INFO] 2020-09-14 12:27:26,586: cmd_vel:0.295245,0.0
+[rosout][INFO] 2020-09-14 12:27:28,514: cmd_vel:0.0,0.0
+[rosout][INFO] 2020-09-14 12:27:34,880: cmd_vel:0.295245,0.0
+[rosout][INFO] 2020-09-14 12:27:35,622: cmd_vel:0.0,0.0
+[rosout][INFO] 2020-09-14 12:27:42,542: cmd_vel:0.295245,0.0
+[rosout][INFO] 2020-09-14 12:27:45,217: cmd_vel:0.0,0.0
+[rosout][INFO] 2020-09-14 12:27:57,506: cmd_vel:0.0,-0.59049
+[rosout][INFO] 2020-09-14 12:27:58,006: cmd_vel:0.0,-0.59049
+[rosout][INFO] 2020-09-14 12:27:58,035: cmd_vel:0.0,-0.59049
+[rosout][INFO] 2020-09-14 12:27:58,069: cmd_vel:0.0,-0.59049
+[rosout][INFO] 2020-09-14 12:27:58,100: cmd_vel:0.0,-0.59049
+[rosout][INFO] 2020-09-14 12:27:58,132: cmd_vel:0.0,-0.59049
+[rosout][INFO] 2020-09-14 12:27:58,164: cmd_vel:0.0,-0.59049
+[rosout][INFO] 2020-09-14 12:27:58,195: cmd_vel:0.0,-0.59049
+[rosout][INFO] 2020-09-14 12:28:00,477: cmd_vel:0.0,0.0
+[rosout][INFO] 2020-09-14 12:28:03,235: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:03,714: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:03,873: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:03,879: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:03,884: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:03,979: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:03,985: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:03,991: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:03,996: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,051: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,058: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,061: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,143: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,148: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,227: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,232: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,237: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,305: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,311: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,315: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,325: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,346: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,377: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,407: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,444: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,469: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,500: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,535: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,564: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,592: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,625: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,655: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,686: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,714: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,744: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,776: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,803: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,836: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,865: cmd_vel:0.0,0.59049
+[rosout][ERROR] 2020-09-14 12:28:04,899: error tail:249
+[rosout][INFO] 2020-09-14 12:28:04,903: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,932: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,963: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:04,999: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:05,027: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:05,061: cmd_vel:0.0,0.59049
+[rosout][INFO] 2020-09-14 12:28:06,910: cmd_vel:0.0,0.0
+[rosout][INFO] 2020-09-14 12:28:07,704: cmd_vel:0.295245,0.0
+[rosout][INFO] 2020-09-14 12:28:08,205: cmd_vel:0.295245,0.0
+[rosout][INFO] 2020-09-14 12:28:08,236: cmd_vel:0.295245,0.0
+[rosout][INFO] 2020-09-14 12:28:08,270: cmd_vel:0.295245,0.0
+[rosout][INFO] 2020-09-14 12:28:08,303: cmd_vel:0.295245,0.0
+[rosout][INFO] 2020-09-14 12:28:08,329: cmd_vel:0.295245,0.0
+[rosout][INFO] 2020-09-14 12:28:08,366: cmd_vel:0.295245,0.0
+[rosout][INFO] 2020-09-14 12:28:08,394: cmd_vel:0.295245,0.0
+[rosout][INFO] 2020-09-14 12:28:08,421: cmd_vel:0.295245,0.0
+[rosout][INFO] 2020-09-14 12:28:08,453: cmd_vel:0.295245,0.0
+[rosout][INFO] 2020-09-14 12:28:08,483: cmd_vel:0.295245,0.0
+[rosout][INFO] 2020-09-14 12:28:08,516: cmd_vel:0.295245,0.0
+[rosout][ERROR] 2020-09-14 12:28:08,547: error tail:25
+[rosout][INFO] 2020-09-14 12:28:08,551: cmd_vel:0.295245,0.0
+[rosout][INFO] 2020-09-14 12:28:08,581: cmd_vel:0.295245,0.0
+[rosout][INFO] 2020-09-14 12:28:08,609: cmd_vel:0.295245,0.0
+[rosout][INFO] 2020-09-14 12:28:08,642: cmd_vel:0.295245,0.0
+[rosout][INFO] 2020-09-14 12:28:08,674: cmd_vel:0.295245,0.0
+[rosout][INFO] 2020-09-14 12:28:08,702: cmd_vel:0.295245,0.0
+[rosout][INFO] 2020-09-14 12:28:10,502: cmd_vel:0.0,0.0
+[rosout][ERROR] 2020-09-14 12:28:10,563: error tail:168
+[rospy.internal][INFO] 2020-09-14 12:33:04,992: topic[/zxcar/get_vel] removing connection to /heima_base_node
+[rospy.core][INFO] 2020-09-14 12:33:05,082: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-09-14 12:33:05,128: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-09-14 12:33:05,129: topic[/zxcar/imu] removing connection to /apply_calib
+[rospy.internal][INFO] 2020-09-14 12:33:05,130: topic[/zxcar/magnetic] removing connection to /apply_calib
+[rospy.internal][INFO] 2020-09-14 12:33:05,131: topic[/cmd_vel] removing connection to http://192.168.43.172:37923/
+[rospy.internal][INFO] 2020-09-14 12:33:05,131: topic[/cmd_vel] removing connection to http://192.168.43.192:39187/
+[rospy.impl.masterslave][INFO] 2020-09-14 12:33:05,131: signal-2
+[rospy.internal][WARNING] 2020-09-14 12:33:05,135: Unknown error initiating TCP/IP socket to 192.168.43.172:36273 (http://192.168.43.172:37923/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+

@@ -1,0 +1,8 @@
+prefix=/home/zxcar/itheima4_ws/devel
+
+Name: zxcar
+Description: Description of zxcar
+Version: 0.0.0
+Cflags: -I/home/zxcar/itheima4_ws/src/zxcar/include
+Libs: -L${prefix}/lib -lheimarobot
+Requires: roscpp rospy tf nav_msgs geometry_msgs sensor_msgs std_msgs

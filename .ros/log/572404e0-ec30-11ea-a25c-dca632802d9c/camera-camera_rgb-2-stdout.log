@@ -1,0 +1,2 @@
+[0m[ INFO] [1598950298.003243414]: Opening camera with vendor=0x2bc5, product=0x502, serial="", index=0[0m
+[0m[ INFO] [1598950298.555160426]: camera calibration URL: file:///home/zxcar/heima_ws/src/astrapro_launch/config/camera.yaml[0m

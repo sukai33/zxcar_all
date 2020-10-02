@@ -1,0 +1,4 @@
+
+
+1598954479.762992800  Node Startup
+1598954516.862878158 INFO /uvc_camera [/tmp/binarydeb/ros-melodic-camera-info-manager-1.11.13/src/camera_info_manager.cpp:220(CameraInfoManager::loadCalibration)] [topics: /rosout] camera calibration URL: file:///home/zxcar/.ros/camera_info/camera.yaml

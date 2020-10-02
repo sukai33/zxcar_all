@@ -1,0 +1,1030 @@
+[rosmaster.main][INFO] 2020-09-14 07:30:44,083: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2020-09-14 07:30:44,083: Starting ROS Master Node
+[xmlrpc][INFO] 2020-09-14 07:30:44,085: XML-RPC server binding to 0.0.0.0:11311
+[rosmaster.master][INFO] 2020-09-14 07:30:44,086: Master initialized: port[11311], uri[http://192.168.43.172:11311/]
+[xmlrpc][INFO] 2020-09-14 07:30:44,086: Started XML-RPC server [http://192.168.43.172:11311/]
+[xmlrpc][INFO] 2020-09-14 07:30:44,086: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2020-09-14 07:30:44,181: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,184: +PARAM [/roslaunch/uris/host_192_168_43_172__43931] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,346: +PARAM [/heima_base_node/linear_scale] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,347: +PARAM [/move_base/local_costmap/footprint] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,348: +PARAM [/move_base/DWAPlannerROS/use_dwa] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,349: +PARAM [/imu_filter_madgwick/fixed_frame] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,349: +PARAM [/move_base/local_costmap/observation_sources] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,349: +PARAM [/slam_gmapping/lskip] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,350: +PARAM [/slam_gmapping/sigma] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,350: +PARAM [/move_base/local_costmap/cost_scaling_factor] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,351: +SERVICE [/rosout/get_loggers] /rosout http://192.168.43.172:39229/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,351: +PARAM [/slam_gmapping/ogain] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,352: +PARAM [/move_base/shutdown_costmaps] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,353: +SERVICE [/rosout/set_logger_level] /rosout http://192.168.43.172:39229/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,353: +PARAM [/move_base/DWAPlannerROS/min_vel_y] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,354: +PARAM [/move_base/DWAPlannerROS/min_vel_x] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,355: +PARAM [/move_base/DWAPlannerROS/max_scaling_factor] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,355: +PARAM [/slam_gmapping/lasamplerange] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,356: +PUB [/rosout_agg] /rosout http://192.168.43.172:39229/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,356: +PARAM [/ekf_localization/odom0_differential] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,358: +PARAM [/move_base/local_costmap/height] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,360: +PARAM [/move_base/global_costmap/scan/topic] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,363: +PARAM [/move_base/DWAPlannerROS/goal_distance_bias] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,363: +PARAM [/slam_gmapping/map_update_interval] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,365: +PARAM [/move_base/global_costmap/obstacle_range] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,366: +SUB [/rosout] /rosout http://192.168.43.172:39229/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,366: +PARAM [/move_base/local_costmap/inflation_radius] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,367: +PARAM [/move_base/planner_frequency] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,367: +PARAM [/apply_calib/calibrate_gyros] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,368: +PARAM [/imu_filter_madgwick/publish_tf] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,368: +PARAM [/move_base/DWAPlannerROS/forward_point_distance] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,368: +PARAM [/move_base/global_costmap/footprint] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,368: +PARAM [/move_base/controller_patience] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,369: +PARAM [/move_base/DWAPlannerROS/twirling_scale] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,369: +PARAM [/move_base/DWAPlannerROS/xy_goal_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,369: +PARAM [/move_base/DWAPlannerROS/rot_stopped_vel] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,369: +PARAM [/move_base/local_costmap/static_map] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,370: +PARAM [/move_base/local_costmap/resolution] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,370: +PARAM [/move_base/DWAPlannerROS/vx_samples] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,370: +PARAM [/slam_gmapping/lsigma] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,370: +PARAM [/ekf_localization/base_link_frame] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,370: +PARAM [/ekf_localization/imu0] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,371: +PARAM [/move_base/global_costmap/publish_frequency] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,371: +PARAM [/move_base/DWAPlannerROS/vth_samples] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,371: +PARAM [/slam_gmapping/transform_publish_period] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,371: +PARAM [/slam_gmapping/srt] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,372: +PARAM [/slam_gmapping/srr] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,372: +PARAM [/move_base/local_costmap/width] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,372: +PARAM [/move_base/DWAPlannerROS/restore_defaults] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,372: +PARAM [/move_base/local_costmap/rolling_window] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,372: +PARAM [/move_base/DWAPlannerROS/scaling_speed] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,373: +PARAM [/move_base/controller_frequency] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,373: +PARAM [/move_base/DWAPlannerROS/sim_time] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,373: +PARAM [/move_base/local_costmap/scan/clearing] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,373: +PARAM [/slam_gmapping/lasamplestep] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,373: +PARAM [/slam_gmapping/angularUpdate] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,374: +PARAM [/move_base/DWAPlannerROS/yaw_goal_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,374: +PARAM [/move_base/DWAPlannerROS/angular_sim_granularity] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,374: +PARAM [/move_base/DWAPlannerROS/acc_lim_theta] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,374: +PARAM [/apply_calib/calib_file] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,375: +PARAM [/imu_filter_madgwick/world_frame] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,375: +PARAM [/move_base/DWAPlannerROS/sim_granularity] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,375: +PARAM [/slam_gmapping/temporalUpdate] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,375: +PARAM [/ekf_localization/two_d_mode] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,375: +PARAM [/slam_gmapping/particles] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,376: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,376: +PARAM [/move_base/local_costmap/scan/topic] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,376: +PARAM [/move_base/oscillation_distance] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,376: +PARAM [/move_base/DWAPlannerROS/oscillation_reset_angle] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,376: +PARAM [/move_base/cost_factor] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,377: +PARAM [/move_base/local_costmap/scan/data_type] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,377: +PARAM [/imu_filter_madgwick/use_magnetic_field_msg] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,377: +PARAM [/move_base/DWAPlannerROS/vy_samples] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,377: +PARAM [/move_base/DWAPlannerROS/acc_lim_trans] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,378: +PARAM [/slam_gmapping/resampleThreshold] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,378: +PARAM [/slam_gmapping/lstep] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,378: +PARAM [/move_base/DWAPlannerROS/trans_stopped_vel] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,378: +PARAM [/move_base/local_costmap/scan/marking] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,378: +PARAM [/slam_gmapping/linearUpdate] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,379: +PARAM [/ekf_localization/world_frame] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,379: +PARAM [/move_base/global_costmap/static_map] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,379: +PARAM [/move_base/global_costmap/scan/data_type] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,379: +PARAM [/rplidarNode/angle_compensate] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,379: +PARAM [/move_base/DWAPlannerROS/prune_plan] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,380: +PARAM [/move_base/local_costmap/transform_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,380: +PARAM [/rplidarNode/serial_port] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,380: +PARAM [/move_base/global_costmap/inflation_radius] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,380: +PARAM [/move_base/conservative_reset_dist] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,381: +PARAM [/slam_gmapping/base_frame] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,381: +PARAM [/move_base/oscillation_timeout] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,381: +PARAM [/move_base/global_costmap/robot_base_frame] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,381: +PARAM [/slam_gmapping/llsamplerange] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,381: +PARAM [/move_base/global_costmap/cost_scaling_factor] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,382: +PARAM [/ekf_localization/imu0_differential] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,382: +PARAM [/ekf_localization/odom0_relative] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,382: +PARAM [/slam_gmapping/astep] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,382: +PARAM [/move_base/local_costmap/update_frequency] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,382: +PARAM [/move_base/local_costmap/raytrace_range] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,383: +PARAM [/move_base/DWAPlannerROS/occdist_scale] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,383: +PARAM [/rplidarNode/inverted] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,383: +PARAM [/imu_filter_madgwick/angular_scale] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,383: +PARAM [/move_base/global_costmap/observation_sources] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,383: +PARAM [/slam_gmapping/llsamplestep] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,384: +PARAM [/ekf_localization/imu0_relative] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,384: +PARAM [/slam_gmapping/xmin] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,384: +PARAM [/slam_gmapping/delta] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,384: +PARAM [/move_base/global_costmap/update_frequency] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,385: +PARAM [/move_base/DWAPlannerROS/acc_lim_y] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,385: +PARAM [/move_base/DWAPlannerROS/acc_lim_x] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,385: +PARAM [/imu_filter_madgwick/use_mag] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,386: +PARAM [/imu_filter_madgwick/orientation_stddev] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,386: +PARAM [/slam_gmapping/xmax] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,386: +PARAM [/move_base/local_costmap/publish_frequency] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,386: +PARAM [/move_base/local_costmap/map_type] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,386: +PARAM [/rplidarNode/serial_baudrate] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,387: +PARAM [/move_base/base_local_planner] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,387: +PARAM [/car_driver_node/port] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,387: +PARAM [/ekf_localization/odom0_config] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,387: +PARAM [/move_base/lethal_cost] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,388: +PARAM [/move_base/base_global_planner] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,388: +PARAM [/ekf_localization/odom0] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,388: +PARAM [/ekf_localization/imu0_config] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,388: +PARAM [/rplidarNode/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,388: +PARAM [/move_base/global_costmap/scan/clearing] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,389: +PARAM [/slam_gmapping/maxUrange] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,389: +PARAM [/move_base/local_costmap/robot_base_frame] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,389: +PARAM [/move_base/DWAPlannerROS/min_rot_vel] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,389: +PARAM [/move_base/neutral_cost] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,389: +PARAM [/move_base/DWAPlannerROS/stop_time_buffer] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,390: +PARAM [/move_base/global_costmap/transform_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,390: +PARAM [/move_base/global_costmap/scan/marking] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,390: +PARAM [/ekf_localization/diagnostics_agg] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,390: +PARAM [/move_base/DWAPlannerROS/min_trans_vel] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,391: +PARAM [/move_base/local_costmap/obstacle_range] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,391: +PARAM [/move_base/global_costmap/raytrace_range] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,391: +PARAM [/move_base/DWAPlannerROS/path_distance_bias] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,391: +PARAM [/ekf_localization/odom_frame] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,391: +PARAM [/move_base/DWAPlannerROS/oscillation_reset_dist] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,392: +PARAM [/move_base/global_costmap/map_type] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,392: +PARAM [/slam_gmapping/kernelSize] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,392: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,392: +PARAM [/move_base/local_costmap/global_frame] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,392: +PARAM [/move_base/global_costmap/global_frame] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,393: +PARAM [/move_base/DWAPlannerROS/max_rot_vel] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,393: +PARAM [/slam_gmapping/iterations] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,393: +PARAM [/ekf_localization/frequency] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,393: +PARAM [/slam_gmapping/minRange] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,393: +PARAM [/move_base/DWAPlannerROS/max_trans_vel] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,394: +PARAM [/slam_gmapping/minimumScore] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,394: +PARAM [/slam_gmapping/ymin] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,394: +PARAM [/slam_gmapping/stt] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,394: +PARAM [/slam_gmapping/ymax] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,395: +PARAM [/move_base/planner_patience] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,395: +PARAM [/move_base/DWAPlannerROS/max_vel_y] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,395: +PARAM [/move_base/DWAPlannerROS/max_vel_x] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,395: +PARAM [/slam_gmapping/str] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,395: +PARAM [/slam_gmapping/odom_frame] by /roslaunch
+[rosmaster.master][INFO] 2020-09-14 07:30:44,539: +PUB [/rosout] /apply_calib http://192.168.43.172:32881/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,540: +SERVICE [/apply_calib/get_loggers] /apply_calib http://192.168.43.172:32881/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,542: +SERVICE [/apply_calib/set_logger_level] /apply_calib http://192.168.43.172:32881/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,563: +SUB [/zxcar/imu] /apply_calib http://192.168.43.172:32881/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,576: +SUB [/zxcar/magnetic] /apply_calib http://192.168.43.172:32881/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,579: +PUB [/imu/data_raw] /apply_calib http://192.168.43.172:32881/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,581: +PUB [/imu/mag] /apply_calib http://192.168.43.172:32881/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,585: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/']
+[rosmaster.master][INFO] 2020-09-14 07:30:44,591: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:30:44,642: +PUB [/rosout] /imu_filter_madgwick http://192.168.43.172:41141/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,645: +SERVICE [/imu_filter_madgwick/get_loggers] /imu_filter_madgwick http://192.168.43.172:41141/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,650: +SERVICE [/imu_filter_madgwick/set_logger_level] /imu_filter_madgwick http://192.168.43.172:41141/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,660: +PUB [/tf] /imu_filter_madgwick http://192.168.43.172:41141/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,683: +PUB [/rosout] /base_footprint_to_imu_link http://192.168.43.172:46597/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,687: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/']
+[rosmaster.master][INFO] 2020-09-14 07:30:44,694: +SERVICE [/base_footprint_to_imu_link/get_loggers] /base_footprint_to_imu_link http://192.168.43.172:46597/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,702: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:30:44,705: +SERVICE [/base_footprint_to_imu_link/set_logger_level] /base_footprint_to_imu_link http://192.168.43.172:46597/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,706: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:46597/']
+[rosmaster.master][INFO] 2020-09-14 07:30:44,711: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:46597/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:30:44,714: +PUB [/tf] /base_footprint_to_imu_link http://192.168.43.172:46597/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,720: +SERVICE [/imu_filter_madgwick/set_parameters] /imu_filter_madgwick http://192.168.43.172:41141/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,724: +PUB [/imu_filter_madgwick/parameter_descriptions] /imu_filter_madgwick http://192.168.43.172:41141/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,734: +PUB [/imu_filter_madgwick/parameter_updates] /imu_filter_madgwick http://192.168.43.172:41141/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,775: +PARAM [/imu_filter_madgwick/gain] by /imu_filter_madgwick
+[rosmaster.master][INFO] 2020-09-14 07:30:44,787: +PARAM [/imu_filter_madgwick/zeta] by /imu_filter_madgwick
+[rosmaster.master][INFO] 2020-09-14 07:30:44,793: +PARAM [/imu_filter_madgwick/mag_bias_x] by /imu_filter_madgwick
+[rosmaster.master][INFO] 2020-09-14 07:30:44,808: +PARAM [/imu_filter_madgwick/mag_bias_y] by /imu_filter_madgwick
+[rosmaster.master][INFO] 2020-09-14 07:30:44,814: +PARAM [/imu_filter_madgwick/mag_bias_z] by /imu_filter_madgwick
+[rosmaster.master][INFO] 2020-09-14 07:30:44,819: +PARAM [/imu_filter_madgwick/orientation_stddev] by /imu_filter_madgwick
+[rosmaster.master][INFO] 2020-09-14 07:30:44,833: +PARAM [/imu_filter_madgwick/gain] by /imu_filter_madgwick
+[rosmaster.master][INFO] 2020-09-14 07:30:44,835: +PUB [/rosout] /base_footprint_to_base_link http://192.168.43.172:41723/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,838: +SERVICE [/base_footprint_to_base_link/get_loggers] /base_footprint_to_base_link http://192.168.43.172:41723/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,839: +PARAM [/imu_filter_madgwick/zeta] by /imu_filter_madgwick
+[rosmaster.master][INFO] 2020-09-14 07:30:44,842: +SERVICE [/base_footprint_to_base_link/set_logger_level] /base_footprint_to_base_link http://192.168.43.172:41723/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,843: +PARAM [/imu_filter_madgwick/mag_bias_x] by /imu_filter_madgwick
+[rosmaster.master][INFO] 2020-09-14 07:30:44,847: +PARAM [/imu_filter_madgwick/mag_bias_y] by /imu_filter_madgwick
+[rosmaster.master][INFO] 2020-09-14 07:30:44,848: +PUB [/tf] /base_footprint_to_base_link http://192.168.43.172:41723/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,851: +PARAM [/imu_filter_madgwick/mag_bias_z] by /imu_filter_madgwick
+[rosmaster.master][INFO] 2020-09-14 07:30:44,854: +PARAM [/imu_filter_madgwick/orientation_stddev] by /imu_filter_madgwick
+[rosmaster.master][INFO] 2020-09-14 07:30:44,859: +PUB [/imu/data] /imu_filter_madgwick http://192.168.43.172:41141/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,862: +PUB [/rosout] /heima_base_node http://192.168.43.172:33845/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,865: +SERVICE [/heima_base_node/get_loggers] /heima_base_node http://192.168.43.172:33845/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,870: +SERVICE [/heima_base_node/set_logger_level] /heima_base_node http://192.168.43.172:33845/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,876: +SUB [/imu/data_raw] /imu_filter_madgwick http://192.168.43.172:41141/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,881: +PUB [/tf] /heima_base_node http://192.168.43.172:33845/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,889: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/']
+[rosmaster.master][INFO] 2020-09-14 07:30:44,892: +PUB [/raw_odom] /heima_base_node http://192.168.43.172:33845/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,896: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:30:44,899: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/']
+[rosmaster.master][INFO] 2020-09-14 07:30:44,904: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:30:44,907: +SUB [/imu/mag] /imu_filter_madgwick http://192.168.43.172:41141/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,913: +PUB [/rosout] /ekf_localization http://192.168.43.172:41283/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,916: +SUB [/zxcar/get_vel] /heima_base_node http://192.168.43.172:33845/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,918: +SERVICE [/ekf_localization/get_loggers] /ekf_localization http://192.168.43.172:41283/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,919: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:41283/']
+[rosmaster.master][INFO] 2020-09-14 07:30:44,928: +SERVICE [/ekf_localization/set_logger_level] /ekf_localization http://192.168.43.172:41283/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,930: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:41283/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:30:44,941: +PUB [/diagnostics] /ekf_localization http://192.168.43.172:41283/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,966: +SUB [/tf] /ekf_localization http://192.168.43.172:41283/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,982: +PUB [/rosout] /map_to_odom http://192.168.43.172:36247/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,984: +SUB [/tf_static] /ekf_localization http://192.168.43.172:41283/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,987: +SERVICE [/map_to_odom/get_loggers] /map_to_odom http://192.168.43.172:36247/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,992: +SERVICE [/map_to_odom/set_logger_level] /map_to_odom http://192.168.43.172:36247/
+[rosmaster.master][INFO] 2020-09-14 07:30:44,997: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:41283/', 'http://192.168.43.172:36247/']
+[rosmaster.master][INFO] 2020-09-14 07:30:45,003: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:41283/', 'http://192.168.43.172:36247/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:30:45,006: +PUB [/tf] /map_to_odom http://192.168.43.172:36247/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,009: publisherUpdate[/tf] -> http://192.168.43.172:41283/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:36247/']
+[rosmaster.master][INFO] 2020-09-14 07:30:45,016: publisherUpdate[/tf] -> http://192.168.43.172:41283/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:36247/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:30:45,033: +PUB [/rosout] /rplidarNode http://192.168.43.172:38763/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,036: +SERVICE [/rplidarNode/get_loggers] /rplidarNode http://192.168.43.172:38763/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,039: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:41283/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:38763/']
+[rosmaster.master][INFO] 2020-09-14 07:30:45,041: +SERVICE [/rplidarNode/set_logger_level] /rplidarNode http://192.168.43.172:38763/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,047: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:41283/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:38763/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:30:45,057: +PUB [/scan] /rplidarNode http://192.168.43.172:38763/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,093: +PUB [/rosout] /base_link_to_laser http://192.168.43.172:34217/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,107: +SERVICE [/base_link_to_laser/get_loggers] /base_link_to_laser http://192.168.43.172:34217/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,107: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:41283/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:38763/', 'http://192.168.43.172:34217/']
+[rosmaster.master][INFO] 2020-09-14 07:30:45,110: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:41283/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:38763/', 'http://192.168.43.172:34217/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:30:45,111: +SERVICE [/base_link_to_laser/set_logger_level] /base_link_to_laser http://192.168.43.172:34217/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,123: +PUB [/tf] /base_link_to_laser http://192.168.43.172:34217/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,126: +PUB [/rosout] /slam_gmapping http://192.168.43.172:33261/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,131: +SERVICE [/slam_gmapping/get_loggers] /slam_gmapping http://192.168.43.172:33261/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,133: +SUB [/set_pose] /ekf_localization http://192.168.43.172:41283/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,135: +SERVICE [/slam_gmapping/set_logger_level] /slam_gmapping http://192.168.43.172:33261/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,143: +SERVICE [/set_pose] /ekf_localization http://192.168.43.172:41283/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,148: +SERVICE [/ekf_localization/enable] /ekf_localization http://192.168.43.172:41283/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,159: +SUB [/tf] /slam_gmapping http://192.168.43.172:33261/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,162: publisherUpdate[/tf] -> http://192.168.43.172:41283/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:34217/']
+[rosmaster.master][INFO] 2020-09-14 07:30:45,167: publisherUpdate[/tf] -> http://192.168.43.172:41283/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:34217/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:30:45,171: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:41283/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:38763/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:33261/']
+[rosmaster.master][INFO] 2020-09-14 07:30:45,177: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:41283/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:38763/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:33261/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:30:45,179: +SUB [/tf_static] /slam_gmapping http://192.168.43.172:33261/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,183: +PUB [/tf] /slam_gmapping http://192.168.43.172:33261/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,186: +PUB [/rosout] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,188: +SUB [/raw_odom] /ekf_localization http://192.168.43.172:41283/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,191: +SERVICE [/move_base/get_loggers] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,196: +SERVICE [/move_base/set_logger_level] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,211: publisherUpdate[/tf] -> http://192.168.43.172:41283/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:33261/']
+[rosmaster.master][INFO] 2020-09-14 07:30:45,218: publisherUpdate[/tf] -> http://192.168.43.172:41283/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:33261/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:30:45,219: publisherUpdate[/tf] -> http://192.168.43.172:33261/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:33261/']
+[rosmaster.master][INFO] 2020-09-14 07:30:45,220: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:41283/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:38763/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:33261/', 'http://192.168.43.172:42825/']
+[rosmaster.master][INFO] 2020-09-14 07:30:45,226: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:41283/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:38763/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:33261/', 'http://192.168.43.172:42825/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:30:45,227: publisherUpdate[/tf] -> http://192.168.43.172:33261/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:33261/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:30:45,231: +SUB [/tf] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,250: +SUB [/tf_static] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,254: +SUB [/imu/data] /ekf_localization http://192.168.43.172:41283/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,263: +PUB [/odom] /ekf_localization http://192.168.43.172:41283/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,267: +PUB [/tf] /ekf_localization http://192.168.43.172:41283/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,275: +PUB [/slam_gmapping/entropy] /slam_gmapping http://192.168.43.172:33261/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,277: +PUB [/map] /slam_gmapping http://192.168.43.172:33261/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,279: +PUB [/map_metadata] /slam_gmapping http://192.168.43.172:33261/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,279: publisherUpdate[/tf] -> http://192.168.43.172:41283/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:33261/', 'http://192.168.43.172:41283/']
+[rosmaster.master][INFO] 2020-09-14 07:30:45,281: +SERVICE [/dynamic_map] /slam_gmapping http://192.168.43.172:33261/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,282: publisherUpdate[/tf] -> http://192.168.43.172:41283/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:33261/', 'http://192.168.43.172:41283/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:30:45,283: publisherUpdate[/tf] -> http://192.168.43.172:33261/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:33261/', 'http://192.168.43.172:41283/']
+[rosmaster.master][INFO] 2020-09-14 07:30:45,292: +SUB [/scan] /slam_gmapping http://192.168.43.172:33261/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,294: publisherUpdate[/tf] -> http://192.168.43.172:33261/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:33261/', 'http://192.168.43.172:41283/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:30:45,295: publisherUpdate[/tf] -> http://192.168.43.172:42825/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:33261/', 'http://192.168.43.172:41283/']
+[rosmaster.master][INFO] 2020-09-14 07:30:45,298: publisherUpdate[/tf] -> http://192.168.43.172:42825/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:33261/', 'http://192.168.43.172:41283/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:30:45,325: +PUB [/cmd_vel] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,328: +PUB [/move_base/current_goal] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,330: +PUB [/move_base/goal] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,337: +SUB [/move_base_simple/goal] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,710: +PUB [/rosout] /car_driver_node http://192.168.43.172:37747/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,720: +SERVICE [/car_driver_node/get_loggers] /car_driver_node http://192.168.43.172:37747/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,724: +SERVICE [/car_driver_node/set_logger_level] /car_driver_node http://192.168.43.172:37747/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,729: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:41283/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:38763/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:33261/', 'http://192.168.43.172:42825/', 'http://192.168.43.172:37747/']
+[rosmaster.master][INFO] 2020-09-14 07:30:45,730: +SUB [/cmd_vel] /car_driver_node http://192.168.43.172:37747/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,733: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:41283/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:38763/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:33261/', 'http://192.168.43.172:42825/', 'http://192.168.43.172:37747/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:30:45,736: +PUB [/zxcar/get_vel] /car_driver_node http://192.168.43.172:37747/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,740: +PUB [/zxcar/imu] /car_driver_node http://192.168.43.172:37747/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,743: +PUB [/zxcar/magnetic] /car_driver_node http://192.168.43.172:37747/
+[rosmaster.master][INFO] 2020-09-14 07:30:45,801: publisherUpdate[/zxcar/get_vel] -> http://192.168.43.172:33845/ ['http://192.168.43.172:37747/']
+[rosmaster.master][INFO] 2020-09-14 07:30:45,806: publisherUpdate[/zxcar/get_vel] -> http://192.168.43.172:33845/ ['http://192.168.43.172:37747/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:30:45,807: publisherUpdate[/zxcar/imu] -> http://192.168.43.172:32881/ ['http://192.168.43.172:37747/']
+[rosmaster.master][INFO] 2020-09-14 07:30:45,811: publisherUpdate[/zxcar/imu] -> http://192.168.43.172:32881/ ['http://192.168.43.172:37747/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:30:45,812: publisherUpdate[/zxcar/magnetic] -> http://192.168.43.172:32881/ ['http://192.168.43.172:37747/']
+[rosmaster.master][INFO] 2020-09-14 07:30:45,814: publisherUpdate[/zxcar/magnetic] -> http://192.168.43.172:32881/ ['http://192.168.43.172:37747/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:30:46,067: +PARAM [/move_base/global_costmap/obstacle_layer/raytrace_range] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:46,068: -PARAM [/move_base/global_costmap/raytrace_range] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:46,071: +PARAM [/move_base/global_costmap/obstacle_layer/obstacle_range] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:46,072: -PARAM [/move_base/global_costmap/obstacle_range] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:46,079: +PARAM [/move_base/global_costmap/obstacle_layer/scan] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:46,080: -PARAM [/move_base/global_costmap/scan] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:46,083: +PARAM [/move_base/global_costmap/obstacle_layer/observation_sources] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:46,084: -PARAM [/move_base/global_costmap/observation_sources] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:46,087: +PARAM [/move_base/global_costmap/inflation_layer/cost_scaling_factor] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:46,088: -PARAM [/move_base/global_costmap/cost_scaling_factor] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:46,092: +PARAM [/move_base/global_costmap/inflation_layer/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:46,094: -PARAM [/move_base/global_costmap/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:46,095: +PARAM [/move_base/global_costmap/plugins] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:46,122: +SUB [/map] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:47,623: +SERVICE [/stop_motor] /rplidarNode http://192.168.43.172:38763/
+[rosmaster.master][INFO] 2020-09-14 07:30:47,628: +SERVICE [/start_motor] /rplidarNode http://192.168.43.172:38763/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,327: +SERVICE [/move_base/global_costmap/static_layer/set_parameters] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,329: +PUB [/move_base/global_costmap/static_layer/parameter_descriptions] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,331: +PUB [/move_base/global_costmap/static_layer/parameter_updates] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,333: +PARAM [/move_base/global_costmap/static_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,335: +PARAM [/move_base/global_costmap/static_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,376: +SUB [/scan] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,379: +SERVICE [/move_base/global_costmap/obstacle_layer/set_parameters] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,380: +PUB [/move_base/global_costmap/obstacle_layer/parameter_descriptions] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,382: +PUB [/move_base/global_costmap/obstacle_layer/parameter_updates] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,386: +PARAM [/move_base/global_costmap/obstacle_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,387: +PARAM [/move_base/global_costmap/obstacle_layer/footprint_clearing_enabled] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,388: +PARAM [/move_base/global_costmap/obstacle_layer/max_obstacle_height] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,390: +PARAM [/move_base/global_costmap/obstacle_layer/combination_method] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,391: +PARAM [/move_base/global_costmap/obstacle_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,392: +PARAM [/move_base/global_costmap/obstacle_layer/footprint_clearing_enabled] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,394: +PARAM [/move_base/global_costmap/obstacle_layer/max_obstacle_height] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,395: +PARAM [/move_base/global_costmap/obstacle_layer/combination_method] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,399: +SERVICE [/move_base/global_costmap/inflation_layer/set_parameters] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,402: +PUB [/move_base/global_costmap/inflation_layer/parameter_descriptions] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,405: +PUB [/move_base/global_costmap/inflation_layer/parameter_updates] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,411: +PARAM [/move_base/global_costmap/inflation_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,413: +PARAM [/move_base/global_costmap/inflation_layer/cost_scaling_factor] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,415: +PARAM [/move_base/global_costmap/inflation_layer/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,417: +PARAM [/move_base/global_costmap/inflation_layer/inflate_unknown] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,419: +PARAM [/move_base/global_costmap/inflation_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,420: +PARAM [/move_base/global_costmap/inflation_layer/cost_scaling_factor] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,421: +PARAM [/move_base/global_costmap/inflation_layer/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,423: +PARAM [/move_base/global_costmap/inflation_layer/inflate_unknown] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,433: +SUB [/move_base/global_costmap/footprint] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,437: +PUB [/move_base/global_costmap/footprint] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,440: +PARAM [/move_base/global_costmap/footprint] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,441: publisherUpdate[/move_base/global_costmap/footprint] -> http://192.168.43.172:42825/ ['http://192.168.43.172:42825/']
+[rosmaster.master][INFO] 2020-09-14 07:30:49,443: +PUB [/move_base/global_costmap/costmap] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,446: publisherUpdate[/move_base/global_costmap/footprint] -> http://192.168.43.172:42825/ ['http://192.168.43.172:42825/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:30:49,447: +PUB [/move_base/global_costmap/costmap_updates] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,449: +SERVICE [/move_base/global_costmap/set_parameters] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,451: +PUB [/move_base/global_costmap/parameter_descriptions] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,454: +PUB [/move_base/global_costmap/parameter_updates] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,470: +PARAM [/move_base/global_costmap/transform_tolerance] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,471: +PARAM [/move_base/global_costmap/update_frequency] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,472: +PARAM [/move_base/global_costmap/publish_frequency] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,474: +PARAM [/move_base/global_costmap/width] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,475: +PARAM [/move_base/global_costmap/height] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,476: +PARAM [/move_base/global_costmap/resolution] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,477: +PARAM [/move_base/global_costmap/origin_x] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,478: +PARAM [/move_base/global_costmap/origin_y] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,480: +PARAM [/move_base/global_costmap/footprint] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,481: +PARAM [/move_base/global_costmap/robot_radius] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,482: +PARAM [/move_base/global_costmap/footprint_padding] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,484: +PARAM [/move_base/global_costmap/transform_tolerance] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,488: +PARAM [/move_base/global_costmap/update_frequency] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,490: +PARAM [/move_base/global_costmap/publish_frequency] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,492: +PARAM [/move_base/global_costmap/width] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,494: +PARAM [/move_base/global_costmap/height] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,496: +PARAM [/move_base/global_costmap/resolution] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,499: +PARAM [/move_base/global_costmap/origin_x] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,501: +PARAM [/move_base/global_costmap/origin_y] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,503: +PARAM [/move_base/global_costmap/footprint] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,504: +PARAM [/move_base/global_costmap/robot_radius] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,506: +PARAM [/move_base/global_costmap/footprint_padding] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,519: +PUB [/move_base/GlobalPlanner/plan] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,521: +PUB [/move_base/GlobalPlanner/potential] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,529: +SERVICE [/move_base/GlobalPlanner/make_plan] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,531: +SERVICE [/move_base/GlobalPlanner/set_parameters] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,533: +PUB [/move_base/GlobalPlanner/parameter_descriptions] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,535: +PUB [/move_base/GlobalPlanner/parameter_updates] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,540: +PARAM [/move_base/GlobalPlanner/lethal_cost] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,542: +PARAM [/move_base/GlobalPlanner/neutral_cost] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,543: +PARAM [/move_base/GlobalPlanner/cost_factor] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,550: +PARAM [/move_base/GlobalPlanner/publish_potential] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,552: +PARAM [/move_base/GlobalPlanner/orientation_mode] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,553: +PARAM [/move_base/GlobalPlanner/orientation_window_size] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,556: +PARAM [/move_base/GlobalPlanner/lethal_cost] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,557: +PARAM [/move_base/GlobalPlanner/neutral_cost] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,560: +PARAM [/move_base/GlobalPlanner/cost_factor] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,562: +PARAM [/move_base/GlobalPlanner/publish_potential] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,563: +PARAM [/move_base/GlobalPlanner/orientation_mode] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,565: +PARAM [/move_base/GlobalPlanner/orientation_window_size] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,580: +PARAM [/move_base/local_costmap/obstacle_layer/raytrace_range] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,582: -PARAM [/move_base/local_costmap/raytrace_range] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,585: +PARAM [/move_base/local_costmap/obstacle_layer/obstacle_range] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,586: -PARAM [/move_base/local_costmap/obstacle_range] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,592: +PARAM [/move_base/local_costmap/obstacle_layer/scan] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,593: -PARAM [/move_base/local_costmap/scan] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,596: +PARAM [/move_base/local_costmap/obstacle_layer/observation_sources] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,597: -PARAM [/move_base/local_costmap/observation_sources] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,600: +PARAM [/move_base/local_costmap/inflation_layer/cost_scaling_factor] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,602: -PARAM [/move_base/local_costmap/cost_scaling_factor] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,606: +PARAM [/move_base/local_costmap/inflation_layer/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,607: -PARAM [/move_base/local_costmap/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,609: +PARAM [/move_base/local_costmap/plugins] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,641: +SERVICE [/move_base/local_costmap/obstacle_layer/set_parameters] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,642: +PUB [/move_base/local_costmap/obstacle_layer/parameter_descriptions] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,644: +PUB [/move_base/local_costmap/obstacle_layer/parameter_updates] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,648: +PARAM [/move_base/local_costmap/obstacle_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,649: +PARAM [/move_base/local_costmap/obstacle_layer/footprint_clearing_enabled] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,651: +PARAM [/move_base/local_costmap/obstacle_layer/max_obstacle_height] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,652: +PARAM [/move_base/local_costmap/obstacle_layer/combination_method] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,653: +PARAM [/move_base/local_costmap/obstacle_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,655: +PARAM [/move_base/local_costmap/obstacle_layer/footprint_clearing_enabled] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,656: +PARAM [/move_base/local_costmap/obstacle_layer/max_obstacle_height] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,658: +PARAM [/move_base/local_costmap/obstacle_layer/combination_method] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,663: +SERVICE [/move_base/local_costmap/inflation_layer/set_parameters] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,665: +PUB [/move_base/local_costmap/inflation_layer/parameter_descriptions] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,666: +PUB [/move_base/local_costmap/inflation_layer/parameter_updates] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,670: +PARAM [/move_base/local_costmap/inflation_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,672: +PARAM [/move_base/local_costmap/inflation_layer/cost_scaling_factor] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,673: +PARAM [/move_base/local_costmap/inflation_layer/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,674: +PARAM [/move_base/local_costmap/inflation_layer/inflate_unknown] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,676: +PARAM [/move_base/local_costmap/inflation_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,677: +PARAM [/move_base/local_costmap/inflation_layer/cost_scaling_factor] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,678: +PARAM [/move_base/local_costmap/inflation_layer/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,679: +PARAM [/move_base/local_costmap/inflation_layer/inflate_unknown] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,693: +SUB [/move_base/local_costmap/footprint] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,695: +PUB [/move_base/local_costmap/footprint] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,699: +PARAM [/move_base/local_costmap/footprint] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,701: +PUB [/move_base/local_costmap/costmap] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,703: +PUB [/move_base/local_costmap/costmap_updates] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,704: +SERVICE [/move_base/local_costmap/set_parameters] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,706: +PUB [/move_base/local_costmap/parameter_descriptions] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,708: +PUB [/move_base/local_costmap/parameter_updates] /move_base http://192.168.43.172:42825/
+[rosmaster.master][INFO] 2020-09-14 07:30:49,723: +PARAM [/move_base/local_costmap/transform_tolerance] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,724: publisherUpdate[/move_base/local_costmap/footprint] -> http://192.168.43.172:42825/ ['http://192.168.43.172:42825/']
+[rosmaster.master][INFO] 2020-09-14 07:30:49,726: publisherUpdate[/move_base/local_costmap/footprint] -> http://192.168.43.172:42825/ ['http://192.168.43.172:42825/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:30:49,728: +PARAM [/move_base/local_costmap/update_frequency] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,730: +PARAM [/move_base/local_costmap/publish_frequency] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,732: +PARAM [/move_base/local_costmap/width] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,733: +PARAM [/move_base/local_costmap/height] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,735: +PARAM [/move_base/local_costmap/resolution] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,737: +PARAM [/move_base/local_costmap/origin_x] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,739: +PARAM [/move_base/local_costmap/origin_y] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,740: +PARAM [/move_base/local_costmap/footprint] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,742: +PARAM [/move_base/local_costmap/robot_radius] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,744: +PARAM [/move_base/local_costmap/footprint_padding] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,746: +PARAM [/move_base/local_costmap/transform_tolerance] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,747: +PARAM [/move_base/local_costmap/update_frequency] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,749: +PARAM [/move_base/local_costmap/publish_frequency] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,750: +PARAM [/move_base/local_costmap/width] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,752: +PARAM [/move_base/local_costmap/height] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,753: +PARAM [/move_base/local_costmap/resolution] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,755: +PARAM [/move_base/local_costmap/origin_x] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,756: +PARAM [/move_base/local_costmap/origin_y] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,757: +PARAM [/move_base/local_costmap/footprint] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,759: +PARAM [/move_base/local_costmap/robot_radius] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:30:49,760: +PARAM [/move_base/local_costmap/footprint_padding] by /move_base
+[rosmaster.master][INFO] 2020-09-14 07:31:16,026: -PUB [/rosout] /slam_gmapping http://192.168.43.172:33261/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,028: -PUB [/tf] /slam_gmapping http://192.168.43.172:33261/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,030: -PUB [/slam_gmapping/entropy] /slam_gmapping http://192.168.43.172:33261/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,031: -PUB [/map] /slam_gmapping http://192.168.43.172:33261/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,033: -PUB [/map_metadata] /slam_gmapping http://192.168.43.172:33261/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,036: -SUB [/tf] /slam_gmapping http://192.168.43.172:33261/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,045: -SUB [/tf_static] /slam_gmapping http://192.168.43.172:33261/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,047: -SUB [/scan] /slam_gmapping http://192.168.43.172:33261/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,048: -SERVICE [/slam_gmapping/get_loggers] /slam_gmapping rosrpc://192.168.43.172:42135
+[rosmaster.master][INFO] 2020-09-14 07:31:16,050: -SERVICE [/slam_gmapping/set_logger_level] /slam_gmapping rosrpc://192.168.43.172:42135
+[rosmaster.master][INFO] 2020-09-14 07:31:16,051: -SERVICE [/dynamic_map] /slam_gmapping rosrpc://192.168.43.172:42135
+[rosmaster.master][INFO] 2020-09-14 07:31:16,063: -PUB [/rosout] /heima_base_node http://192.168.43.172:33845/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,065: -PUB [/tf] /heima_base_node http://192.168.43.172:33845/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,067: -PUB [/raw_odom] /heima_base_node http://192.168.43.172:33845/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,068: -SUB [/zxcar/get_vel] /heima_base_node http://192.168.43.172:33845/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,070: -SERVICE [/heima_base_node/get_loggers] /heima_base_node rosrpc://192.168.43.172:40915
+[rosmaster.master][INFO] 2020-09-14 07:31:16,075: -SERVICE [/heima_base_node/set_logger_level] /heima_base_node rosrpc://192.168.43.172:40915
+[rosmaster.master][INFO] 2020-09-14 07:31:16,077: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:41283/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:38763/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:42825/', 'http://192.168.43.172:37747/']
+[rosmaster.master][INFO] 2020-09-14 07:31:16,079: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:41283/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:38763/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:42825/', 'http://192.168.43.172:37747/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:31:16,080: publisherUpdate[/tf] -> http://192.168.43.172:41283/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:41283/']
+[rosmaster.master][INFO] 2020-09-14 07:31:16,082: publisherUpdate[/tf] -> http://192.168.43.172:41283/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:41283/']: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2020-09-14 07:31:16,082: publisherUpdate[/tf] -> http://192.168.43.172:33261/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:41283/']
+[rosmaster.master][INFO] 2020-09-14 07:31:16,086: -PUB [/rosout] /base_footprint_to_imu_link http://192.168.43.172:46597/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,088: -PUB [/rosout] /base_link_to_laser http://192.168.43.172:34217/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,089: -PUB [/rosout] /map_to_odom http://192.168.43.172:36247/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,092: publisherUpdate[/tf] -> http://192.168.43.172:42825/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:41283/']
+[rosmaster.master][INFO] 2020-09-14 07:31:16,093: -PUB [/tf] /base_link_to_laser http://192.168.43.172:34217/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,094: publisherUpdate[/tf] -> http://192.168.43.172:33261/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:41283/']: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2020-09-14 07:31:16,096: publisherUpdate[/tf] -> http://192.168.43.172:42825/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:33845/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:41283/']: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.master][INFO] 2020-09-14 07:31:16,096: -PUB [/tf] /base_footprint_to_imu_link http://192.168.43.172:46597/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,097: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:41283/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:38763/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:42825/', 'http://192.168.43.172:37747/']
+[rosmaster.master][INFO] 2020-09-14 07:31:16,100: -PUB [/tf] /map_to_odom http://192.168.43.172:36247/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,106: -SERVICE [/base_link_to_laser/get_loggers] /base_link_to_laser rosrpc://192.168.43.172:57239
+[rosmaster.threadpool][ERROR] 2020-09-14 07:31:16,105: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2020-09-14 07:31:16,104: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:41283/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:38763/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:42825/', 'http://192.168.43.172:37747/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:31:16,110: publisherUpdate[/tf] -> http://192.168.43.172:41283/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:41283/']
+[rosmaster.master][INFO] 2020-09-14 07:31:16,108: publisherUpdate[/map] -> http://192.168.43.172:42825/ []
+[rosmaster.master][INFO] 2020-09-14 07:31:16,107: -SERVICE [/map_to_odom/get_loggers] /map_to_odom rosrpc://192.168.43.172:36633
+[rosmaster.threadpool][ERROR] 2020-09-14 07:31:16,110: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1078, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 894, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 856, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2020-09-14 07:31:16,114: publisherUpdate[/tf] -> http://192.168.43.172:41283/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:41283/']: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2020-09-14 07:31:16,114: publisherUpdate[/map] -> http://192.168.43.172:42825/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.master][INFO] 2020-09-14 07:31:16,115: -SERVICE [/base_footprint_to_imu_link/get_loggers] /base_footprint_to_imu_link rosrpc://192.168.43.172:50747
+[rosmaster.master][INFO] 2020-09-14 07:31:16,117: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:41283/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:38763/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:42825/', 'http://192.168.43.172:37747/']
+[rosmaster.master][INFO] 2020-09-14 07:31:16,117: publisherUpdate[/raw_odom] -> http://192.168.43.172:41283/ []
+[rosmaster.master][INFO] 2020-09-14 07:31:16,118: -SERVICE [/base_link_to_laser/set_logger_level] /base_link_to_laser rosrpc://192.168.43.172:57239
+[rosmaster.threadpool][ERROR] 2020-09-14 07:31:16,121: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1078, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 894, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 856, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2020-09-14 07:31:16,121: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:41283/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:38763/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:42825/', 'http://192.168.43.172:37747/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:31:16,124: publisherUpdate[/raw_odom] -> http://192.168.43.172:41283/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2020-09-14 07:31:16,126: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2020-09-14 07:31:16,125: publisherUpdate[/tf] -> http://192.168.43.172:42825/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:41283/']
+[rosmaster.master][INFO] 2020-09-14 07:31:16,125: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:41283/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:38763/', 'http://192.168.43.172:42825/', 'http://192.168.43.172:37747/']
+[rosmaster.master][INFO] 2020-09-14 07:31:16,126: publisherUpdate[/tf] -> http://192.168.43.172:41283/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:41283/']
+[rosmaster.master][INFO] 2020-09-14 07:31:16,124: -PUB [/rosout] /ekf_localization http://192.168.43.172:41283/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,131: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:41283/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:38763/', 'http://192.168.43.172:42825/', 'http://192.168.43.172:37747/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:31:16,131: publisherUpdate[/tf] -> http://192.168.43.172:42825/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:34217/', 'http://192.168.43.172:41283/']: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.master][INFO] 2020-09-14 07:31:16,133: -SERVICE [/map_to_odom/set_logger_level] /map_to_odom rosrpc://192.168.43.172:36633
+[rosmaster.master][INFO] 2020-09-14 07:31:16,133: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:41283/', 'http://192.168.43.172:38763/', 'http://192.168.43.172:42825/', 'http://192.168.43.172:37747/']
+[rosmaster.master][INFO] 2020-09-14 07:31:16,135: publisherUpdate[/tf] -> http://192.168.43.172:41283/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:41283/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2020-09-14 07:31:16,136: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1078, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 894, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 856, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2020-09-14 07:31:16,140: -SERVICE [/base_footprint_to_imu_link/set_logger_level] /base_footprint_to_imu_link rosrpc://192.168.43.172:50747
+[rosmaster.master][INFO] 2020-09-14 07:31:16,140: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:41283/', 'http://192.168.43.172:38763/', 'http://192.168.43.172:42825/', 'http://192.168.43.172:37747/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:31:16,141: publisherUpdate[/tf] -> http://192.168.43.172:42825/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:41283/']
+[rosmaster.master][INFO] 2020-09-14 07:31:16,142: publisherUpdate[/tf] -> http://192.168.43.172:41283/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:41283/']
+[rosmaster.master][INFO] 2020-09-14 07:31:16,143: -PUB [/diagnostics] /ekf_localization http://192.168.43.172:41283/
+[rosmaster.threadpool][ERROR] 2020-09-14 07:31:16,144: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2020-09-14 07:31:16,146: publisherUpdate[/tf] -> http://192.168.43.172:42825/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:46597/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:41283/']: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.master][INFO] 2020-09-14 07:31:16,147: publisherUpdate[/tf] -> http://192.168.43.172:41283/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:41283/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2020-09-14 07:31:16,147: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:38763/', 'http://192.168.43.172:42825/', 'http://192.168.43.172:37747/']
+[rosmaster.master][INFO] 2020-09-14 07:31:16,149: -PUB [/odom] /ekf_localization http://192.168.43.172:41283/
+[rosmaster.threadpool][ERROR] 2020-09-14 07:31:16,150: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1078, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 894, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 856, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2020-09-14 07:31:16,151: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:32881/', 'http://192.168.43.172:41141/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:38763/', 'http://192.168.43.172:42825/', 'http://192.168.43.172:37747/']: sec=0.00, result=[1, '', 0]
+[rosmaster.threadpool][ERROR] 2020-09-14 07:31:16,151: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2020-09-14 07:31:16,152: publisherUpdate[/tf] -> http://192.168.43.172:42825/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:41283/']
+[rosmaster.master][INFO] 2020-09-14 07:31:16,154: publisherUpdate[/tf] -> http://192.168.43.172:41283/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:41283/']
+[rosmaster.master][INFO] 2020-09-14 07:31:16,154: -PUB [/tf] /ekf_localization http://192.168.43.172:41283/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,155: publisherUpdate[/tf] -> http://192.168.43.172:42825/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:36247/', 'http://192.168.43.172:41283/']: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2020-09-14 07:31:16,157: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1078, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 894, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 856, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2020-09-14 07:31:16,158: publisherUpdate[/tf] -> http://192.168.43.172:42825/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:41283/']
+[rosmaster.master][INFO] 2020-09-14 07:31:16,158: publisherUpdate[/tf] -> http://192.168.43.172:41283/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:41283/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2020-09-14 07:31:16,162: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2020-09-14 07:31:16,161: publisherUpdate[/tf] -> http://192.168.43.172:42825/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:41283/']: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.master][INFO] 2020-09-14 07:31:16,159: -SUB [/tf] /ekf_localization http://192.168.43.172:41283/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,163: publisherUpdate[/tf] -> http://192.168.43.172:41283/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:41723/']
+[rosmaster.threadpool][ERROR] 2020-09-14 07:31:16,164: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1078, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 894, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 856, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2020-09-14 07:31:16,166: -SUB [/tf_static] /ekf_localization http://192.168.43.172:41283/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,167: publisherUpdate[/tf] -> http://192.168.43.172:41283/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:41723/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2020-09-14 07:31:16,167: publisherUpdate[/tf] -> http://192.168.43.172:42825/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:41723/']
+[rosmaster.master][INFO] 2020-09-14 07:31:16,170: -PUB [/rosout] /apply_calib http://192.168.43.172:32881/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,171: publisherUpdate[/tf] -> http://192.168.43.172:42825/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:41723/']: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.master][INFO] 2020-09-14 07:31:16,173: -SUB [/set_pose] /ekf_localization http://192.168.43.172:41283/
+[rosmaster.threadpool][ERROR] 2020-09-14 07:31:16,174: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1078, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 894, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 856, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.threadpool][ERROR] 2020-09-14 07:31:16,175: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2020-09-14 07:31:16,175: -PUB [/imu/data_raw] /apply_calib http://192.168.43.172:32881/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,177: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:38763/', 'http://192.168.43.172:42825/', 'http://192.168.43.172:37747/']
+[rosmaster.master][INFO] 2020-09-14 07:31:16,178: -SUB [/raw_odom] /ekf_localization http://192.168.43.172:41283/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,181: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:41141/', 'http://192.168.43.172:41723/', 'http://192.168.43.172:38763/', 'http://192.168.43.172:42825/', 'http://192.168.43.172:37747/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:31:16,182: -PUB [/imu/mag] /apply_calib http://192.168.43.172:32881/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,185: -SUB [/imu/data] /ekf_localization http://192.168.43.172:41283/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,187: -PUB [/rosout] /imu_filter_madgwick http://192.168.43.172:41141/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,185: publisherUpdate[/imu/data_raw] -> http://192.168.43.172:41141/ []
+[rosmaster.master][INFO] 2020-09-14 07:31:16,189: -PUB [/rosout] /base_footprint_to_base_link http://192.168.43.172:41723/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,193: -PUB [/rosout] /rplidarNode http://192.168.43.172:38763/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,194: -SERVICE [/ekf_localization/get_loggers] /ekf_localization rosrpc://192.168.43.172:34749
+[rosmaster.master][INFO] 2020-09-14 07:31:16,196: -SUB [/zxcar/imu] /apply_calib http://192.168.43.172:32881/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,199: -PUB [/tf] /imu_filter_madgwick http://192.168.43.172:41141/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,202: publisherUpdate[/imu/data_raw] -> http://192.168.43.172:41141/ []: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2020-09-14 07:31:16,204: -PUB [/tf] /base_footprint_to_base_link http://192.168.43.172:41723/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,206: -PUB [/scan] /rplidarNode http://192.168.43.172:38763/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,206: -SERVICE [/ekf_localization/set_logger_level] /ekf_localization rosrpc://192.168.43.172:34749
+[rosmaster.master][INFO] 2020-09-14 07:31:16,209: -SUB [/zxcar/magnetic] /apply_calib http://192.168.43.172:32881/
+[rosmaster.threadpool][ERROR] 2020-09-14 07:31:16,210: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2020-09-14 07:31:16,212: publisherUpdate[/imu/mag] -> http://192.168.43.172:41141/ []
+[rosmaster.master][INFO] 2020-09-14 07:31:16,211: -PUB [/imu_filter_madgwick/parameter_descriptions] /imu_filter_madgwick http://192.168.43.172:41141/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,216: publisherUpdate[/imu/mag] -> http://192.168.43.172:41141/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2020-09-14 07:31:16,216: -SERVICE [/base_footprint_to_base_link/get_loggers] /base_footprint_to_base_link rosrpc://192.168.43.172:49277
+[rosmaster.threadpool][ERROR] 2020-09-14 07:31:16,220: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2020-09-14 07:31:16,221: -SERVICE [/rplidarNode/get_loggers] /rplidarNode rosrpc://192.168.43.172:50229
+[rosmaster.master][INFO] 2020-09-14 07:31:16,226: -SERVICE [/set_pose] /ekf_localization rosrpc://192.168.43.172:34749
+[rosmaster.master][INFO] 2020-09-14 07:31:16,228: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:41723/', 'http://192.168.43.172:38763/', 'http://192.168.43.172:42825/', 'http://192.168.43.172:37747/']
+[rosmaster.master][INFO] 2020-09-14 07:31:16,230: -SERVICE [/apply_calib/get_loggers] /apply_calib rosrpc://192.168.43.172:40597
+[rosmaster.master][INFO] 2020-09-14 07:31:16,231: -PUB [/imu_filter_madgwick/parameter_updates] /imu_filter_madgwick http://192.168.43.172:41141/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,232: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:41723/', 'http://192.168.43.172:38763/', 'http://192.168.43.172:42825/', 'http://192.168.43.172:37747/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:31:16,233: -SERVICE [/base_footprint_to_base_link/set_logger_level] /base_footprint_to_base_link rosrpc://192.168.43.172:49277
+[rosmaster.master][INFO] 2020-09-14 07:31:16,235: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:38763/', 'http://192.168.43.172:42825/', 'http://192.168.43.172:37747/']
+[rosmaster.master][INFO] 2020-09-14 07:31:16,236: -SERVICE [/rplidarNode/set_logger_level] /rplidarNode rosrpc://192.168.43.172:50229
+[rosmaster.master][INFO] 2020-09-14 07:31:16,237: -SERVICE [/ekf_localization/enable] /ekf_localization rosrpc://192.168.43.172:34749
+[rosmaster.master][INFO] 2020-09-14 07:31:16,239: -SERVICE [/apply_calib/set_logger_level] /apply_calib rosrpc://192.168.43.172:40597
+[rosmaster.master][INFO] 2020-09-14 07:31:16,240: -PUB [/imu/data] /imu_filter_madgwick http://192.168.43.172:41141/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,242: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:38763/', 'http://192.168.43.172:42825/', 'http://192.168.43.172:37747/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:31:16,244: -SERVICE [/stop_motor] /rplidarNode rosrpc://192.168.43.172:50229
+[rosmaster.master][INFO] 2020-09-14 07:31:16,248: -SUB [/imu/data_raw] /imu_filter_madgwick http://192.168.43.172:41141/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,249: -SERVICE [/start_motor] /rplidarNode rosrpc://192.168.43.172:50229
+[rosmaster.master][INFO] 2020-09-14 07:31:16,250: -SUB [/imu/mag] /imu_filter_madgwick http://192.168.43.172:41141/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,251: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:42825/', 'http://192.168.43.172:37747/']
+[rosmaster.master][INFO] 2020-09-14 07:31:16,253: -SERVICE [/imu_filter_madgwick/get_loggers] /imu_filter_madgwick rosrpc://192.168.43.172:40559
+[rosmaster.master][INFO] 2020-09-14 07:31:16,254: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:42825/', 'http://192.168.43.172:37747/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:31:16,254: publisherUpdate[/tf] -> http://192.168.43.172:42825/ ['http://192.168.43.172:41723/']
+[rosmaster.master][INFO] 2020-09-14 07:31:16,257: publisherUpdate[/tf] -> http://192.168.43.172:42825/ ['http://192.168.43.172:41723/']: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2020-09-14 07:31:16,257: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1078, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 894, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 856, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2020-09-14 07:31:16,258: publisherUpdate[/tf] -> http://192.168.43.172:42825/ []
+[rosmaster.master][INFO] 2020-09-14 07:31:16,255: -SERVICE [/imu_filter_madgwick/set_logger_level] /imu_filter_madgwick rosrpc://192.168.43.172:40559
+[rosmaster.master][INFO] 2020-09-14 07:31:16,260: publisherUpdate[/tf] -> http://192.168.43.172:42825/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2020-09-14 07:31:16,261: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1078, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 894, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 856, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2020-09-14 07:31:16,261: publisherUpdate[/scan] -> http://192.168.43.172:42825/ []
+[rosmaster.master][INFO] 2020-09-14 07:31:16,262: publisherUpdate[/scan] -> http://192.168.43.172:42825/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2020-09-14 07:31:16,263: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1078, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 894, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 856, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2020-09-14 07:31:16,264: -SERVICE [/imu_filter_madgwick/set_parameters] /imu_filter_madgwick rosrpc://192.168.43.172:40559
+[rosmaster.master][INFO] 2020-09-14 07:31:16,287: -SUB [/cmd_vel] /car_driver_node http://192.168.43.172:37747/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,288: -PUB [/zxcar/get_vel] /car_driver_node http://192.168.43.172:37747/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,288: -PUB [/rosout] /car_driver_node http://192.168.43.172:37747/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,288: -PUB [/zxcar/imu] /car_driver_node http://192.168.43.172:37747/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,289: -PUB [/zxcar/magnetic] /car_driver_node http://192.168.43.172:37747/
+[rosmaster.master][INFO] 2020-09-14 07:31:16,289: -SERVICE [/car_driver_node/set_logger_level] /car_driver_node rosrpc://192.168.43.172:44191
+[rosmaster.master][INFO] 2020-09-14 07:31:16,289: -SERVICE [/car_driver_node/get_loggers] /car_driver_node rosrpc://192.168.43.172:44191
+[rosmaster.master][INFO] 2020-09-14 07:31:16,356: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:42825/']
+[rosmaster.master][INFO] 2020-09-14 07:31:16,358: publisherUpdate[/rosout] -> http://192.168.43.172:39229/ ['http://192.168.43.172:42825/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-14 07:31:33,387: -PUB [/rosout_agg] /rosout http://192.168.43.172:39229/
+[rosmaster.master][INFO] 2020-09-14 07:31:33,389: -SUB [/rosout] /rosout http://192.168.43.172:39229/
+[rosmaster.master][INFO] 2020-09-14 07:31:33,390: -SERVICE [/rosout/get_loggers] /rosout rosrpc://192.168.43.172:48165
+[rosmaster.master][INFO] 2020-09-14 07:31:33,391: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://192.168.43.172:48165
+[rosmaster.main][INFO] 2020-09-14 07:31:33,422: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2020-09-14 07:31:33,423: stopping master...
+[rospy.core][INFO] 2020-09-14 07:31:33,424: signal_shutdown [atexit]

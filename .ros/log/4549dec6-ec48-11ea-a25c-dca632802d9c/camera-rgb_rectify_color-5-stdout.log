@@ -1,0 +1,4 @@
+[0m[ INFO] [1598960575.790101542]: Loading nodelet /camera/rgb_rectify_color of type image_proc/rectify to manager camera_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1598960575.799565370]: /camera/image_mono -> /camera/rgb/image_raw[0m
+[0m[ INFO] [1598960575.799629054]: /camera/image_rect -> /camera/rgb/image_rect_color[0m
+[0m[ INFO] [1598960599.492405433]: Unloading nodelet /camera/rgb_rectify_color from manager camera_nodelet_manager[0m

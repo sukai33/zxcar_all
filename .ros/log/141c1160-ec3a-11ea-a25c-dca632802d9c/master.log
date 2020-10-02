@@ -1,0 +1,37 @@
+[rosmaster.main][INFO] 2020-09-01 10:01:19,557: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2020-09-01 10:01:19,557: Starting ROS Master Node
+[xmlrpc][INFO] 2020-09-01 10:01:19,559: XML-RPC server binding to 0.0.0.0:11311
+[rosmaster.master][INFO] 2020-09-01 10:01:19,560: Master initialized: port[11311], uri[http://ubuntu:11311/]
+[xmlrpc][INFO] 2020-09-01 10:01:19,560: Started XML-RPC server [http://ubuntu:11311/]
+[xmlrpc][INFO] 2020-09-01 10:01:19,561: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2020-09-01 10:01:19,661: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:01:19,664: +PARAM [/roslaunch/uris/host_ubuntu__40405] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:01:19,726: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:01:19,726: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 10:01:19,759: +SERVICE [/rosout/get_loggers] /rosout http://ubuntu:40297/
+[rosmaster.master][INFO] 2020-09-01 10:01:19,761: +SERVICE [/rosout/set_logger_level] /rosout http://ubuntu:40297/
+[rosmaster.master][INFO] 2020-09-01 10:01:19,763: +PUB [/rosout_agg] /rosout http://ubuntu:40297/
+[rosmaster.master][INFO] 2020-09-01 10:01:19,769: +SUB [/rosout] /rosout http://ubuntu:40297/
+[rosmaster.master][INFO] 2020-09-01 10:01:28,259: +PUB [/rosout] /uvc_camera http://192.168.1.10:44015/
+[rosmaster.master][INFO] 2020-09-01 10:01:28,260: +SERVICE [/uvc_camera/get_loggers] /uvc_camera http://192.168.1.10:44015/
+[rosmaster.master][INFO] 2020-09-01 10:01:28,261: +SERVICE [/uvc_camera/set_logger_level] /uvc_camera http://192.168.1.10:44015/
+[rosmaster.master][INFO] 2020-09-01 10:01:28,273: publisherUpdate[/rosout] -> http://ubuntu:40297/ ['http://192.168.1.10:44015/']
+[rosmaster.master][INFO] 2020-09-01 10:01:28,277: publisherUpdate[/rosout] -> http://ubuntu:40297/ ['http://192.168.1.10:44015/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:01:28,295: +SERVICE [/set_camera_info] /uvc_camera http://192.168.1.10:44015/
+[rosmaster.master][INFO] 2020-09-01 10:01:28,312: +PUB [/image_raw] /uvc_camera http://192.168.1.10:44015/
+[rosmaster.master][INFO] 2020-09-01 10:01:28,314: +PUB [/camera_info] /uvc_camera http://192.168.1.10:44015/
+[rosmaster.master][INFO] 2020-09-01 10:01:56,816: +PUB [/rosout] /uvc_camera http://192.168.1.10:36749/
+[rosmaster.master][INFO] 2020-09-01 10:01:56,818: +SERVICE [/uvc_camera/get_loggers] /uvc_camera http://192.168.1.10:36749/
+[rosmaster.master][INFO] 2020-09-01 10:01:56,819: +SERVICE [/uvc_camera/set_logger_level] /uvc_camera http://192.168.1.10:36749/
+[rosmaster.master][INFO] 2020-09-01 10:01:56,822: publisherUpdate[/rosout] -> http://ubuntu:40297/ ['http://192.168.1.10:36749/']
+[rosmaster.master][INFO] 2020-09-01 10:01:56,825: publisherUpdate[/rosout] -> http://ubuntu:40297/ ['http://192.168.1.10:36749/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 10:01:56,858: +SERVICE [/set_camera_info] /uvc_camera http://192.168.1.10:36749/
+[rosmaster.master][INFO] 2020-09-01 10:01:56,874: +PUB [/image_raw] /uvc_camera http://192.168.1.10:36749/
+[rosmaster.master][INFO] 2020-09-01 10:01:56,876: +PUB [/camera_info] /uvc_camera http://192.168.1.10:36749/
+[rosmaster.master][INFO] 2020-09-01 10:03:30,287: -PUB [/rosout_agg] /rosout http://ubuntu:40297/
+[rosmaster.master][INFO] 2020-09-01 10:03:30,289: -SUB [/rosout] /rosout http://ubuntu:40297/
+[rosmaster.master][INFO] 2020-09-01 10:03:30,290: -SERVICE [/rosout/get_loggers] /rosout rosrpc://ubuntu:33315
+[rosmaster.master][INFO] 2020-09-01 10:03:30,292: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://ubuntu:33315
+[rosmaster.main][INFO] 2020-09-01 10:03:30,370: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2020-09-01 10:03:30,371: stopping master...
+[rospy.core][INFO] 2020-09-01 10:03:30,372: signal_shutdown [atexit]

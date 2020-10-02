@@ -1,0 +1,256 @@
+[rosmaster.main][INFO] 2020-09-15 00:57:19,422: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2020-09-15 00:57:19,422: Starting ROS Master Node
+[xmlrpc][INFO] 2020-09-15 00:57:19,424: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2020-09-15 00:57:19,425: Started XML-RPC server [http://192.168.43.172:11311/]
+[rosmaster.master][INFO] 2020-09-15 00:57:19,425: Master initialized: port[11311], uri[http://192.168.43.172:11311/]
+[xmlrpc][INFO] 2020-09-15 00:57:19,426: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2020-09-15 00:57:19,507: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,510: +PARAM [/roslaunch/uris/host_192_168_43_172__41241] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,647: +PARAM [/ekf_localization/odom0] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,647: +PARAM [/heima_base_node/linear_scale] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,647: +PARAM [/apply_calib/calibrate_gyros] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,648: +PARAM [/imu_filter_madgwick/fixed_frame] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,648: +PARAM [/imu_filter_madgwick/orientation_stddev] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,648: +PARAM [/ekf_localization/odom0_relative] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,648: +PARAM [/ekf_localization/diagnostics_agg] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,649: +PARAM [/ekf_localization/odom0_differential] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,649: +PARAM [/ekf_localization/imu0_differential] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,649: +PARAM [/apply_calib/calib_file] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,649: +PARAM [/imu_filter_madgwick/world_frame] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,650: +PARAM [/ekf_localization/two_d_mode] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,650: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,650: +PARAM [/ekf_localization/imu0_relative] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,650: +PARAM [/imu_filter_madgwick/publish_tf] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,651: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,651: +PARAM [/imu_filter_madgwick/use_mag] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,651: +PARAM [/imu_filter_madgwick/use_magnetic_field_msg] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,651: +PARAM [/ekf_localization/frequency] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,652: +PARAM [/imu_filter_madgwick/angular_scale] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,652: +PARAM [/ekf_localization/odom_frame] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,652: +PARAM [/ekf_localization/base_link_frame] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,652: +PARAM [/ekf_localization/imu0] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,653: +PARAM [/ekf_localization/imu0_config] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,653: +PARAM [/car_driver_node/port] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,653: +PARAM [/ekf_localization/odom0_config] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,653: +PARAM [/ekf_localization/world_frame] by /roslaunch
+[rosmaster.master][INFO] 2020-09-15 00:57:19,916: +SERVICE [/rosout/get_loggers] /rosout http://192.168.43.172:40899/
+[rosmaster.master][INFO] 2020-09-15 00:57:19,918: +SERVICE [/rosout/set_logger_level] /rosout http://192.168.43.172:40899/
+[rosmaster.master][INFO] 2020-09-15 00:57:19,921: +PUB [/rosout_agg] /rosout http://192.168.43.172:40899/
+[rosmaster.master][INFO] 2020-09-15 00:57:19,929: +SUB [/rosout] /rosout http://192.168.43.172:40899/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,118: +PUB [/rosout] /apply_calib http://192.168.43.172:35577/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,120: +SERVICE [/apply_calib/get_loggers] /apply_calib http://192.168.43.172:35577/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,123: +SERVICE [/apply_calib/set_logger_level] /apply_calib http://192.168.43.172:35577/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,126: publisherUpdate[/rosout] -> http://192.168.43.172:40899/ ['http://192.168.43.172:35577/']
+[rosmaster.master][INFO] 2020-09-15 00:57:20,133: publisherUpdate[/rosout] -> http://192.168.43.172:40899/ ['http://192.168.43.172:35577/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 00:57:20,158: +SUB [/zxcar/imu] /apply_calib http://192.168.43.172:35577/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,184: +SUB [/zxcar/magnetic] /apply_calib http://192.168.43.172:35577/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,189: +PUB [/imu/data_raw] /apply_calib http://192.168.43.172:35577/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,193: +PUB [/imu/mag] /apply_calib http://192.168.43.172:35577/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,452: +PUB [/rosout] /base_footprint_to_imu_link http://192.168.43.172:43377/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,455: +SERVICE [/base_footprint_to_imu_link/get_loggers] /base_footprint_to_imu_link http://192.168.43.172:43377/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,457: +SERVICE [/base_footprint_to_imu_link/set_logger_level] /base_footprint_to_imu_link http://192.168.43.172:43377/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,462: +PUB [/tf] /base_footprint_to_imu_link http://192.168.43.172:43377/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,502: +PUB [/rosout] /imu_filter_madgwick http://192.168.43.172:34149/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,504: +SERVICE [/imu_filter_madgwick/get_loggers] /imu_filter_madgwick http://192.168.43.172:34149/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,507: +SERVICE [/imu_filter_madgwick/set_logger_level] /imu_filter_madgwick http://192.168.43.172:34149/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,512: +PUB [/tf] /imu_filter_madgwick http://192.168.43.172:34149/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,528: publisherUpdate[/rosout] -> http://192.168.43.172:40899/ ['http://192.168.43.172:35577/', 'http://192.168.43.172:43377/']
+[rosmaster.master][INFO] 2020-09-15 00:57:20,535: publisherUpdate[/rosout] -> http://192.168.43.172:40899/ ['http://192.168.43.172:35577/', 'http://192.168.43.172:43377/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 00:57:20,537: publisherUpdate[/rosout] -> http://192.168.43.172:40899/ ['http://192.168.43.172:35577/', 'http://192.168.43.172:43377/', 'http://192.168.43.172:34149/']
+[rosmaster.master][INFO] 2020-09-15 00:57:20,541: publisherUpdate[/rosout] -> http://192.168.43.172:40899/ ['http://192.168.43.172:35577/', 'http://192.168.43.172:43377/', 'http://192.168.43.172:34149/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 00:57:20,552: +PUB [/rosout] /base_footprint_to_base_link http://192.168.43.172:36021/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,554: +SERVICE [/imu_filter_madgwick/set_parameters] /imu_filter_madgwick http://192.168.43.172:34149/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,562: +SERVICE [/base_footprint_to_base_link/get_loggers] /base_footprint_to_base_link http://192.168.43.172:36021/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,566: +PUB [/imu_filter_madgwick/parameter_descriptions] /imu_filter_madgwick http://192.168.43.172:34149/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,569: +SERVICE [/base_footprint_to_base_link/set_logger_level] /base_footprint_to_base_link http://192.168.43.172:36021/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,571: +PUB [/imu_filter_madgwick/parameter_updates] /imu_filter_madgwick http://192.168.43.172:34149/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,577: +PUB [/tf] /base_footprint_to_base_link http://192.168.43.172:36021/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,582: +PUB [/rosout] /heima_base_node http://192.168.43.172:37621/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,585: +SERVICE [/heima_base_node/get_loggers] /heima_base_node http://192.168.43.172:37621/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,594: +PARAM [/imu_filter_madgwick/gain] by /imu_filter_madgwick
+[rosmaster.master][INFO] 2020-09-15 00:57:20,597: +PARAM [/imu_filter_madgwick/zeta] by /imu_filter_madgwick
+[rosmaster.master][INFO] 2020-09-15 00:57:20,597: +SERVICE [/heima_base_node/set_logger_level] /heima_base_node http://192.168.43.172:37621/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,599: +PARAM [/imu_filter_madgwick/mag_bias_x] by /imu_filter_madgwick
+[rosmaster.master][INFO] 2020-09-15 00:57:20,603: +PARAM [/imu_filter_madgwick/mag_bias_y] by /imu_filter_madgwick
+[rosmaster.master][INFO] 2020-09-15 00:57:20,605: +PUB [/tf] /heima_base_node http://192.168.43.172:37621/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,607: +PARAM [/imu_filter_madgwick/mag_bias_z] by /imu_filter_madgwick
+[rosmaster.master][INFO] 2020-09-15 00:57:20,613: +PUB [/raw_odom] /heima_base_node http://192.168.43.172:37621/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,615: +PARAM [/imu_filter_madgwick/orientation_stddev] by /imu_filter_madgwick
+[rosmaster.master][INFO] 2020-09-15 00:57:20,618: +PARAM [/imu_filter_madgwick/gain] by /imu_filter_madgwick
+[rosmaster.master][INFO] 2020-09-15 00:57:20,622: +PARAM [/imu_filter_madgwick/zeta] by /imu_filter_madgwick
+[rosmaster.master][INFO] 2020-09-15 00:57:20,628: +PARAM [/imu_filter_madgwick/mag_bias_x] by /imu_filter_madgwick
+[rosmaster.master][INFO] 2020-09-15 00:57:20,629: +SUB [/zxcar/get_vel] /heima_base_node http://192.168.43.172:37621/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,630: publisherUpdate[/rosout] -> http://192.168.43.172:40899/ ['http://192.168.43.172:35577/', 'http://192.168.43.172:43377/', 'http://192.168.43.172:34149/', 'http://192.168.43.172:36021/']
+[rosmaster.master][INFO] 2020-09-15 00:57:20,635: +PARAM [/imu_filter_madgwick/mag_bias_y] by /imu_filter_madgwick
+[rosmaster.master][INFO] 2020-09-15 00:57:20,639: publisherUpdate[/rosout] -> http://192.168.43.172:40899/ ['http://192.168.43.172:35577/', 'http://192.168.43.172:43377/', 'http://192.168.43.172:34149/', 'http://192.168.43.172:36021/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 00:57:20,640: publisherUpdate[/rosout] -> http://192.168.43.172:40899/ ['http://192.168.43.172:35577/', 'http://192.168.43.172:43377/', 'http://192.168.43.172:34149/', 'http://192.168.43.172:36021/', 'http://192.168.43.172:37621/']
+[rosmaster.master][INFO] 2020-09-15 00:57:20,641: +PARAM [/imu_filter_madgwick/mag_bias_z] by /imu_filter_madgwick
+[rosmaster.master][INFO] 2020-09-15 00:57:20,647: publisherUpdate[/rosout] -> http://192.168.43.172:40899/ ['http://192.168.43.172:35577/', 'http://192.168.43.172:43377/', 'http://192.168.43.172:34149/', 'http://192.168.43.172:36021/', 'http://192.168.43.172:37621/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 00:57:20,657: +PARAM [/imu_filter_madgwick/orientation_stddev] by /imu_filter_madgwick
+[rosmaster.master][INFO] 2020-09-15 00:57:20,662: +PUB [/imu/data] /imu_filter_madgwick http://192.168.43.172:34149/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,667: +PUB [/rosout] /map_to_odom http://192.168.43.172:41361/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,670: +SERVICE [/map_to_odom/get_loggers] /map_to_odom http://192.168.43.172:41361/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,674: +SERVICE [/map_to_odom/set_logger_level] /map_to_odom http://192.168.43.172:41361/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,675: +SUB [/imu/data_raw] /imu_filter_madgwick http://192.168.43.172:34149/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,679: +PUB [/tf] /map_to_odom http://192.168.43.172:41361/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,688: +SUB [/imu/mag] /imu_filter_madgwick http://192.168.43.172:34149/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,739: publisherUpdate[/rosout] -> http://192.168.43.172:40899/ ['http://192.168.43.172:35577/', 'http://192.168.43.172:43377/', 'http://192.168.43.172:34149/', 'http://192.168.43.172:36021/', 'http://192.168.43.172:37621/', 'http://192.168.43.172:41361/']
+[rosmaster.master][INFO] 2020-09-15 00:57:20,743: publisherUpdate[/rosout] -> http://192.168.43.172:40899/ ['http://192.168.43.172:35577/', 'http://192.168.43.172:43377/', 'http://192.168.43.172:34149/', 'http://192.168.43.172:36021/', 'http://192.168.43.172:37621/', 'http://192.168.43.172:41361/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 00:57:20,763: +PUB [/rosout] /ekf_localization http://192.168.43.172:36699/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,765: +SERVICE [/ekf_localization/get_loggers] /ekf_localization http://192.168.43.172:36699/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,766: +SERVICE [/ekf_localization/set_logger_level] /ekf_localization http://192.168.43.172:36699/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,770: +PUB [/diagnostics] /ekf_localization http://192.168.43.172:36699/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,781: +SUB [/tf] /ekf_localization http://192.168.43.172:36699/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,789: +SUB [/tf_static] /ekf_localization http://192.168.43.172:36699/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,829: +SUB [/set_pose] /ekf_localization http://192.168.43.172:36699/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,831: +SERVICE [/set_pose] /ekf_localization http://192.168.43.172:36699/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,833: +SERVICE [/ekf_localization/enable] /ekf_localization http://192.168.43.172:36699/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,845: publisherUpdate[/rosout] -> http://192.168.43.172:40899/ ['http://192.168.43.172:35577/', 'http://192.168.43.172:43377/', 'http://192.168.43.172:34149/', 'http://192.168.43.172:36021/', 'http://192.168.43.172:37621/', 'http://192.168.43.172:41361/', 'http://192.168.43.172:36699/']
+[rosmaster.master][INFO] 2020-09-15 00:57:20,849: publisherUpdate[/rosout] -> http://192.168.43.172:40899/ ['http://192.168.43.172:35577/', 'http://192.168.43.172:43377/', 'http://192.168.43.172:34149/', 'http://192.168.43.172:36021/', 'http://192.168.43.172:37621/', 'http://192.168.43.172:41361/', 'http://192.168.43.172:36699/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 00:57:20,854: +SUB [/raw_odom] /ekf_localization http://192.168.43.172:36699/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,878: +SUB [/imu/data] /ekf_localization http://192.168.43.172:36699/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,885: +PUB [/odom] /ekf_localization http://192.168.43.172:36699/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,888: +PUB [/tf] /ekf_localization http://192.168.43.172:36699/
+[rosmaster.master][INFO] 2020-09-15 00:57:20,946: publisherUpdate[/tf] -> http://192.168.43.172:36699/ ['http://192.168.43.172:43377/', 'http://192.168.43.172:34149/', 'http://192.168.43.172:36021/', 'http://192.168.43.172:37621/', 'http://192.168.43.172:41361/', 'http://192.168.43.172:36699/']
+[rosmaster.master][INFO] 2020-09-15 00:57:20,952: publisherUpdate[/tf] -> http://192.168.43.172:36699/ ['http://192.168.43.172:43377/', 'http://192.168.43.172:34149/', 'http://192.168.43.172:36021/', 'http://192.168.43.172:37621/', 'http://192.168.43.172:41361/', 'http://192.168.43.172:36699/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 00:57:21,180: +PUB [/rosout] /car_driver_node http://192.168.43.172:39017/
+[rosmaster.master][INFO] 2020-09-15 00:57:21,191: +SERVICE [/car_driver_node/get_loggers] /car_driver_node http://192.168.43.172:39017/
+[rosmaster.master][INFO] 2020-09-15 00:57:21,194: +SERVICE [/car_driver_node/set_logger_level] /car_driver_node http://192.168.43.172:39017/
+[rosmaster.master][INFO] 2020-09-15 00:57:21,200: +SUB [/cmd_vel] /car_driver_node http://192.168.43.172:39017/
+[rosmaster.master][INFO] 2020-09-15 00:57:21,203: +PUB [/zxcar/get_vel] /car_driver_node http://192.168.43.172:39017/
+[rosmaster.master][INFO] 2020-09-15 00:57:21,206: +PUB [/zxcar/imu] /car_driver_node http://192.168.43.172:39017/
+[rosmaster.master][INFO] 2020-09-15 00:57:21,209: +PUB [/zxcar/magnetic] /car_driver_node http://192.168.43.172:39017/
+[rosmaster.master][INFO] 2020-09-15 00:57:21,251: publisherUpdate[/rosout] -> http://192.168.43.172:40899/ ['http://192.168.43.172:35577/', 'http://192.168.43.172:43377/', 'http://192.168.43.172:34149/', 'http://192.168.43.172:36021/', 'http://192.168.43.172:37621/', 'http://192.168.43.172:41361/', 'http://192.168.43.172:36699/', 'http://192.168.43.172:39017/']
+[rosmaster.master][INFO] 2020-09-15 00:57:21,251: publisherUpdate[/zxcar/get_vel] -> http://192.168.43.172:37621/ ['http://192.168.43.172:39017/']
+[rosmaster.master][INFO] 2020-09-15 00:57:21,257: publisherUpdate[/rosout] -> http://192.168.43.172:40899/ ['http://192.168.43.172:35577/', 'http://192.168.43.172:43377/', 'http://192.168.43.172:34149/', 'http://192.168.43.172:36021/', 'http://192.168.43.172:37621/', 'http://192.168.43.172:41361/', 'http://192.168.43.172:36699/', 'http://192.168.43.172:39017/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 00:57:21,257: publisherUpdate[/zxcar/imu] -> http://192.168.43.172:35577/ ['http://192.168.43.172:39017/']
+[rosmaster.master][INFO] 2020-09-15 00:57:21,260: publisherUpdate[/zxcar/get_vel] -> http://192.168.43.172:37621/ ['http://192.168.43.172:39017/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 00:57:21,265: publisherUpdate[/zxcar/imu] -> http://192.168.43.172:35577/ ['http://192.168.43.172:39017/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 00:57:21,267: publisherUpdate[/zxcar/magnetic] -> http://192.168.43.172:35577/ ['http://192.168.43.172:39017/']
+[rosmaster.master][INFO] 2020-09-15 00:57:21,272: publisherUpdate[/zxcar/magnetic] -> http://192.168.43.172:35577/ ['http://192.168.43.172:39017/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 00:58:24,075: +PUB [/rosout] /calibrate_linear http://192.168.43.172:38055/
+[rosmaster.master][INFO] 2020-09-15 00:58:24,082: +SERVICE [/calibrate_linear/get_loggers] /calibrate_linear http://192.168.43.172:38055/
+[rosmaster.master][INFO] 2020-09-15 00:58:24,085: publisherUpdate[/rosout] -> http://192.168.43.172:40899/ ['http://192.168.43.172:35577/', 'http://192.168.43.172:43377/', 'http://192.168.43.172:34149/', 'http://192.168.43.172:36021/', 'http://192.168.43.172:37621/', 'http://192.168.43.172:41361/', 'http://192.168.43.172:36699/', 'http://192.168.43.172:39017/', 'http://192.168.43.172:38055/']
+[rosmaster.master][INFO] 2020-09-15 00:58:24,085: +SERVICE [/calibrate_linear/set_logger_level] /calibrate_linear http://192.168.43.172:38055/
+[rosmaster.master][INFO] 2020-09-15 00:58:24,088: publisherUpdate[/rosout] -> http://192.168.43.172:40899/ ['http://192.168.43.172:35577/', 'http://192.168.43.172:43377/', 'http://192.168.43.172:34149/', 'http://192.168.43.172:36021/', 'http://192.168.43.172:37621/', 'http://192.168.43.172:41361/', 'http://192.168.43.172:36699/', 'http://192.168.43.172:39017/', 'http://192.168.43.172:38055/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 00:58:24,103: +PUB [/cmd_vel] /calibrate_linear http://192.168.43.172:38055/
+[rosmaster.master][INFO] 2020-09-15 00:58:24,117: +PUB [/calibrate_linear/parameter_descriptions] /calibrate_linear http://192.168.43.172:38055/
+[rosmaster.master][INFO] 2020-09-15 00:58:24,120: +PUB [/calibrate_linear/parameter_updates] /calibrate_linear http://192.168.43.172:38055/
+[rosmaster.master][INFO] 2020-09-15 00:58:24,123: +PARAM [/calibrate_linear/test_distance] by /calibrate_linear
+[rosmaster.master][INFO] 2020-09-15 00:58:24,125: +PARAM [/calibrate_linear/speed] by /calibrate_linear
+[rosmaster.master][INFO] 2020-09-15 00:58:24,127: +PARAM [/calibrate_linear/tolerance] by /calibrate_linear
+[rosmaster.master][INFO] 2020-09-15 00:58:24,130: +PARAM [/calibrate_linear/odom_linear_scale_correction] by /calibrate_linear
+[rosmaster.master][INFO] 2020-09-15 00:58:24,132: +PARAM [/calibrate_linear/start_test] by /calibrate_linear
+[rosmaster.master][INFO] 2020-09-15 00:58:24,135: +SERVICE [/calibrate_linear/set_parameters] /calibrate_linear http://192.168.43.172:38055/
+[rosmaster.master][INFO] 2020-09-15 00:58:24,149: +SUB [/calibrate_linear/parameter_descriptions] /calibrate_linear http://192.168.43.172:38055/
+[rosmaster.master][INFO] 2020-09-15 00:58:24,154: +SUB [/calibrate_linear/parameter_updates] /calibrate_linear http://192.168.43.172:38055/
+[rosmaster.master][INFO] 2020-09-15 00:58:24,163: +SUB [/tf] /calibrate_linear http://192.168.43.172:38055/
+[rosmaster.master][INFO] 2020-09-15 00:58:24,168: +SUB [/tf_static] /calibrate_linear http://192.168.43.172:38055/
+[rosmaster.master][INFO] 2020-09-15 00:58:24,186: publisherUpdate[/cmd_vel] -> http://192.168.43.172:39017/ ['http://192.168.43.172:38055/']
+[rosmaster.master][INFO] 2020-09-15 00:58:24,191: publisherUpdate[/cmd_vel] -> http://192.168.43.172:39017/ ['http://192.168.43.172:38055/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 00:59:00,563: publisherUpdate[/rosout] -> http://192.168.43.172:40899/ ['http://192.168.43.172:35577/', 'http://192.168.43.172:43377/', 'http://192.168.43.172:34149/', 'http://192.168.43.172:36021/', 'http://192.168.43.172:37621/', 'http://192.168.43.172:41361/', 'http://192.168.43.172:36699/', 'http://192.168.43.172:39017/', 'http://192.168.43.172:38055/', 'http://192.168.43.192:46025/']
+[rosmaster.master][INFO] 2020-09-15 00:59:00,563: +PUB [/rosout] /teleop_twist_keyboard http://192.168.43.192:46025/
+[rosmaster.master][INFO] 2020-09-15 00:59:00,566: publisherUpdate[/rosout] -> http://192.168.43.172:40899/ ['http://192.168.43.172:35577/', 'http://192.168.43.172:43377/', 'http://192.168.43.172:34149/', 'http://192.168.43.172:36021/', 'http://192.168.43.172:37621/', 'http://192.168.43.172:41361/', 'http://192.168.43.172:36699/', 'http://192.168.43.172:39017/', 'http://192.168.43.172:38055/', 'http://192.168.43.192:46025/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 00:59:00,584: +SERVICE [/teleop_twist_keyboard/get_loggers] /teleop_twist_keyboard http://192.168.43.192:46025/
+[rosmaster.master][INFO] 2020-09-15 00:59:00,592: +SERVICE [/teleop_twist_keyboard/set_logger_level] /teleop_twist_keyboard http://192.168.43.192:46025/
+[rosmaster.master][INFO] 2020-09-15 00:59:00,643: +PUB [/cmd_vel] /teleop_twist_keyboard http://192.168.43.192:46025/
+[rosmaster.master][INFO] 2020-09-15 00:59:00,667: publisherUpdate[/cmd_vel] -> http://192.168.43.172:39017/ ['http://192.168.43.172:38055/', 'http://192.168.43.192:46025/']
+[rosmaster.master][INFO] 2020-09-15 00:59:00,672: publisherUpdate[/cmd_vel] -> http://192.168.43.172:39017/ ['http://192.168.43.172:38055/', 'http://192.168.43.192:46025/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 00:59:27,196: -SUB [/tf_static] /calibrate_linear http://192.168.43.172:38055/
+[rosmaster.master][INFO] 2020-09-15 00:59:27,196: -SUB [/calibrate_linear/parameter_updates] /calibrate_linear http://192.168.43.172:38055/
+[rosmaster.master][INFO] 2020-09-15 00:59:27,197: -SUB [/calibrate_linear/parameter_descriptions] /calibrate_linear http://192.168.43.172:38055/
+[rosmaster.master][INFO] 2020-09-15 00:59:27,197: -SUB [/tf] /calibrate_linear http://192.168.43.172:38055/
+[rosmaster.master][INFO] 2020-09-15 00:59:27,198: -PUB [/calibrate_linear/parameter_descriptions] /calibrate_linear http://192.168.43.172:38055/
+[rosmaster.master][INFO] 2020-09-15 00:59:27,198: -PUB [/calibrate_linear/parameter_updates] /calibrate_linear http://192.168.43.172:38055/
+[rosmaster.master][INFO] 2020-09-15 00:59:27,198: -PUB [/rosout] /calibrate_linear http://192.168.43.172:38055/
+[rosmaster.master][INFO] 2020-09-15 00:59:27,199: -PUB [/cmd_vel] /calibrate_linear http://192.168.43.172:38055/
+[rosmaster.master][INFO] 2020-09-15 00:59:27,199: -SERVICE [/calibrate_linear/get_loggers] /calibrate_linear rosrpc://192.168.43.172:33461
+[rosmaster.master][INFO] 2020-09-15 00:59:27,199: -SERVICE [/calibrate_linear/set_parameters] /calibrate_linear rosrpc://192.168.43.172:33461
+[rosmaster.master][INFO] 2020-09-15 00:59:27,200: -SERVICE [/calibrate_linear/set_logger_level] /calibrate_linear rosrpc://192.168.43.172:33461
+[rosmaster.master][INFO] 2020-09-15 00:59:27,221: publisherUpdate[/rosout] -> http://192.168.43.172:40899/ ['http://192.168.43.172:35577/', 'http://192.168.43.172:43377/', 'http://192.168.43.172:34149/', 'http://192.168.43.172:36021/', 'http://192.168.43.172:37621/', 'http://192.168.43.172:41361/', 'http://192.168.43.172:36699/', 'http://192.168.43.172:39017/', 'http://192.168.43.192:46025/']
+[rosmaster.master][INFO] 2020-09-15 00:59:27,221: publisherUpdate[/cmd_vel] -> http://192.168.43.172:39017/ ['http://192.168.43.192:46025/']
+[rosmaster.master][INFO] 2020-09-15 00:59:27,223: publisherUpdate[/rosout] -> http://192.168.43.172:40899/ ['http://192.168.43.172:35577/', 'http://192.168.43.172:43377/', 'http://192.168.43.172:34149/', 'http://192.168.43.172:36021/', 'http://192.168.43.172:37621/', 'http://192.168.43.172:41361/', 'http://192.168.43.172:36699/', 'http://192.168.43.172:39017/', 'http://192.168.43.192:46025/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 00:59:27,225: publisherUpdate[/cmd_vel] -> http://192.168.43.172:39017/ ['http://192.168.43.192:46025/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 01:00:05,362: -SUB [/cmd_vel] /car_driver_node http://192.168.43.172:39017/
+[rosmaster.master][INFO] 2020-09-15 01:00:05,362: -PUB [/zxcar/get_vel] /car_driver_node http://192.168.43.172:39017/
+[rosmaster.master][INFO] 2020-09-15 01:00:05,362: -PUB [/rosout] /car_driver_node http://192.168.43.172:39017/
+[rosmaster.master][INFO] 2020-09-15 01:00:05,363: -PUB [/zxcar/imu] /car_driver_node http://192.168.43.172:39017/
+[rosmaster.master][INFO] 2020-09-15 01:00:05,363: -PUB [/zxcar/magnetic] /car_driver_node http://192.168.43.172:39017/
+[rosmaster.master][INFO] 2020-09-15 01:00:05,363: -SERVICE [/car_driver_node/set_logger_level] /car_driver_node rosrpc://192.168.43.172:41009
+[rosmaster.master][INFO] 2020-09-15 01:00:05,364: -SERVICE [/car_driver_node/get_loggers] /car_driver_node rosrpc://192.168.43.172:41009
+[rosmaster.master][INFO] 2020-09-15 01:00:05,404: publisherUpdate[/rosout] -> http://192.168.43.172:40899/ ['http://192.168.43.172:35577/', 'http://192.168.43.172:43377/', 'http://192.168.43.172:34149/', 'http://192.168.43.172:36021/', 'http://192.168.43.172:37621/', 'http://192.168.43.172:41361/', 'http://192.168.43.172:36699/', 'http://192.168.43.192:46025/']
+[rosmaster.master][INFO] 2020-09-15 01:00:05,404: publisherUpdate[/zxcar/get_vel] -> http://192.168.43.172:37621/ []
+[rosmaster.master][INFO] 2020-09-15 01:00:05,404: publisherUpdate[/zxcar/imu] -> http://192.168.43.172:35577/ []
+[rosmaster.master][INFO] 2020-09-15 01:00:05,407: publisherUpdate[/rosout] -> http://192.168.43.172:40899/ ['http://192.168.43.172:35577/', 'http://192.168.43.172:43377/', 'http://192.168.43.172:34149/', 'http://192.168.43.172:36021/', 'http://192.168.43.172:37621/', 'http://192.168.43.172:41361/', 'http://192.168.43.172:36699/', 'http://192.168.43.192:46025/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 01:00:05,409: publisherUpdate[/zxcar/get_vel] -> http://192.168.43.172:37621/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2020-09-15 01:00:05,410: publisherUpdate[/zxcar/imu] -> http://192.168.43.172:35577/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 01:00:05,411: publisherUpdate[/zxcar/magnetic] -> http://192.168.43.172:35577/ []
+[rosmaster.master][INFO] 2020-09-15 01:00:05,412: publisherUpdate[/zxcar/magnetic] -> http://192.168.43.172:35577/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 01:00:05,459: -PUB [/rosout] /base_footprint_to_imu_link http://192.168.43.172:43377/
+[rosmaster.master][INFO] 2020-09-15 01:00:05,460: -PUB [/tf] /base_footprint_to_imu_link http://192.168.43.172:43377/
+[rosmaster.master][INFO] 2020-09-15 01:00:05,462: -SERVICE [/base_footprint_to_imu_link/get_loggers] /base_footprint_to_imu_link rosrpc://192.168.43.172:59303
+[rosmaster.master][INFO] 2020-09-15 01:00:05,463: -SERVICE [/base_footprint_to_imu_link/set_logger_level] /base_footprint_to_imu_link rosrpc://192.168.43.172:59303
+[rosmaster.master][INFO] 2020-09-15 01:00:05,479: -PUB [/rosout] /map_to_odom http://192.168.43.172:41361/
+[rosmaster.master][INFO] 2020-09-15 01:00:05,481: -PUB [/rosout] /ekf_localization http://192.168.43.172:36699/
+[rosmaster.master][INFO] 2020-09-15 01:00:05,482: -PUB [/tf] /map_to_odom http://192.168.43.172:41361/
+[rosmaster.master][INFO] 2020-09-15 01:00:05,484: -PUB [/diagnostics] /ekf_localization http://192.168.43.172:36699/
+[rosmaster.master][INFO] 2020-09-15 01:00:05,485: -SERVICE [/map_to_odom/get_loggers] /map_to_odom rosrpc://192.168.43.172:41159
+[rosmaster.master][INFO] 2020-09-15 01:00:05,486: -PUB [/odom] /ekf_localization http://192.168.43.172:36699/
+[rosmaster.master][INFO] 2020-09-15 01:00:05,488: -SERVICE [/map_to_odom/set_logger_level] /map_to_odom rosrpc://192.168.43.172:41159
+[rosmaster.master][INFO] 2020-09-15 01:00:05,489: -PUB [/tf] /ekf_localization http://192.168.43.172:36699/
+[rosmaster.master][INFO] 2020-09-15 01:00:05,491: -SUB [/tf] /ekf_localization http://192.168.43.172:36699/
+[rosmaster.master][INFO] 2020-09-15 01:00:05,493: -SUB [/tf_static] /ekf_localization http://192.168.43.172:36699/
+[rosmaster.master][INFO] 2020-09-15 01:00:05,494: -SUB [/set_pose] /ekf_localization http://192.168.43.172:36699/
+[rosmaster.master][INFO] 2020-09-15 01:00:05,495: -SUB [/raw_odom] /ekf_localization http://192.168.43.172:36699/
+[rosmaster.master][INFO] 2020-09-15 01:00:05,496: -SUB [/imu/data] /ekf_localization http://192.168.43.172:36699/
+[rosmaster.master][INFO] 2020-09-15 01:00:05,498: -SERVICE [/ekf_localization/get_loggers] /ekf_localization rosrpc://192.168.43.172:51065
+[rosmaster.master][INFO] 2020-09-15 01:00:05,499: -SERVICE [/ekf_localization/set_logger_level] /ekf_localization rosrpc://192.168.43.172:51065
+[rosmaster.master][INFO] 2020-09-15 01:00:05,500: -SERVICE [/set_pose] /ekf_localization rosrpc://192.168.43.172:51065
+[rosmaster.master][INFO] 2020-09-15 01:00:05,501: -SERVICE [/ekf_localization/enable] /ekf_localization rosrpc://192.168.43.172:51065
+[rosmaster.master][INFO] 2020-09-15 01:00:05,508: publisherUpdate[/rosout] -> http://192.168.43.172:40899/ ['http://192.168.43.172:35577/', 'http://192.168.43.172:34149/', 'http://192.168.43.172:36021/', 'http://192.168.43.172:37621/', 'http://192.168.43.172:41361/', 'http://192.168.43.172:36699/', 'http://192.168.43.192:46025/']
+[rosmaster.master][INFO] 2020-09-15 01:00:05,510: -PUB [/rosout] /heima_base_node http://192.168.43.172:37621/
+[rosmaster.master][INFO] 2020-09-15 01:00:05,510: publisherUpdate[/tf] -> http://192.168.43.172:36699/ ['http://192.168.43.172:34149/', 'http://192.168.43.172:36021/', 'http://192.168.43.172:37621/', 'http://192.168.43.172:41361/', 'http://192.168.43.172:36699/']
+[rosmaster.master][INFO] 2020-09-15 01:00:05,511: publisherUpdate[/rosout] -> http://192.168.43.172:40899/ ['http://192.168.43.172:35577/', 'http://192.168.43.172:34149/', 'http://192.168.43.172:36021/', 'http://192.168.43.172:37621/', 'http://192.168.43.172:41361/', 'http://192.168.43.172:36699/', 'http://192.168.43.192:46025/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-15 01:00:05,512: -PUB [/tf] /heima_base_node http://192.168.43.172:37621/
+[rosmaster.master][INFO] 2020-09-15 01:00:05,514: publisherUpdate[/tf] -> http://192.168.43.172:36699/ ['http://192.168.43.172:34149/', 'http://192.168.43.172:36021/', 'http://192.168.43.172:37621/', 'http://192.168.43.172:41361/', 'http://192.168.43.172:36699/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2020-09-15 01:00:05,515: publisherUpdate[/rosout] -> http://192.168.43.172:40899/ ['http://192.168.43.172:35577/', 'http://192.168.43.172:34149/', 'http://192.168.43.172:36021/', 'http://192.168.43.172:37621/', 'http://192.168.43.172:36699/', 'http://192.168.43.192:46025/']
+[rosmaster.master][INFO] 2020-09-15 01:00:05,516: -PUB [/rosout] /apply_calib http://192.168.43.172:35577/
+[rosmaster.master][INFO] 2020-09-15 01:00:05,518: -PUB [/raw_odom] /heima_base_node http://192.168.43.172:37621/
+[rosmaster.master][INFO] 2020-09-15 01:00:05,518: publisherUpdate[/rosout] -> http://192.168.43.172:40899/ ['http://192.168.43.172:35577/', 'http://192.168.43.172:34149/', 'http://192.168.43.172:36021/', 'http://192.Š:?æý8Šsš"¥óãæú“I·Ñº·eg2ë¤YHÙ2Ð¿«?… NV@¢÷Kò áÔæçK¿ àåS=óÿ‘oJœÈÿ>þZ/ëå/¥×—a×[>,cÀ¨tÌ~íŒ,i¹²‰Õ¢²–$hÂYZ†ØVK­3!<9ò™M@6b¹tzF¶¿Ÿÿ˜OÛhg©mÈJxÖt¨Sf±õÆ›2‰jâDÔÁÉÅ§O9UÜÊ™)™®b3Å‰Þñ*;Ï™æ­Sœ-;qP[ªCàÒµ"Cöyoªçîò¶bË}üOlÍÙ³gck›¶rzìÁÛî¬ ºû4úBz2")—q„5k­ >Ý­Ú»(Rý®¢ŸäÉlDÉ	~±<~ûqtÜûÂ'Q>|-z%q©ë¿óCÿšì†¦ý›„tÌ{Þ’[î=ø2{·ëÚ©3+l_J;Š,¤°ããjß¤óc!þ¹â’–½B¨…Ì`ýV
+, ?<Y°ô×ó>Žë¼aÒ‹Óž+WË•¬”’Ã'Ä÷?Î·ÿñsá_6þ’S©ü4@Âüé8¬Ñ'hÎµób‘–^·ñbyi—ïz»¢¹bŠ¨¬üŒåG.f<åûÔy±Ùvÿ9´_àaÛñ”7@aÛÉý¯;¶ã‹-;ÿoA1¶b WÛùö—Zó…v¸¤àiŒüOû»òF¦J ­é8tjŽ+RÍ‚¦Y“u€Ÿ0û‡ÊÆT­îtÖßÒV'G÷Ú[!@'rSà²\Åmyÿ|×ÙTÓ9þïNØ&žÀ
+NÛb×§·±Aùc× Î¬ÜA¨\‰8v+ÜbU—÷%1o¶vØœñ,w¥àÚÜ&EVb8÷é_ÀtåÑ‡(žä‚ÄƒD9jã®bÝë¶áöãƒlQpó€_É_|QŸ/t‰kŽ¼+½f?$—s.Y4W¸Û«*ü_wxCíÅ@°Âû6a[˜‡å«wéîÝ×‹ôm:ÑVVžÓ?Õ´­¤²<º—>5R_î,üãŽEWSR¿j¬v•åÍµ…zd·™®í™ðcni!ðó¬ªuº¥Jèè¤ŠMOìS,SÉbÜû,D%Ô¹ív'ê:›Ÿïs+š„É×%_5Óyžõd”9Di¬ŒfŒ9å4x§xÿIƒâ„$¢ %ÿ>¤F9ÓÍ³ë–é»×ï@Ð4RB¨›JwâçdkEiCÐuh–dpîbÏžüÞW™âe0ÊèFT/&ÎÍxÌ¥gPâ~¹ÑÙÀ'Í2Íhà$>p:1lß’Hj¨KJiHB4ð›‹Cä&ÆåÆé9)(®Œ5sÎµa£É'
+Qº5•j£ö&©Nš²×žs¿mN…âHØÿ½${“¢¢TXjMçPf%+s~×¸Ád$HÿLWDIy–ªü0Àq¨}$ýd§;ãÕJž¿ùK k3¢/·%ù\hªmKE]håE
+¢sÀÕÁ’ðˆ™Â|¹ùÔÝ£bŒöoÐFGi"qñ–„:]vpµM4’dA¶@dP°DœÖ‡Ñß á@¢(a¡É*X]ô€€eÓ€Þ$ÓÀÕl0ºÓÈ]Å™f¶ÃX(7fÃÓ/P™Ý¢fâfEá_´c7¦þ§´¶ÄòÎ«ó°4À·Šáöêí	È%ð(8©(;Ù˜ø‡¼I'”Ý]u¾q¨«ˆ[8Ñï$¯Þˆþƒ?LøZÂã^n–N7ñ†_ežÛåvn¥0=lóä:fÙî2aÔrd–‹¯¶ô@6ê@È¡^¬µú1ˆ†|3owÀ7dæÞa¹J ÀY%RS˜6ëF["í[ëGûb:L"¥>‘¥›zÕeÖæd+v]
+Ï>q'^¤ öœÂ²ƒöÔiâÃô"À#Ìû¾e–\´ä ÓY°ô™¦[ï¹g.¿ž† CÆ©¸gÁCÞ¤|¹„9ý8ñWýgëÊY<5ëÂov«Ÿ Þ4zOö6õªÆ°è7o]ê94©÷!ùJÉEZÿÇ|G[˜&:bjûç1°“T§b÷’XôÃ™øýv^z
+yûëÇ#úyGÄT/vw¬9­¦$Å|—x@\ƒTÝG£öþZ¿gi¸á’7˜îOeœ¿­ù1Ø *™ïšVOtžu;µÄaa1­)y´6Ï‹ZÎKO·.Q€5Š=@ÃÎð»{ûVÖýú˜(•e&³æ«‘`[<Ó=!H¨ëÄß½xÝLöyf Kx_°pÈÌ°êÒ½‚‡‰,z„þúøB÷UGbÖBi´PÕ9XÎÖTj²ˆËŠç˜h•„Üµ†Ú™ö !?åþöui‘ÿk`G$‰µsÔ~ÄBWš„0E…Ó÷XõŠ>£²ˆŒª^ÕÏ˜G×x¸K½úx¹û3ôö‰ÁûËÔ§UOÛöÖã€€¶©Em²-f}-›kÚêrEç·{Iyy¯^À3JZÛ	ó!Ðg§a£OÓ{aƒo_Í‘û·¦3p€®ÕÕ²=áïDjÐr¬bþÐ«<ÍO—ùÇjºþ`¦roy'Gý.ÂŒ ¬­bª2¸ÚÃJ_–Ø;c”úÏ2‰•Æ a’>Èrƒãµå²|éÊ
+Bã¦-¦Ã ÉY¬·÷´>b5¦¿¢É(ñŸ°w¢ôç%Å96æÜÃì“ªo)Í¬' òèÞèÑ«ðöL<õa ;éÎ|öºšcx.½B-íØïÅ‚7c™Ò$TÍ±}¥˜wï8Î¡’Ä/Xë;®¤·¬G‘
+>‡Ù6E˜…åûÔqa
+BCW:µ	–ë‚“6ÌUèÒ„	¹®?ìnÍðÎ°Ä°˜qIe2üµFÝÉ* ‡iÓcº—êøÙPÌï¤ÿF]Ü[Û!!aÿ”@kìVF™¤'†Òþ·–3ÔÎ#f×_Ðu²~;Ud…´-¸VîlÍ³©Î¯½uˆ·˜ŠOeáŸÚ¡7…çÆ¬·‰«Ne'ñ:»¦­½Ã—n²Š¨Ôe¬üŒàÕké-Äw†xý6KãhÉjûs4¦°(tš†¸—BÏÕì]?Á¾_y¿ßw_¦ E%;‡•ÃÕr[Ÿ¯PìÊ—¸=(~ÝJ<yç$ÞÔ›èê-|æÙÉ]KÇË$Õs„´ãZª‰Ü¸´4“ôœð%½S‰÷]u{/ÝžjmT‚}+dýZ’nè¨ —ë€[TÛÛÍßá¤1§}\oôp}«å‹¾×‘}³à…R–mòÂÔê™ˆÀ¥8k„ûÜô3AÆé+ÑÏ#ßø:Iaþ:ÃRÅþª\H°«bº¡„ãÜ÷#œ,÷7>€8ÆÑ™¨¡ŒnÒú¥Z—Ç}°ä¼äQ‹0 ¾÷w/_?÷<\`—]NtôÐyO?–6Ë!ÔƒÞn¬fÐÐJŸstþ´'Õ1j&þG˜Ù_lÑù¥drîî¤û/²„+„Î[ïj8°)0¦¤4Ñ:JÙ…d»IgÁeîû›g°®PmTaÍê¾Å!€p.Š¬öúczV¦€(ÞÆk/ÖÑo‰ò¼ÐœÒýs£·oÙEk= CŠ66èŒ&íæ~N|c´£”…M·‡}–*TÍWß”m¶'
+	W×9;XÓ”²ìV¥Ýíõ½t”íýïw±T–ºCÆqê­‚HÁçhiæ{·6#¡ëšÒ°ü¶¶ÐèÒ0ªq-.7é’‘ãwæ9ñEÀ²ˆ·émJTòt^ÈÀÅÿ& ¶î¾|Eéÿhã1ÕtëyRˆÐé3Lžâ{$ÿªWqˆ?s6»”ž™¼ÇJTÚÆ= K¡%ìÔEr6Ž—ê'ùòé=WœHä7\¶×®ãËG¼×© IÁb¬ï‡òu÷]Š¯[e~èoÇ]bÙk²ÌM‚u³HW&t³Ä‰BÛ¶ :*¿¿¡ )>¯º0	ÙÇÑ§—.hylP õ>—ª¥Ðh»ÂŸÁòkøÑ«	†{WÆàD‘•Ò¾ƒko::Þ×Ò%%¸(LÆõH ,P—wŽrA£=bªP"C{$Ã=w§,*Px^uõ¹ŠgëN÷„9ë=‘-ËW yæ(ê U«¼¢Â`4¤•'LþØ©·Ã*›À¯ûŠðª¤^5­ûˆ<"þ±æ<¯ïùË,¨û—T1
+F)PS[—\XD	óÓ)	í3ÆôÛ&p¢/bU*Î±þ}êÚ³*t¯³6ðóñ?;ø°¿‰²n´¿“hö7"rùkªÎA	÷œÌu6¦r7m3Ö<ÖÞºí¹7ò¯tç}›Šï×Ú`ŽïÍÊ•Û[¶ß>uhûó\5ðÇ'¼ðdå9d±þ‰&­W¤„Iðb½¼” Ð¡ip¢5¥]†‘Gç/åa*ÍKðÃRœ0Òü»¼W~ÈOçFb%Ñ‰cnh¬øùÔ^ÝíùCõ÷B}ŽÐˆóCo˜ïÇ<ÂÛÜf˜MÆ`v±KkÓ×‰H®R„U•3õ€×Ó­xg Gz†°uCßœ¥ã…ÖeÏiH¸þ{£ÛµL°Õ½èRt’¿ÐN¿ðûå×T5Bgæ§µÄ‚2'éD)5Fì .ü”ÉNÀí%™§¼ýñƒ2¢¿îES™Üesv¬ç9¼Ðüz|ÓOñþÎÞæ;ýþã…Ï…©ˆL!=Nìœª°Ð±˜J×ÂS5‡Ùèx,³¸å¹A‹$Ÿ×!ÜÀˆl{¡nõ8c“ÏéBIbºShdöR
+a‹E°m%›?pX!áYÂ,öm#\2Ü“tÖÆÂWi\Wóyv¿˜€ð[ -jë³=¶ÆËóÙzúÞMÅ¦ÅžfX<*=^øÍ£þnÞ­¬· ‹âÎ¯jº¹õšN¸W}H¹ÝÂ(Q‹Í²Ü¿÷a®ß¾ÚÕ-1Éê„¸%ý´„êô­-/^ò˜z*(@ýs#Ö¡ëNœŸ(òÌÒA)|ì§tf7·à|c!C?îx-#–{üÁhâÎ§êÛ
+­ã™)Þ±Çì•¯Äm$nSþ…¬òhuUM'”[í
+ÏE
+Q‘öÅàÂE7;×²eð‘íe±ºd‡”V¼V®îUqÒŒfÄÚØÝP7œïÛyø2±ÜÖÈùÍG·1ãÆÑoa;¯ˆFßÍ%Xß[²ØKªHà®+lÈnþ-Ú¿O¹¤¯#‹œþT*6ëŠTvˆ›µ»0Š}±ÉÞá!}ú4zÇ•ú>Îƒ÷’q}#Ûpž¨ÅŒµL_‘dá“šˆ^„Ý¸¸ÜCÇV+˜Ja%vÑÆû©Ðé°)?ÏÕ~Ady ßãµ@i”ÈþÙÉÅ°hÅ¿èvvù*àƒïCÖ«'œc&ÛÛçªèú×—>€
+±÷ç=å»gÆséØÈ´²y§Ì†ÔW¡ŸKÐÖ2ì§Äµª©½e£m©òjÕÎkO3Ò$’W~s¸…Æ“’ìÙ66ND…jImìâßuò¦xIVæši§	šJôè¯fëÊž<ú»ùÆë´nµZbVåbE°ÕZzßaAµª7ïç&o®cö.ãÈx@ÛFŠªeb¥	:Á‰.^»µ÷þY[6¶—Û"Û€5ôž @‹¾ç¬àM+ô–%@Ó•2Ôx;‚Y<Z[68ìúyøÏÊ0Êq¶6&ëÂƒ¾jÅ;þòÐâæwïN·Ì¯QJùe­O$2‰·ô?ËžÖögJ±à¯AÌ™åhE±D³k¦èÛI)æ®"¸ÌF´nØ$çPß*›°g.$@P£Dð5=SåB.þïk!ÜV3=Î´1Ìê¥¬’fÿéØ"¸É‹½lØÅÚ¹Ã&Ädåj	X`ÞQƒïyÿ‘—¢/ûUW,.Š9ƒ‡Šå²Hl±^wôÏÑgŒ¥ÀtV’ûò–ã^
+„í½á½J‹™o0{~5é61§ÐÀúü»ð½› PÎçqÞÙ:(wŠa­—}éÅy§¬i°u½<§Pnú™;šU‰7+y1­<(úi`NÐ*³~e›âÉË§Ðm¿¾p)Ë0V ÊqfƒM m^LzDhãl+–j÷ C©ž!’‡”SÝ¾$h-5¬•8³[ûêpY;g	ïì4Éåµ²” Áç»¯ 
+‡öñðc‹ûÈÔÞüºa¾cä¶­¢Í „Ùò¹_**dº3¹”@)3ŠÇ¸Ÿ)8ýÈ÷´‡ß÷
+á@pªLµlˆV¼p2ÝX±|¬ÿñ¨2ì×ªœz³hÈ™í—TµŸ2oß>·øb Ì¸¤w\Š×« æÊ"Yk¶…©m„Õ!'É¼2£Y?}=–~íÉ 	JK?&zn¬®„IX÷‡£`ªÖàÊD³§ëÒ¼¤ n– øá“`3à½
+«›¹P—017:lô©KçQùdÁ9ü«ü¤úkÉ,ÎCÌHkuä‚fnšì6‹‹õ ë·ƒ1<B™Fgï"…2‰¹4­Úk8ÉØü!FÑÏâŒ_Hò3‰b–`x}îÆáÃIViÇŽØçêj‚w~—ÍÞrYvþ€µ|zµ]˜òÌûê­DŒúÍo«LÂ“ùÐO»W·
+¾õB­_&n«Œ EÊê¬‰|w‘2‰à§q¢3½Šg2÷XÙHin±î#mÛ ü›ŠiœiÈNGÉS>¬¼á|ƒœ\ÛS¥xÙÝ_5iõQG\9ž&woN!Æ$e7]`wYc7ØZoÅ¦Ùß¦©mHÉÝùf!‰ÕÍüÀdÉÝ·€$HøMbbÎüÝ%y†ÃØæÊ¿¬¸|ïöåé{oÚ	’úiªB·µì³>ù^@?WuôWÅŠü«•ÈyÎ~‘3Ù¬ïNDËQ¼!
+óÆC÷ßãès§K&­0ˆž}HÎ,mu”h—AÓÐôo8ŸË‡sÕ5ËýfÒÍ$Éña£W˜2L6PWÿd4È<€~¶ä„s-¬ŸnŒŸáM¥0ÿåm°ï.YJMö£¹âÓ=«û{ÐBý‰dhàIÿÁ*z·•Û‰ ŠzBÏë»cÚáiÈ6Î—­wú¦žD“?AcúHq<B`±†¦8ò»Â&ÈÛã./‰RNòâõ—¸®)\ÔÛˆvå’–:c’¬!Œj¦¾¿ŸÖLfH³e‡ƒ×?d®;ç%˜W·n ¿l¢	›F‡©Ìï©gÜˆš$Ï7Áƒ¬¬–Gv¾Pn~¨Â©®u6¢¶Ê.?ÿç—^ÒZÀ@ã©üÝZýƒBbý=ï7y°f£n1LŠ‡AÏG« µgŽÈ†ƒMØè¼q5
+VÄ,¡Ž_u¡ÌuÖ[»rÂ9r\NYüJcÇø3v@þlüEÑóOÑ.{9ö;ABÊ—õùÂNB µ="½•ábÉ°5‚â9K“¯!±6@n†çÊÊ5‡ñêCïÔi¾H±ù¿q¦QõpÐÕ½ ŠDh÷=~úÓu*…rt†z†QlvŠ&õ%9Db±Ø$P³>"žLƒ#¤5çH¦á…“¡,úYC_µÓcÖ¨¸pFO“äø:[ë}<6`âª«®¡Ï6ÿëšo¶&©&lÓòÚù¡*ž+â½kÖUFXÕltÎÑ†¹wêÈ^­ÐVxRÝ%ý9}}nÝŒTéhcEÝ—šŽr…Êû4Þ‰7ÒðÝiSLvëS[K¯Ùã›Ê@üE}|ÊøXÁÌ±a¨P7æ89‡>-îàéKBç'cýÑßìßŒ|þÊæší°$1äWï–~^u |»Sñ%zù—åg‘sØT ÿÍ^°ß*
+¸zt¦kî²qåŠt”™ôÇglës>&\#ê™¤$~*@d³TcÅˆ3ÌÜ€s¾ôm}zC
+Ï3Û#„ŽiHÅé™1¬ QŠ0PŠ¨%èøþíã\`ÊKjùI¹í½5¤<F+N[¹2ƒtŽ¢ßºÌûS÷mŽE!›ßµ•Íâ÷1‚ƒSN~©Äê÷ÖVÂcJýWc|Î,+à–“CçãO¢_0!ñ¶ò›§JlˆÔBïÛ;wžVÖ}j3Z!®îÃ‹ÍE¼{fphS¯Rq3†ævÄEfxJY¢ˆäƒÛASLzX$ãõÚx„µŠøutª¥Ë7øŽÆC5ƒË–	â§#FÿÇDƒA›QX¥%&|¡4Ìeù+µoW«ôUéDùGÉù›ä9ˆ³„‚2jœ½}Œ
+T!Öi,.e#ùÙ]c§`v arÂûê•¯-%æº4´‰^Â¸]™0T•S°œ7g¸öœÚŒ^šÁÝËýÐ'ñ••‘^'¡¤xÀ-ù§lHÓäæÆ:Çºóùi9ˆŒZá«8ÿdŠ	¶îøèÒFQ¤·ÊûØÂÞ\èÇ)h»iÄ¢/mÂrã£Ü”$-¾têäbØM¼>p%‰¶s÷‡h®EÛ÷m|Ìÿ->dš"&‘ûGÚËìcÏÊ nÂþÙÍ)c	É$«ÑNcXªí×XC()!›ßùØŒ+gÍHM°º=°Å 1ÊN¦nâY[0¼ÀXðÏzq-Z½O™yO•z²àÏ}úÇñ¼RS…h>€p·žEüRaÀ…ËÔ±†Ä†óS»€ðk#å8xšž›·XÍÉæ4ÇÀ¼	ÞeéníHhúà¯ïßCÍ–m»}²˜áŽX¤mi|Ü)íëÍS[8oæˆ%2Bá»š!°ÄÓaúÊÐÏBƒ»0ðp¥óuÿÃ[»±AÛdAÌsÜ˜sß
+&ÅLÉËëQs›?BìD»R!¯¹ÊØ
+]S•f|L1Ñ÷©ca¬‰t";Ý§,‡1†')û|<ùµy-zÏåU×>ŽßÝV©Ð”ª^ž±`WîÝç±±ÐtMl×°àÓ™2ÎxŠfïâàZ®ã/ °hò­‹€hOŒ6B{&Öaœ‚6ícý2Õ>>çöVÖ‰³îcû,©c%ëÁ©PÊ+Ü	©Ü¤<DŒ¢Åên¨ðÊJTAœ€ ƒâN¥ß}Êóq‹76…x'±î×±ŠIÒ.þ’¿°¢Û°ÓhÃy‹­IòÄý¹Ñ_Å,9†£äé»}¤kuãÐgzòµXí%Áì«ž\?¤à >¸û_0¼ò^\ÈâÅÂTV{ÓŠ/V/Æi·.­=oŒ%™ì¤ÀÐžƒA3T’.I3Ž¯ðÆ©Ä£'RDq ÍÔ@AÁ®d<¸òàÇAÓpLÂ§é«Eòcb=õÄÊlÑMÖÞÖó†b`äU!ú¿ V¶kìÇÍk4§öŒg„ÇV_e“©X°î¯E=î_j³$b,JƒÁ:R²¢C8n‰E	™þ™ø)^}q”ì±ÖÎ}âm©îý
+4 O×Æ¦ó”¯#y=Ú–™>†+ÈÇØãlXX~ßvKäìGÛã‰ã—g^åú¦³ô=‚Ñ¾‡ŸÖ·	v|2õçItÉ.FÚfÁíYø»hÅ÷Þ&^,+??Æ£ß ­‡1DŠv±|´TOð¼—Í%I'Š?¼Üö³¢x68câN
+.ïÚ¡°,7;û_ÐÚ=7K‘X‹ç%¹Uèézñ§ÖfhŠ˜º«5/bæC§;ZÇy9žHkÙGÈK(^iÝ”è69Š‰ïÎ²^¿1¢Þ2‡3‘–~ÞÈ½¯ÿ™û™«NS;s;õ"}õc5Mi59'¡f¨`s›=6ÅoöýF®9KÂöRx•äÖÉ‰áe§…©èßDÖÒäî:‹µè÷8Ï/‰š«Ù$)coÚtdýY¨)gµžÙaÜÏ¸w¸öÊÁuhZ;ýÝc^#b:98	ööÏ8©^à`Óàg‹¹“hK¦JR¯‹´GUŸ‹ÃL[ëØú6ss³9‘<Ô¾Òjn“¢£OÁQÏvñìÚhKY/¢_£#“ì·÷x hEg5o?ûž±Ã¸ÕðáÊ‰½`Ø§–Ï¶ “UGi“Àô”]6ìKØØn"„vDc´IkÒ´€† 3§DþÆgl1Ì˜Sá¤rñÞ7æ­É¨0õ€èàb“µíŽGpèµ¿>ºžrÙŒÑ]9Ú±Åh(@UºÔ5{ytOM—ºfcºnõ¡ØkàY»G}ÆN¸¬9–;»å•C¸|vÂRÁ6òÅÊÁ:ÐÞKàLÝ³æ:CnKEÃ½qx ö¼±­n.¾ùó{‚D¶­vj×‹#/òQI“µEl¿P:ÔÍÓzñ‘[¡ÅvRÔÙ\dòÉ­5øX`ÒTÏs1*§TÇ°K¸Pýþj—X“¨ècCb7ÿ¼,I±5Õòçµ:’âúÁ¸ßM×Kñ2„ŸÿtÖ)×Cmó|’i1e!#­ü×ƒÚl‡f»ÛÝá™÷:z éSÉôì@_ÃHèL{ÒPðÏþ×-r“àÄwØ«Åõ‰óÓîÔ§¸¸Ò´À`+4°œ#štð”÷ÓÂ±EÆ½ßoôž7×rj«	Ù†›j€ã¼çWþyvløÑ8´k@|XÂŽ ?m,$˜ÅŒí§>‘êÁ·$pÝ²êV@#pfëÓ·ì.8ÞÁ.—@ÓEo:_¿dVÓnâ×òÆEÈ*"¼>u¼)k'ºøsóÀ¶ÇÞ@ðä™=]\Ò0unÌPveòu{qa+ø1Ù[UÃ›lìiŠ³y£/Å÷¢‹ i|ŠÉðÓQ—•›„GóßÞ™ÞRÃ6:ËÏxd)Q‘89g¸WJMÉ^3ËïkÝ&í{Ž¥Ö&²ü
+ÏxPéÏú+<oûíŠ3¦Ú@P¿&Ã~ª¾ßù²	4èï”=$UäßØ~ÚbÄD±Éß$‚øby¼TsØ$°c…IÙ`Ò³á$8¼ª(*cQà^Gøü	™QV*š/~æ(¨*0ýú$sžô§­N¿‘¼çÃ"]¶3è?õµiã…ZÓ%å'äÙ®qê£SÄøy#Y,wq§ßa
+æëÝ—–BÑ»Þâæ€SøÇö†Ô±«¯Öš÷‚0Öù(vnŽ2*á'ˆ¯Åÿ0ßâL˜¦ñ>7p	<v£ UPõL³5@Sø=h°‹UÄ ,GÛÑfSðï©M%dgŒ§SJa¡=LvÃtíWÊ¹Æ2iÝØësÅ–™*r£ëã¸|øAv,“é‰¦ëügÇ–Æø÷Q«íþþüÚsÆ+å7¶­ÅÌì§w’Úƒ¦Q‰f
+N<,é!ÍêŸ©{ÿ¯ +Æ¢;¡àÅ œ üÁ¾oÄ2Šüvì°ÿSOBkÐÿ¹dAš™‚‚ w‡¦ r)¿ž}2³½ mêZÝ)±©‡v^rÐàK¼æ·Ûó#N\§H†Y˜ÓÄÙè-W*P{8Z	mÆÅ‡À¨`P•—ý^‹vss^üèöz¯µ¯GÏ ö ˜£Š«Ë÷$
+'õ1I?ÖKyOvÀ=ŒÓdþëkÑ¨#ó|Ø'An_	Gÿ«o¡iZó>'KÊ}[lèœsH} {¼[3ü|ÎÇƒÌÝMBÐÊôfäˆ.ÍŸ`D†bôh€^Y>¢n§9û®kæ€,2Ö<i”ˆ8„˜»Ëë®ûöªÁIzNAœ)¨¯»^©¿lrJÆ;ýâÙÎ>Š3‘ý’ôo%C4°êE›e²rÈqZÅ°ƒ¾ˆX‚*A~Ä”ngÿ,ïA@õdâ¨ÍVsE²'B‘.9ÂG 9xtÐ²äßÜ›*4@Á³ÂŽw^H¨´Á;jÑX¸}¾@­›,·ïB+SlûÇ½u£‹æÃK ] ‚±³Çð«œ.‡#ezF)Y1dœ=ëm1p(qRc	 a^`ÊsÎ·Ð@åõ¯i•üñÖ¹iÍ/7§6Îÿ÷3ñõçãÿùüÒ’µ†u+›zOaÀ/äŒ#Z(ÀJ&4o~Ó ¯´½Û˜,MÇxcEÜåúÅÒøg°ÖÏÛï„³É»x\è …õ«DD>¡O[]aª4!#ÿôEÁ§PlW`¾C>~Ùåâ7Ë¤·^ñPžæ1âyÛmcŠ!>UFýˆ»¾§ßd*C¼ÿ–·Iy,ñ¹hé[Ãøý"Èïw*
+æ&ômŠ‘xÚ¦pM_	ôº­Ó†–*]c_mº±¯³æJ	y«ÃÛÌQÃAz‹Ñ'êiê½œo>¸†›„st¾c¾}ç†þ‰rqÎqµ'eï*Øz5	ÝÞNn	óÃY›á %%©®±¿îŠàwÉ'[gâÍÿâÖGºˆ¡ö5d6ˆ ü6è‚©Ö<8x® yž:7Èƒx€Õ\d3­ˆ„8ÌTøuuäy¯Aã»ÿ†…ùÃ"uÌŠã3šæ Gölâ•¼>‘OpÀžÆL¾PLÅýápºLYÊ¥uc2’—aC)M ÷gÅ‹¿Ùí×d¶®=B0ÓnRÊïP8Ž4ypb–è*ºÓãq.×Ý«›É®TÞq|ª¤­æ`¹,…^oF39–ñd-1{,sÛ‚”VµôˆÉy1vftÒTÒÎÃ2³óZ´ÿeÍ‹Õ¼cZ²Èœ¸b¯äö¶dêu’ó)fæíšî„Æ_ã²*tÊéB£ÑK0CŒzÜÒW1øíwSé­›Û&¨*¦]ÕÛ“¬‡¾<Ûÿy¸íÆ×Ö^é°oB~ä…ø¿©·bÔÙW7™¾}lm¬:Õ»”ÆaÙª2w]Ò.>J™Ã½V[òƒÍX]e>tEw&ý>Ëdq)ÈBI|`ùìÏ’fKýÎT×;@‹î³òŽ’D[q Òç¯¬©ß`…ñíàê)ß.üºÏ}"qˆ¥Ø\+ù£®8ú1<"AàôY¬—EmO hH40q"z^1#)”q¸ëœp­OÚ$|BˆP¾ý]ŒG‚Ÿ®Ð9ìµzÏÜ2æ0ö»eS¯øª+ýGŽäÇ½KÙ(«{Þ—~íwÎOÇ÷"a+A.ë ?ŸÐ^Xsà–úš4ºŸ”–ÅUÑI_l\ÿVN}§ü¹ôš€“xO€Ÿ˜„ã/pêófZ‹¤WÞn!Ò“†¨FSþøD¾¨›4Ë¨4ÁècA#Ï–—.¶æuœ¾up×TþH5ìÕWs£ØêªBø7E¶ÒéœœC—ú­á|b²[ÛZŠYÎ$¹Ö-µ_²EýµÅ&½!‘7¨ÝÖ¬°ÒhžnWéw.KY¸ïGf+I_u>DBÝyªHþù¼üåÐ%-	ášÅ]¢!û¢Ê§nöïÇ
+4¹/íõ‚CÌWMÑ¹ÒBíMmWõYO¬ñZYžŠqÒ×Æ¥{0¢Õ¶~àYü1½ÂgŒŠÚÄõù¸`É×%­Õ¬]µ*›„yeI:’[¶6w&4~ÚüÙ>¦ï>Ç|ÜâRëÉÓs	,L…6×Åw²sÜÕïOî¬BSxÒ˜¯9‚^ß°CSs]‰œº?"Z¯éPºñ¯ãñÆÎ!e4{Ÿ‹Í*²péa~¸–~40g}·]~œÅk÷èOoÞy–*<%P€¾.»wFm´wVºCõýµÐåq¯
+&ßV€„=á¼ü"\cQMëLw‚9Þ'òJ6ÛVÛ~9q¢‹C¾Ú#¢)ý½­S¿3¦?¼aMKã÷»’,	µ ì%ôK£RáºzO½u» e±&5d°SF9)T°ë“’*~v±ÔñÚàžWiã^òy…Îfô…;ì¡_;›6f¤”sÞÔŒÔ <]ŽÿÎÝ‚~)W9åp½èªìªKÕ˜ÝyûÒQHõMò]™ú{øà¦fMË²øŠnSçÎåp<ôl¥Ø0õI_ÕtæÔp•Ž’­~ì8¯S¦<”æ†é(ÀˆŸW¯ªã'>‘|³šLâÙ	qŽæêÕ­ PîWþpÜJ¸}ô›ðåG7šíä»R€?X#‰Ûœ½cÇ=öæ™.!‘ÏY$gÝíJQ?Š*yæ§L4u°™	…ÅsÜ°×Nþiöê3~Ý·”ÇBŒW{È—ÝÔô¶ýóQl{˜UN3´œ©ÏWý=_eðDë‰–Ë¨Šp¨áÁg¶œÆgnh÷³ž¤íÝi8‹¼–úr9

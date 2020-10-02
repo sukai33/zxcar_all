@@ -1,0 +1,487 @@
+[rosmaster.main][INFO] 2020-09-01 09:08:02,656: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2020-09-01 09:08:02,657: Starting ROS Master Node
+[xmlrpc][INFO] 2020-09-01 09:08:02,659: XML-RPC server binding to 0.0.0.0:11311
+[rosmaster.master][INFO] 2020-09-01 09:08:02,660: Master initialized: port[11311], uri[http://ubuntu:11311/]
+[xmlrpc][INFO] 2020-09-01 09:08:02,659: Started XML-RPC server [http://ubuntu:11311/]
+[xmlrpc][INFO] 2020-09-01 09:08:02,660: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2020-09-01 09:08:02,755: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 09:08:02,758: +PARAM [/roslaunch/uris/host_ubuntu__35521] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 09:08:02,835: +PARAM [/camera/driver/auto_exposure] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 09:08:02,835: +PARAM [/camera/camera_rgb/serial] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 09:08:02,836: +PARAM [/camera/depth_rectify_depth/interpolation] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 09:08:02,836: +PARAM [/camera/driver/depth_registration] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 09:08:02,836: +PARAM [/camera/driver/devnums] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 09:08:02,837: +PARAM [/camera/driver/rgb_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 09:08:02,837: +PARAM [/camera/camera_rgb/product] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 09:08:02,837: +PARAM [/camera/camera_nodelet_manager/num_worker_threads] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 09:08:02,837: +PARAM [/camera/camera_rgb/height] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 09:08:02,838: +PARAM [/camera/driver/auto_white_balance] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 09:08:02,838: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 09:08:02,838: +PARAM [/camera/driver/rgb_camera_info_url] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 09:08:02,838: +PARAM [/camera/camera_rgb/vendor] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 09:08:02,839: +PARAM [/camera/driver/device_id] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 09:08:02,839: +PARAM [/camera/camera_rgb/width] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 09:08:02,839: +PARAM [/camera/driver/depth_camera_info_url] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 09:08:02,839: +PARAM [/camera/depth_registered_rectify_depth/interpolation] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 09:08:02,840: +PARAM [/camera/camera_rgb/index] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 09:08:02,840: +PARAM [/camera/driver/bootorder] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 09:08:02,840: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 09:08:02,840: +PARAM [/camera/camera_rgb/timestamp_method] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 09:08:02,841: +PARAM [/camera/driver/depth_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 09:08:02,841: +PARAM [/camera/camera_rgb/camera_info_url] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 09:08:02,841: +PARAM [/camera/camera_rgb/frame_rate] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 09:08:02,841: +PARAM [/camera/camera_rgb/video_mode] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 09:08:02,842: +PARAM [/camera/driver/color_depth_synchronization] by /roslaunch
+[rosmaster.master][INFO] 2020-09-01 09:08:02,867: +SERVICE [/rosout/get_loggers] /rosout http://ubuntu:40145/
+[rosmaster.master][INFO] 2020-09-01 09:08:02,868: +SERVICE [/rosout/set_logger_level] /rosout http://ubuntu:40145/
+[rosmaster.master][INFO] 2020-09-01 09:08:02,871: +PUB [/rosout_agg] /rosout http://ubuntu:40145/
+[rosmaster.master][INFO] 2020-09-01 09:08:02,877: +SUB [/rosout] /rosout http://ubuntu:40145/
+[rosmaster.master][INFO] 2020-09-01 09:08:02,955: +PUB [/rosout] /camera/camera_rgb http://ubuntu:34187/
+[rosmaster.master][INFO] 2020-09-01 09:08:02,958: +SERVICE [/camera/camera_rgb/get_loggers] /camera/camera_rgb http://ubuntu:34187/
+[rosmaster.master][INFO] 2020-09-01 09:08:02,958: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/']
+[rosmaster.master][INFO] 2020-09-01 09:08:02,970: +SERVICE [/camera/camera_rgb/set_logger_level] /camera/camera_rgb http://ubuntu:34187/
+[rosmaster.master][INFO] 2020-09-01 09:08:02,981: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:03,003: +PUB [/rosout] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,007: +SERVICE [/camera/camera_nodelet_manager/get_loggers] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,017: +SERVICE [/camera/camera_nodelet_manager/set_logger_level] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,022: +SERVICE [/camera/camera_rgb/set_parameters] /camera/camera_rgb http://ubuntu:34187/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,024: +PUB [/camera/camera_rgb/parameter_descriptions] /camera/camera_rgb http://ubuntu:34187/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,030: +PUB [/camera/camera_rgb/parameter_updates] /camera/camera_rgb http://ubuntu:34187/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,036: +PUB [/rosout] /camera/driver http://ubuntu:37293/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,042: +SERVICE [/camera/driver/get_loggers] /camera/driver http://ubuntu:37293/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,047: +SERVICE [/camera/camera_nodelet_manager/load_nodelet] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,048: +SERVICE [/camera/driver/set_logger_level] /camera/driver http://ubuntu:37293/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,058: +SERVICE [/camera/camera_nodelet_manager/unload_nodelet] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,062: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/']
+[rosmaster.master][INFO] 2020-09-01 09:08:03,064: +PARAM [/camera/driver] by /camera/driver
+[rosmaster.master][INFO] 2020-09-01 09:08:03,073: +SERVICE [/camera/camera_nodelet_manager/list] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,078: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:03,084: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/']
+[rosmaster.master][INFO] 2020-09-01 09:08:03,089: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:03,114: +PUB [/rosout] /camera/rgb_rectify_color http://ubuntu:35981/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,120: +SERVICE [/camera/rgb_rectify_color/get_loggers] /camera/rgb_rectify_color http://ubuntu:35981/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,125: +SERVICE [/camera/rgb_rectify_color/set_logger_level] /camera/rgb_rectify_color http://ubuntu:35981/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,143: +PARAM [/camera/camera_rgb/vendor] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,146: +PUB [/rosout] /camera/depth_rectify_depth http://ubuntu:33435/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,148: +PARAM [/camera/camera_rgb/product] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,150: +SERVICE [/camera/depth_rectify_depth/get_loggers] /camera/depth_rectify_depth http://ubuntu:33435/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,151: +PARAM [/camera/camera_rgb/serial] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,155: +PARAM [/camera/camera_rgb/index] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,159: +PARAM [/camera/camera_rgb/width] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,161: +SERVICE [/camera/depth_rectify_depth/set_logger_level] /camera/depth_rectify_depth http://ubuntu:33435/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,163: +PARAM [/camera/camera_rgb/height] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,163: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/']
+[rosmaster.master][INFO] 2020-09-01 09:08:03,168: +PARAM [/camera/camera_rgb/video_mode] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,170: +PARAM [/camera/camera_rgb/frame_rate] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,173: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:03,185: +PARAM [/camera/depth_rectify_depth] by /camera/depth_rectify_depth
+[rosmaster.master][INFO] 2020-09-01 09:08:03,189: +PARAM [/camera/camera_rgb/timestamp_method] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,189: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/']
+[rosmaster.master][INFO] 2020-09-01 09:08:03,207: +PUB [/rosout] /camera/depth_metric_rect http://ubuntu:35683/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,218: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:03,221: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/']
+[rosmaster.master][INFO] 2020-09-01 09:08:03,220: +SERVICE [/camera/depth_metric_rect/get_loggers] /camera/depth_metric_rect http://ubuntu:35683/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,214: +PARAM [/camera/camera_rgb/frame_id] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,225: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:03,227: +SERVICE [/camera/depth_metric_rect/set_logger_level] /camera/depth_metric_rect http://ubuntu:35683/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,231: +PARAM [/camera/camera_rgb/camera_info_url] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,235: +PARAM [/camera/camera_rgb/scanning_mode] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,244: +PARAM [/camera/camera_rgb/auto_exposure] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,246: +PUB [/rosout] /camera/depth_metric http://ubuntu:44447/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,265: +PARAM [/camera/camera_rgb/auto_exposure_priority] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,268: +SERVICE [/camera/depth_metric/get_loggers] /camera/depth_metric http://ubuntu:44447/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,271: +SERVICE [/camera/depth_metric/set_logger_level] /camera/depth_metric http://ubuntu:44447/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,274: +PARAM [/camera/camera_rgb/exposure_absolute] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,279: +PARAM [/camera/camera_rgb/iris_absolute] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,286: +PARAM [/camera/camera_rgb/auto_focus] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,287: +PUB [/rosout] /camera/depth_points http://ubuntu:45019/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,287: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/']
+[rosmaster.master][INFO] 2020-09-01 09:08:03,298: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:03,295: +PARAM [/camera/camera_rgb/focus_absolute] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,298: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:45019/']
+[rosmaster.master][INFO] 2020-09-01 09:08:03,293: +SERVICE [/camera/depth_points/get_loggers] /camera/depth_points http://ubuntu:45019/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,300: +PARAM [/camera/camera_rgb/pan_absolute] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,302: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:45019/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:03,304: +PARAM [/camera/camera_rgb/tilt_absolute] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,305: +SERVICE [/camera/depth_points/set_logger_level] /camera/depth_points http://ubuntu:45019/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,308: +PARAM [/camera/camera_rgb/roll_absolute] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,311: +PARAM [/camera/camera_rgb/privacy] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,317: +PARAM [/camera/camera_rgb/backlight_compensation] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,334: +PARAM [/camera/camera_rgb/brightness] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,342: +PARAM [/camera/camera_rgb/contrast] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,344: +PARAM [/camera/camera_rgb/gain] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,346: +PARAM [/camera/camera_rgb/power_line_frequency] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,351: +PARAM [/camera/camera_rgb/auto_hue] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,354: +PARAM [/camera/camera_rgb/hue] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,357: +PUB [/rosout] /camera/depth_registered_rectify_depth http://ubuntu:35523/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,359: +PARAM [/camera/camera_rgb/saturation] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,362: +PARAM [/camera/camera_rgb/sharpness] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,368: +SERVICE [/camera/depth_registered_rectify_depth/get_loggers] /camera/depth_registered_rectify_depth http://ubuntu:35523/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,367: +PARAM [/camera/camera_rgb/gamma] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,371: +SERVICE [/camera/depth_registered_rectify_depth/set_logger_level] /camera/depth_registered_rectify_depth http://ubuntu:35523/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,376: +PARAM [/camera/camera_rgb/auto_white_balance] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,386: +SERVICE [/camera/driver/set_parameters] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,393: +PUB [/camera/driver/parameter_descriptions] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,396: +PARAM [/camera/camera_rgb/white_balance_temperature] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,397: +PARAM [/camera/depth_registered_rectify_depth] by /camera/depth_registered_rectify_depth
+[rosmaster.master][INFO] 2020-09-01 09:08:03,404: +PARAM [/camera/camera_rgb/white_balance_BU] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,407: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:45019/', 'http://ubuntu:35523/']
+[rosmaster.master][INFO] 2020-09-01 09:08:03,408: +PARAM [/camera/camera_rgb/white_balance_RV] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:03,410: +PUB [/camera/driver/parameter_updates] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,418: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:45019/', 'http://ubuntu:35523/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:03,419: +SERVICE [/camera/set_camera_info] /camera/camera_rgb http://ubuntu:34187/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,435: +PUB [/camera/rgb/image_raw] /camera/camera_rgb http://ubuntu:34187/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,440: +PUB [/camera/rgb/camera_info] /camera/camera_rgb http://ubuntu:34187/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,446: +SERVICE [/camera/get_uvc_exposure] /camera/camera_rgb http://ubuntu:34187/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,459: +SERVICE [/camera/set_uvc_exposure] /camera/camera_rgb http://ubuntu:34187/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,462: +SERVICE [/camera/get_uvc_gain] /camera/camera_rgb http://ubuntu:34187/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,465: +SERVICE [/camera/set_uvc_gain] /camera/camera_rgb http://ubuntu:34187/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,471: +PUB [/rosout] /camera/points_xyzrgb_hw_registered http://ubuntu:32925/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,475: +SERVICE [/camera/get_uvc_white_balance] /camera/camera_rgb http://ubuntu:34187/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,482: +SERVICE [/camera/points_xyzrgb_hw_registered/get_loggers] /camera/points_xyzrgb_hw_registered http://ubuntu:32925/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,483: +SERVICE [/camera/set_uvc_white_balance] /camera/camera_rgb http://ubuntu:34187/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,492: +PARAM [/camera/driver/rgb_preferred] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,500: +PUB [/rosout] /camera/depth_registered_hw_metric_rect http://ubuntu:42521/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,506: +SERVICE [/camera/points_xyzrgb_hw_registered/set_logger_level] /camera/points_xyzrgb_hw_registered http://ubuntu:32925/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,516: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:45019/', 'http://ubuntu:35523/', 'http://ubuntu:32925/']
+[rosmaster.master][INFO] 2020-09-01 09:08:03,517: +PARAM [/camera/driver/ir_mode] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,517: +SERVICE [/camera/depth_registered_hw_metric_rect/get_loggers] /camera/depth_registered_hw_metric_rect http://ubuntu:42521/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,521: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:45019/', 'http://ubuntu:35523/', 'http://ubuntu:32925/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:03,530: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:45019/', 'http://ubuntu:35523/', 'http://ubuntu:32925/', 'http://ubuntu:42521/']
+[rosmaster.master][INFO] 2020-09-01 09:08:03,528: +PARAM [/camera/driver/color_mode] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,534: +SERVICE [/camera/depth_registered_hw_metric_rect/set_logger_level] /camera/depth_registered_hw_metric_rect http://ubuntu:42521/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,541: +PUB [/rosout] /camera/depth_registered_metric http://ubuntu:37925/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,542: +PARAM [/camera/driver/depth_mode] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,543: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:45019/', 'http://ubuntu:35523/', 'http://ubuntu:32925/', 'http://ubuntu:42521/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:03,547: +PUB [/rosout] /camera_base_link http://ubuntu:39249/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,551: +PARAM [/camera/driver/depth_registration] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,555: +SERVICE [/camera/depth_registered_metric/get_loggers] /camera/depth_registered_metric http://ubuntu:37925/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,556: +PARAM [/camera/driver/color_depth_synchronization] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,557: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:45019/', 'http://ubuntu:35523/', 'http://ubuntu:32925/', 'http://ubuntu:42521/', 'http://ubuntu:37925/']
+[rosmaster.master][INFO] 2020-09-01 09:08:03,570: +PARAM [/camera/driver/auto_exposure] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,570: +SERVICE [/camera_base_link/get_loggers] /camera_base_link http://ubuntu:39249/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,581: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:45019/', 'http://ubuntu:35523/', 'http://ubuntu:32925/', 'http://ubuntu:42521/', 'http://ubuntu:37925/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:03,585: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:45019/', 'http://ubuntu:35523/', 'http://ubuntu:32925/', 'http://ubuntu:42521/', 'http://ubuntu:37925/', 'http://ubuntu:39249/']
+[rosmaster.master][INFO] 2020-09-01 09:08:03,584: +PARAM [/camera/driver/auto_white_balance] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,582: +SERVICE [/camera/depth_registered_metric/set_logger_level] /camera/depth_registered_metric http://ubuntu:37925/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,588: +PARAM [/camera/driver/data_skip] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,589: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:45019/', 'http://ubuntu:35523/', 'http://ubuntu:32925/', 'http://ubuntu:42521/', 'http://ubuntu:37925/', 'http://ubuntu:39249/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:03,592: +PUB [/rosout] /camera_base_link1 http://ubuntu:43759/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,596: +PARAM [/camera/driver/ir_time_offset] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,598: +SERVICE [/camera_base_link/set_logger_level] /camera_base_link http://ubuntu:39249/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,600: +PARAM [/camera/driver/color_time_offset] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,614: +PARAM [/camera/driver/depth_time_offset] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,610: +SERVICE [/camera_base_link1/get_loggers] /camera_base_link1 http://ubuntu:43759/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,621: +PARAM [/camera/driver/depth_ir_offset_x] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,624: +PUB [/tf_static] /camera_base_link http://ubuntu:39249/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,626: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:45019/', 'http://ubuntu:35523/', 'http://ubuntu:32925/', 'http://ubuntu:42521/', 'http://ubuntu:37925/', 'http://ubuntu:39249/', 'http://ubuntu:43759/']
+[rosmaster.master][INFO] 2020-09-01 09:08:03,634: +PARAM [/camera/driver/depth_ir_offset_y] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,637: +SERVICE [/camera_base_link1/set_logger_level] /camera_base_link1 http://ubuntu:43759/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,637: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:45019/', 'http://ubuntu:35523/', 'http://ubuntu:32925/', 'http://ubuntu:42521/', 'http://ubuntu:37925/', 'http://ubuntu:39249/', 'http://ubuntu:43759/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:03,640: +PARAM [/camera/driver/z_offset_mm] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,641: +PUB [/rosout] /camera_base_link2 http://ubuntu:34603/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,642: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:45019/', 'http://ubuntu:35523/', 'http://ubuntu:32925/', 'http://ubuntu:42521/', 'http://ubuntu:37925/', 'http://ubuntu:39249/', 'http://ubuntu:43759/', 'http://ubuntu:34603/']
+[rosmaster.master][INFO] 2020-09-01 09:08:03,644: +PUB [/tf_static] /camera_base_link1 http://ubuntu:43759/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,649: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:45019/', 'http://ubuntu:35523/', 'http://ubuntu:32925/', 'http://ubuntu:42521/', 'http://ubuntu:37925/', 'http://ubuntu:39249/', 'http://ubuntu:43759/', 'http://ubuntu:34603/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:03,650: +SERVICE [/camera_base_link2/get_loggers] /camera_base_link2 http://ubuntu:34603/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,652: +PARAM [/camera/driver/z_scaling] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,657: +SERVICE [/camera_base_link2/set_logger_level] /camera_base_link2 http://ubuntu:34603/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,666: +PARAM [/camera/driver/use_device_time] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,673: +PUB [/tf_static] /camera_base_link2 http://ubuntu:34603/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,677: +PUB [/rosout] /camera_base_link3 http://ubuntu:35713/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,680: +SERVICE [/camera_base_link3/get_loggers] /camera_base_link3 http://ubuntu:35713/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,682: +SERVICE [/camera_base_link3/set_logger_level] /camera_base_link3 http://ubuntu:35713/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,685: +PUB [/tf_static] /camera_base_link3 http://ubuntu:35713/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,692: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:45019/', 'http://ubuntu:35523/', 'http://ubuntu:32925/', 'http://ubuntu:42521/', 'http://ubuntu:37925/', 'http://ubuntu:39249/', 'http://ubuntu:43759/', 'http://ubuntu:34603/', 'http://ubuntu:35713/']
+[rosmaster.master][INFO] 2020-09-01 09:08:03,695: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:45019/', 'http://ubuntu:35523/', 'http://ubuntu:32925/', 'http://ubuntu:42521/', 'http://ubuntu:37925/', 'http://ubuntu:39249/', 'http://ubuntu:43759/', 'http://ubuntu:34603/', 'http://ubuntu:35713/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:03,774: +PARAM [/camera/driver/rgb_preferred] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,775: +PARAM [/camera/driver/ir_mode] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,776: +PARAM [/camera/driver/color_mode] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,778: +PARAM [/camera/driver/depth_mode] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,779: +PARAM [/camera/driver/depth_registration] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,780: +PARAM [/camera/driver/color_depth_synchronization] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,781: +PARAM [/camera/driver/auto_exposure] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,783: +PARAM [/camera/driver/auto_white_balance] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,784: +PARAM [/camera/driver/data_skip] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,785: +PARAM [/camera/driver/ir_time_offset] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,786: +PARAM [/camera/driver/color_time_offset] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,788: +PARAM [/camera/driver/depth_time_offset] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,789: +PARAM [/camera/driver/depth_ir_offset_x] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,790: +PARAM [/camera/driver/depth_ir_offset_y] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,791: +PARAM [/camera/driver/z_offset_mm] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,793: +PARAM [/camera/driver/z_scaling] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,794: +PARAM [/camera/driver/use_device_time] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:03,804: +PUB [/camera/ir/image] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,805: +PUB [/camera/ir/camera_info] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,808: +PUB [/camera/depth/image_raw] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,810: +PUB [/camera/depth/camera_info] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,812: +PUB [/camera/depth_registered/image_raw] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,813: +PUB [/camera/depth_registered/camera_info] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,815: +PUB [/camera/projector/camera_info] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,817: +SERVICE [/camera/rgb/set_camera_info] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,818: +SERVICE [/camera/ir/set_camera_info] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,820: +SERVICE [/camera/get_serial] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,822: +SERVICE [/camera/get_device_type] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,824: +SERVICE [/camera/get_ir_gain] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,825: +SERVICE [/camera/set_ir_gain] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,827: +SERVICE [/camera/get_ir_exposure] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,829: +SERVICE [/camera/set_ir_exposure] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,831: +SERVICE [/camera/set_ir_flood] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,832: +SERVICE [/camera/set_laser] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,834: +SERVICE [/camera/set_ldp] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,837: +SERVICE [/camera/reset_ir_gain] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,839: +SERVICE [/camera/reset_ir_exposure] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,841: +SERVICE [/camera/get_camera_info] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,844: +PUB [/camera/camera_nodelet_manager/bond] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,851: +SUB [/camera/camera_nodelet_manager/bond] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,914: +PUB [/camera/camera_nodelet_manager/bond] /camera/driver http://ubuntu:37293/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,923: +SUB [/camera/camera_nodelet_manager/bond] /camera/driver http://ubuntu:37293/
+[rosmaster.master][INFO] 2020-09-01 09:08:03,935: publisherUpdate[/camera/camera_nodelet_manager/bond] -> http://ubuntu:36811/ ['http://ubuntu:36811/', 'http://ubuntu:37293/']
+[rosmaster.master][INFO] 2020-09-01 09:08:03,938: publisherUpdate[/camera/camera_nodelet_manager/bond] -> http://ubuntu:36811/ ['http://ubuntu:36811/', 'http://ubuntu:37293/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:04,092: +SERVICE [/camera/rgb_rectify_color/set_parameters] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:04,093: +PUB [/camera/rgb_rectify_color/parameter_descriptions] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:04,095: +PUB [/camera/rgb_rectify_color/parameter_updates] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:04,098: +PARAM [/camera/rgb_rectify_color/interpolation] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:04,100: +PARAM [/camera/rgb_rectify_color/interpolation] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:04,104: +PUB [/camera/rgb/image_rect_color] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:04,111: +SERVICE [/camera/depth_rectify_depth/set_parameters] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:04,112: +PUB [/camera/depth_rectify_depth/parameter_descriptions] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:04,114: +PUB [/camera/depth_rectify_depth/parameter_updates] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:04,116: +PARAM [/camera/depth_rectify_depth/interpolation] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:04,118: +PARAM [/camera/depth_rectify_depth/interpolation] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:04,126: +PUB [/camera/depth/image_rect_raw] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:04,149: +PARAM [/camera/camera_rgb/vendor] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,151: +PARAM [/camera/camera_rgb/product] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,153: +PARAM [/camera/camera_rgb/serial] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,154: +PARAM [/camera/camera_rgb/index] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,156: +PARAM [/camera/camera_rgb/width] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,158: +PARAM [/camera/camera_rgb/height] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,160: +PARAM [/camera/camera_rgb/video_mode] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,162: +PARAM [/camera/camera_rgb/frame_rate] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,163: +PUB [/camera/depth/image_rect] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:04,165: +PARAM [/camera/camera_rgb/timestamp_method] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,167: +PARAM [/camera/camera_rgb/frame_id] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,168: +PUB [/camera/depth/image] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:04,170: +PARAM [/camera/camera_rgb/camera_info_url] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,172: +PARAM [/camera/camera_rgb/scanning_mode] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,174: +PUB [/camera/depth/points] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:04,175: +PARAM [/camera/camera_rgb/auto_exposure] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,178: +PARAM [/camera/camera_rgb/auto_exposure_priority] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,179: +SERVICE [/camera/depth_registered_rectify_depth/set_parameters] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:04,181: +PARAM [/camera/camera_rgb/exposure_absolute] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,182: +PUB [/camera/depth_registered_rectify_depth/parameter_descriptions] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:04,185: +PARAM [/camera/camera_rgb/iris_absolute] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,186: +PUB [/camera/depth_registered_rectify_depth/parameter_updates] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:04,188: +PARAM [/camera/camera_rgb/auto_focus] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,190: +PARAM [/camera/depth_registered_rectify_depth/interpolation] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:04,192: +PARAM [/camera/camera_rgb/focus_absolute] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,195: +PARAM [/camera/depth_registered_rectify_depth/interpolation] by /camera/camera_nodelet_manager
+[rosmaster.master][INFO] 2020-09-01 09:08:04,195: +PARAM [/camera/camera_rgb/pan_absolute] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,199: +PARAM [/camera/camera_rgb/tilt_absolute] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,200: +PUB [/camera/depth_registered/hw_registered/image_rect_raw] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:04,203: +PARAM [/camera/camera_rgb/roll_absolute] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,205: +PARAM [/camera/camera_rgb/privacy] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,208: +PARAM [/camera/camera_rgb/backlight_compensation] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,211: +PARAM [/camera/camera_rgb/brightness] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,211: +PUB [/camera/depth_registered/points] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:04,213: +PARAM [/camera/camera_rgb/contrast] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,215: +PARAM [/camera/camera_rgb/gain] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,217: +PARAM [/camera/camera_rgb/power_line_frequency] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,218: +PUB [/camera/depth_registered/hw_registered/image_rect] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:04,220: +PARAM [/camera/camera_rgb/auto_hue] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,223: +PARAM [/camera/camera_rgb/hue] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,225: +PUB [/camera/depth_registered/image] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:04,228: +PARAM [/camera/camera_rgb/saturation] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,230: +PARAM [/camera/camera_rgb/sharpness] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,231: +PARAM [/camera/camera_rgb/gamma] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,232: +PARAM [/camera/camera_rgb/auto_white_balance] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,234: +PARAM [/camera/camera_rgb/white_balance_temperature] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,235: +PARAM [/camera/camera_rgb/white_balance_BU] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:04,236: +PARAM [/camera/camera_rgb/white_balance_RV] by /camera/camera_rgb
+[rosmaster.master][INFO] 2020-09-01 09:08:12,590: -PUB [/camera/depth_registered/image] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,606: -PUB [/camera/depth/points] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,612: -PUB [/camera/depth_registered/points] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,634: -PUB [/camera/depth/image] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,641: -PUB [/camera/depth_registered_rectify_depth/parameter_descriptions] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,643: -PUB [/camera/depth_registered_rectify_depth/parameter_updates] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,644: -SERVICE [/camera/depth_registered_rectify_depth/set_parameters] /camera/camera_nodelet_manager rosrpc://ubuntu:56639
+[rosmaster.master][INFO] 2020-09-01 09:08:12,646: -PUB [/camera/depth_registered/hw_registered/image_rect_raw] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,647: -PUB [/camera/depth_registered/hw_registered/image_rect] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,714: -PUB [/rosout] /camera_base_link http://ubuntu:39249/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,715: -PUB [/rosout] /camera_base_link1 http://ubuntu:43759/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,717: -PUB [/tf_static] /camera_base_link http://ubuntu:39249/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,719: -PUB [/rosout] /camera_base_link2 http://ubuntu:34603/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,720: -PUB [/rosout] /camera_base_link3 http://ubuntu:35713/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,722: -PUB [/tf_static] /camera_base_link1 http://ubuntu:43759/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,723: -PUB [/rosout] /camera/depth_registered_metric http://ubuntu:37925/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,724: -PUB [/tf_static] /camera_base_link2 http://ubuntu:34603/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,727: -SERVICE [/camera_base_link/get_loggers] /camera_base_link rosrpc://ubuntu:38995
+[rosmaster.master][INFO] 2020-09-01 09:08:12,728: -SERVICE [/camera/depth_registered_metric/get_loggers] /camera/depth_registered_metric rosrpc://ubuntu:58851
+[rosmaster.master][INFO] 2020-09-01 09:08:12,729: -PUB [/tf_static] /camera_base_link3 http://ubuntu:35713/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,729: -SERVICE [/camera_base_link2/get_loggers] /camera_base_link2 rosrpc://ubuntu:46429
+[rosmaster.master][INFO] 2020-09-01 09:08:12,732: -SERVICE [/camera_base_link1/get_loggers] /camera_base_link1 rosrpc://ubuntu:35551
+[rosmaster.master][INFO] 2020-09-01 09:08:12,733: -SERVICE [/camera/depth_registered_metric/set_logger_level] /camera/depth_registered_metric rosrpc://ubuntu:58851
+[rosmaster.master][INFO] 2020-09-01 09:08:12,734: -SERVICE [/camera_base_link1/set_logger_level] /camera_base_link1 rosrpc://ubuntu:35551
+[rosmaster.master][INFO] 2020-09-01 09:08:12,735: -SERVICE [/camera_base_link3/get_loggers] /camera_base_link3 rosrpc://ubuntu:52713
+[rosmaster.master][INFO] 2020-09-01 09:08:12,735: -SERVICE [/camera_base_link2/set_logger_level] /camera_base_link2 rosrpc://ubuntu:46429
+[rosmaster.master][INFO] 2020-09-01 09:08:12,737: -SERVICE [/camera_base_link/set_logger_level] /camera_base_link rosrpc://ubuntu:38995
+[rosmaster.master][INFO] 2020-09-01 09:08:12,738: -SERVICE [/camera_base_link3/set_logger_level] /camera_base_link3 rosrpc://ubuntu:52713
+[rosmaster.master][INFO] 2020-09-01 09:08:12,751: -PUB [/rosout] /camera/depth_points http://ubuntu:45019/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,753: -PUB [/rosout] /camera/depth_metric http://ubuntu:44447/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,754: -SERVICE [/camera/depth_points/get_loggers] /camera/depth_points rosrpc://ubuntu:37363
+[rosmaster.master][INFO] 2020-09-01 09:08:12,755: -SERVICE [/camera/depth_metric/get_loggers] /camera/depth_metric rosrpc://ubuntu:48397
+[rosmaster.master][INFO] 2020-09-01 09:08:12,756: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:45019/', 'http://ubuntu:35523/', 'http://ubuntu:32925/', 'http://ubuntu:42521/', 'http://ubuntu:37925/', 'http://ubuntu:43759/', 'http://ubuntu:34603/', 'http://ubuntu:35713/']
+[rosmaster.master][INFO] 2020-09-01 09:08:12,757: -SERVICE [/camera/depth_points/set_logger_level] /camera/depth_points rosrpc://ubuntu:37363
+[rosmaster.master][INFO] 2020-09-01 09:08:12,760: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:45019/', 'http://ubuntu:35523/', 'http://ubuntu:32925/', 'http://ubuntu:42521/', 'http://ubuntu:37925/', 'http://ubuntu:43759/', 'http://ubuntu:34603/', 'http://ubuntu:35713/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:12,761: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:45019/', 'http://ubuntu:35523/', 'http://ubuntu:32925/', 'http://ubuntu:42521/', 'http://ubuntu:37925/', 'http://ubuntu:34603/', 'http://ubuntu:35713/']
+[rosmaster.master][INFO] 2020-09-01 09:08:12,761: -PUB [/rosout] /camera/depth_registered_rectify_depth http://ubuntu:35523/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,763: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:45019/', 'http://ubuntu:35523/', 'http://ubuntu:32925/', 'http://ubuntu:42521/', 'http://ubuntu:37925/', 'http://ubuntu:34603/', 'http://ubuntu:35713/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:12,764: -SERVICE [/camera/depth_metric/set_logger_level] /camera/depth_metric rosrpc://ubuntu:48397
+[rosmaster.master][INFO] 2020-09-01 09:08:12,765: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:45019/', 'http://ubuntu:35523/', 'http://ubuntu:32925/', 'http://ubuntu:42521/', 'http://ubuntu:37925/', 'http://ubuntu:35713/']
+[rosmaster.master][INFO] 2020-09-01 09:08:12,766: -PUB [/rosout] /camera/points_xyzrgb_hw_registered http://ubuntu:32925/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,767: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:45019/', 'http://ubuntu:35523/', 'http://ubuntu:32925/', 'http://ubuntu:42521/', 'http://ubuntu:37925/', 'http://ubuntu:35713/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:12,768: -SERVICE [/camera/depth_registered_rectify_depth/get_loggers] /camera/depth_registered_rectify_depth rosrpc://ubuntu:48271
+[rosmaster.master][INFO] 2020-09-01 09:08:12,769: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:45019/', 'http://ubuntu:35523/', 'http://ubuntu:32925/', 'http://ubuntu:42521/', 'http://ubuntu:37925/']
+[rosmaster.master][INFO] 2020-09-01 09:08:12,770: -SERVICE [/camera/points_xyzrgb_hw_registered/get_loggers] /camera/points_xyzrgb_hw_registered rosrpc://ubuntu:53695
+[rosmaster.master][INFO] 2020-09-01 09:08:12,772: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:45019/', 'http://ubuntu:35523/', 'http://ubuntu:32925/', 'http://ubuntu:42521/', 'http://ubuntu:37925/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:12,773: -SERVICE [/camera/points_xyzrgb_hw_registered/set_logger_level] /camera/points_xyzrgb_hw_registered rosrpc://ubuntu:53695
+[rosmaster.master][INFO] 2020-09-01 09:08:12,774: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:45019/', 'http://ubuntu:35523/', 'http://ubuntu:32925/', 'http://ubuntu:42521/']
+[rosmaster.master][INFO] 2020-09-01 09:08:12,775: -SERVICE [/camera/depth_registered_rectify_depth/set_logger_level] /camera/depth_registered_rectify_depth rosrpc://ubuntu:48271
+[rosmaster.master][INFO] 2020-09-01 09:08:12,777: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:45019/', 'http://ubuntu:35523/', 'http://ubuntu:32925/', 'http://ubuntu:42521/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:12,778: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:35523/', 'http://ubuntu:32925/', 'http://ubuntu:42521/']
+[rosmaster.master][INFO] 2020-09-01 09:08:12,780: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:44447/', 'http://ubuntu:35523/', 'http://ubuntu:32925/', 'http://ubuntu:42521/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:12,781: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:35523/', 'http://ubuntu:32925/', 'http://ubuntu:42521/']
+[rosmaster.master][INFO] 2020-09-01 09:08:12,784: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:35523/', 'http://ubuntu:32925/', 'http://ubuntu:42521/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:12,784: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:32925/', 'http://ubuntu:42521/']
+[rosmaster.master][INFO] 2020-09-01 09:08:12,788: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:32925/', 'http://ubuntu:42521/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:12,788: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:42521/']
+[rosmaster.master][INFO] 2020-09-01 09:08:12,793: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/', 'http://ubuntu:42521/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:12,824: -PUB [/rosout] /camera/depth_registered_hw_metric_rect http://ubuntu:42521/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,826: -SERVICE [/camera/depth_registered_hw_metric_rect/get_loggers] /camera/depth_registered_hw_metric_rect rosrpc://ubuntu:40989
+[rosmaster.master][INFO] 2020-09-01 09:08:12,829: -SERVICE [/camera/depth_registered_hw_metric_rect/set_logger_level] /camera/depth_registered_hw_metric_rect rosrpc://ubuntu:40989
+[rosmaster.master][INFO] 2020-09-01 09:08:12,867: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/']
+[rosmaster.master][INFO] 2020-09-01 09:08:12,872: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:36811/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:12,884: -PUB [/camera/depth/image_rect] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,893: -PUB [/camera/depth_rectify_depth/parameter_descriptions] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,898: -PUB [/camera/depth_rectify_depth/parameter_updates] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,901: -SERVICE [/camera/depth_rectify_depth/set_parameters] /camera/camera_nodelet_manager rosrpc://ubuntu:56639
+[rosmaster.master][INFO] 2020-09-01 09:08:12,903: -PUB [/camera/depth/image_rect_raw] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,954: -PUB [/rosout] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,956: -PUB [/camera/driver/parameter_descriptions] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,957: -PUB [/camera/driver/parameter_updates] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,959: -PUB [/camera/ir/image] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,960: -PUB [/camera/ir/camera_info] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,961: -PUB [/camera/depth/image_raw] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,963: -PUB [/camera/depth/camera_info] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,965: -PUB [/camera/depth_registered/image_raw] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,966: -PUB [/camera/depth_registered/camera_info] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,967: -PUB [/camera/projector/camera_info] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,968: -PUB [/camera/camera_nodelet_manager/bond] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,970: -PUB [/camera/rgb_rectify_color/parameter_descriptions] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,971: -PUB [/camera/rgb_rectify_color/parameter_updates] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,972: -PUB [/camera/rgb/image_rect_color] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,973: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/']
+[rosmaster.master][INFO] 2020-09-01 09:08:12,974: -SUB [/camera/camera_nodelet_manager/bond] /camera/camera_nodelet_manager http://ubuntu:36811/
+[rosmaster.master][INFO] 2020-09-01 09:08:12,976: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:33435/', 'http://ubuntu:35683/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:12,977: -SERVICE [/camera/camera_nodelet_manager/get_loggers] /camera/camera_nodelet_manager rosrpc://ubuntu:56639
+[rosmaster.master][INFO] 2020-09-01 09:08:12,977: publisherUpdate[/camera/camera_nodelet_manager/bond] -> http://ubuntu:36811/ ['http://ubuntu:37293/']
+[rosmaster.master][INFO] 2020-09-01 09:08:12,979: -SERVICE [/camera/camera_nodelet_manager/set_logger_level] /camera/camera_nodelet_manager rosrpc://ubuntu:56639
+[rosmaster.master][INFO] 2020-09-01 09:08:12,980: publisherUpdate[/camera/camera_nodelet_manager/bond] -> http://ubuntu:36811/ ['http://ubuntu:37293/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2020-09-01 09:08:12,982: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2020-09-01 09:08:12,982: publisherUpdate[/camera/camera_nodelet_manager/bond] -> http://ubuntu:37293/ ['http://ubuntu:37293/']
+[rosmaster.master][INFO] 2020-09-01 09:08:12,984: publisherUpdate[/camera/camera_nodelet_manager/bond] -> http://ubuntu:37293/ ['http://ubuntu:37293/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:12,985: -SERVICE [/camera/camera_nodelet_manager/load_nodelet] /camera/camera_nodelet_manager rosrpc://ubuntu:56639
+[rosmaster.master][INFO] 2020-09-01 09:08:12,987: -SERVICE [/camera/camera_nodelet_manager/unload_nodelet] /camera/camera_nodelet_manager rosrpc://ubuntu:56639
+[rosmaster.master][INFO] 2020-09-01 09:08:12,988: -SERVICE [/camera/camera_nodelet_manager/list] /camera/camera_nodelet_manager rosrpc://ubuntu:56639
+[rosmaster.master][INFO] 2020-09-01 09:08:12,990: -SERVICE [/camera/driver/set_parameters] /camera/camera_nodelet_manager rosrpc://ubuntu:56639
+[rosmaster.master][INFO] 2020-09-01 09:08:12,991: -SERVICE [/camera/rgb/set_camera_info] /camera/camera_nodelet_manager rosrpc://ubuntu:56639
+[rosmaster.master][INFO] 2020-09-01 09:08:12,993: -SERVICE [/camera/ir/set_camera_info] /camera/camera_nodelet_manager rosrpc://ubuntu:56639
+[rosmaster.master][INFO] 2020-09-01 09:08:12,994: -SERVICE [/camera/get_serial] /camera/camera_nodelet_manager rosrpc://ubuntu:56639
+[rosmaster.master][INFO] 2020-09-01 09:08:12,995: -SERVICE [/camera/get_device_type] /camera/camera_nodelet_manager rosrpc://ubuntu:56639
+[rosmaster.master][INFO] 2020-09-01 09:08:12,997: -SERVICE [/camera/get_ir_gain] /camera/camera_nodelet_manager rosrpc://ubuntu:56639
+[rosmaster.master][INFO] 2020-09-01 09:08:12,998: -SERVICE [/camera/set_ir_gain] /camera/camera_nodelet_manager rosrpc://ubuntu:56639
+[rosmaster.master][INFO] 2020-09-01 09:08:12,999: -SERVICE [/camera/get_ir_exposure] /camera/camera_nodelet_manager rosrpc://ubuntu:56639
+[rosmaster.master][INFO] 2020-09-01 09:08:13,000: -SERVICE [/camera/set_ir_exposure] /camera/camera_nodelet_manager rosrpc://ubuntu:56639
+[rosmaster.master][INFO] 2020-09-01 09:08:13,002: -SERVICE [/camera/set_ir_flood] /camera/camera_nodelet_manager rosrpc://ubuntu:56639
+[rosmaster.master][INFO] 2020-09-01 09:08:13,003: -SERVICE [/camera/set_laser] /camera/camera_nodelet_manager rosrpc://ubuntu:56639
+[rosmaster.master][INFO] 2020-09-01 09:08:13,004: -SERVICE [/camera/set_ldp] /camera/camera_nodelet_manager rosrpc://ubuntu:56639
+[rosmaster.master][INFO] 2020-09-01 09:08:13,006: -SERVICE [/camera/reset_ir_gain] /camera/camera_nodelet_manager rosrpc://ubuntu:56639
+[rosmaster.master][INFO] 2020-09-01 09:08:13,007: -SERVICE [/camera/reset_ir_exposure] /camera/camera_nodelet_manager rosrpc://ubuntu:56639
+[rosmaster.master][INFO] 2020-09-01 09:08:13,008: -SERVICE [/camera/get_camera_info] /camera/camera_nodelet_manager rosrpc://ubuntu:56639
+[rosmaster.master][INFO] 2020-09-01 09:08:13,009: -SERVICE [/camera/rgb_rectify_color/set_parameters] /camera/camera_nodelet_manager rosrpc://ubuntu:56639
+[rosmaster.master][INFO] 2020-09-01 09:08:13,037: -PUB [/rosout] /camera/depth_rectify_depth http://ubuntu:33435/
+[rosmaster.master][INFO] 2020-09-01 09:08:13,039: -SERVICE [/camera/depth_rectify_depth/get_loggers] /camera/depth_rectify_depth rosrpc://ubuntu:42573
+[rosmaster.master][INFO] 2020-09-01 09:08:13,040: -SERVICE [/camera/depth_rectify_depth/set_logger_level] /camera/depth_rectify_depth rosrpc://ubuntu:42573
+[rosmaster.master][INFO] 2020-09-01 09:08:13,053: -PUB [/rosout] /camera/depth_metric_rect http://ubuntu:35683/
+[rosmaster.master][INFO] 2020-09-01 09:08:13,055: -SERVICE [/camera/depth_metric_rect/get_loggers] /camera/depth_metric_rect rosrpc://ubuntu:45893
+[rosmaster.master][INFO] 2020-09-01 09:08:13,056: -SERVICE [/camera/depth_metric_rect/set_logger_level] /camera/depth_metric_rect rosrpc://ubuntu:45893
+[rosmaster.master][INFO] 2020-09-01 09:08:13,085: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:35683/']
+[rosmaster.master][INFO] 2020-09-01 09:08:13,087: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:37293/', 'http://ubuntu:35981/', 'http://ubuntu:35683/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:13,087: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:37293/', 'http://ubuntu:35981/']
+[rosmaster.master][INFO] 2020-09-01 09:08:13,089: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:37293/', 'http://ubuntu:35981/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:13,136: -PUB [/rosout] /camera/rgb_rectify_color http://ubuntu:35981/
+[rosmaster.master][INFO] 2020-09-01 09:08:13,137: -SERVICE [/camera/rgb_rectify_color/get_loggers] /camera/rgb_rectify_color rosrpc://ubuntu:41115
+[rosmaster.master][INFO] 2020-09-01 09:08:13,139: -SERVICE [/camera/rgb_rectify_color/set_logger_level] /camera/rgb_rectify_color rosrpc://ubuntu:41115
+[rosmaster.master][INFO] 2020-09-01 09:08:13,185: -PUB [/rosout] /camera/driver http://ubuntu:37293/
+[rosmaster.master][INFO] 2020-09-01 09:08:13,187: -PUB [/camera/camera_nodelet_manager/bond] /camera/driver http://ubuntu:37293/
+[rosmaster.master][INFO] 2020-09-01 09:08:13,188: -SUB [/camera/camera_nodelet_manager/bond] /camera/driver http://ubuntu:37293/
+[rosmaster.master][INFO] 2020-09-01 09:08:13,190: -SERVICE [/camera/driver/get_loggers] /camera/driver rosrpc://ubuntu:53319
+[rosmaster.master][INFO] 2020-09-01 09:08:13,190: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:37293/']
+[rosmaster.master][INFO] 2020-09-01 09:08:13,192: -SERVICE [/camera/driver/set_logger_level] /camera/driver rosrpc://ubuntu:53319
+[rosmaster.master][INFO] 2020-09-01 09:08:13,193: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/', 'http://ubuntu:37293/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:13,193: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/']
+[rosmaster.master][INFO] 2020-09-01 09:08:13,195: publisherUpdate[/rosout] -> http://ubuntu:40145/ ['http://ubuntu:34187/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-01 09:08:13,195: publisherUpdate[/camera/camera_nodelet_manager/bond] -> http://ubuntu:37293/ []
+[rosmaster.master][INFO] 2020-09-01 09:08:13,198: publisherUpdate[/camera/camera_nodelet_manager/bond] -> http://ubuntu:37293/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2020-09-01 09:08:13,200: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1078, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 894, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 856, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2020-09-01 09:08:13,496: -PUB [/rosout_agg] /rosout http://ubuntu:40145/
+[rosmaster.master][INFO] 2020-09-01 09:08:13,497: -SUB [/rosout] /rosout http://ubuntu:40145/
+[rosmaster.master][INFO] 2020-09-01 09:08:13,498: -SERVICE [/rosout/get_loggers] /rosout rosrpc://ubuntu:41521
+[rosmaster.master][INFO] 2020-09-01 09:08:13,500: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://ubuntu:41521
+[rosmaster.main][INFO] 2020-09-01 09:08:13,603: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2020-09-01 09:08:13,604: stopping master...
+[rospy.core][INFO] 2020-09-01 09:08:13,605: signal_shutdown [atexit]

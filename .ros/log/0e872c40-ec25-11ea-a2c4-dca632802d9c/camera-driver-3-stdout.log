@@ -1,0 +1,8 @@
+[0m[ INFO] [1598946288.015202391]: Loading nodelet /camera/driver of type astra_camera/AstraDriverNodelet to manager camera_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1598946288.020619670]: /camera/depth -> /camera/depth[0m
+[0m[ INFO] [1598946288.020671614]: /camera/depth/image -> /camera/depth_registered/image_raw[0m
+[0m[ INFO] [1598946288.020698596]: /camera/depth_registered -> /camera/depth_registered[0m
+[0m[ INFO] [1598946288.020740410]: /camera/ir -> /camera/ir[0m
+[0m[ INFO] [1598946288.020765188]: /camera/rgb -> /camera/rgb[0m
+[0m[ INFO] [1598946288.020907223]: /camera/rgb/image -> /camera/rgb/image_raw[0m
+[0m[ INFO] [1598946291.965383143]: Bond broken, exiting[0m

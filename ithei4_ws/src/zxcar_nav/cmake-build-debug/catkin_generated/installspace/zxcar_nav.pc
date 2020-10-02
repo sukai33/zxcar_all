@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: zxcar_nav
+Description: Description of zxcar_nav
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: dynamic_reconfigure

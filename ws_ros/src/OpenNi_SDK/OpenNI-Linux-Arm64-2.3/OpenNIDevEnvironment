@@ -1,0 +1,2 @@
+export OPENNI2_INCLUDE=/home/zxcar/ws_ros/src/OpenNi_SDK/OpenNI-Linux-Arm64-2.3/Include
+export OPENNI2_REDIST=/home/zxcar/ws_ros/src/OpenNi_SDK/OpenNI-Linux-Arm64-2.3/Redist

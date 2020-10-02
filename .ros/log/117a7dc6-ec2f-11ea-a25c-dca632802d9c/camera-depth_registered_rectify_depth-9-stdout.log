@@ -1,0 +1,5 @@
+[0m[ INFO] [1598950171.857840279]: Loading nodelet /camera/depth_registered_rectify_depth of type image_proc/rectify to manager camera_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1598950171.863810537]: /camera/image_mono -> /camera/depth_registered/image_raw[0m
+[0m[ INFO] [1598950171.863867239]: /camera/image_rect -> /camera/depth_registered/hw_registered/image_rect_raw[0m
+[0m[ INFO] [1598950180.568667491]: Unloading nodelet /camera/depth_registered_rectify_depth from manager camera_nodelet_manager[0m
+[0m[ INFO] [1598950180.569325286]: waitForService: Service [/camera/camera_nodelet_manager/unload_nodelet] has not been advertised, waiting...[0m
